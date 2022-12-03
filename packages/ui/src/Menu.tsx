@@ -1,5 +1,4 @@
 import { Version } from "./Version";
-import { MenuLogo } from "./MenuLogo";
 import { motion, useScroll } from "framer-motion";
 import "./styles.css";
 
