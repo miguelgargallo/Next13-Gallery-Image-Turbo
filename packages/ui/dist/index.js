@@ -1098,94 +1098,6 @@ var Version = () => {
   });
 };
 
-// src/MenuLogo.tsx
-var import_jsx_runtime3 = require("react/jsx-runtime");
-var MenuLogo = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("div", {
-    className: "flex flex-col items-center justify-center text-center",
-    children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
-      href: "https://pencil.li",
-      className: "",
-      children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("picture", {
-        children: /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("svg", {
-          xmlns: "http://www.w3.org/2000/svg",
-          width: "150",
-          height: "25",
-          viewBox: "0 0 2344 678",
-          children: [
-            /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("defs", {}),
-            /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("g", {
-              fill: "#be0aff",
-              "fill-rule": "evenodd",
-              transform: "translate(-151 -173)",
-              children: [
-                /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("path", {
-                  fill: "#be0aff",
-                  d: "M508.516097,232.032195 L783.120976,781.241951 C791.271621,797.543242 784.664217,817.365452 768.362927,825.516097 C763.780698,827.807212 758.727967,829 753.604878,829 L204.395122,829 C186.169725,829 171.395122,814.225397 171.395122,796 C171.395122,790.876912 172.58791,785.824181 174.879024,781.241951 L449.483903,232.032195 C457.634548,215.730904 477.456758,209.123501 493.758049,217.274146 C500.144453,220.467348 505.322895,225.64579 508.516097,232.032195 Z",
-                  transform: "matrix(0 -1 -1 0 980 980)"
-                }),
-                /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("path", {
-                  fill: "#147df5",
-                  d: "M419.705262,277.910524 L658,754.5 L658,754.5 L151,754.5 L389.294738,277.910524 C393.493555,269.51289 403.704997,266.109076 412.102631,270.307893 C415.392597,271.952876 418.060279,274.620559 419.705262,277.910524 Z",
-                  transform: "matrix(0 -1 -1 0 905.5 905.5)"
-                }),
-                /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("path", {
-                  fill: "#0aff99",
-                  d: "M356.705262,340.910524 L532,691.5 L532,691.5 L151,691.5 L326.294738,340.910524 C330.493555,332.51289 340.704997,329.109076 349.102631,333.307893 C352.392597,334.952876 355.060279,337.620559 356.705262,340.910524 Z",
-                  transform: "matrix(0 -1 -1 0 842.5 842.5)"
-                }),
-                /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("path", {
-                  fill: "#deff0a",
-                  d: "M293.205262,404.410524 L405,628 L405,628 L151,628 L262.794738,404.410524 C266.993555,396.01289 277.204997,392.609076 285.602631,396.807893 C288.892597,398.452876 291.560279,401.120559 293.205262,404.410524 Z",
-                  transform: "matrix(0 -1 -1 0 779 779)"
-                }),
-                /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("path", {
-                  fill: "#ff0000",
-                  d: "M230.599689,469.699379 L278,564.5 L278,564.5 L151,564.5 L198.400311,469.699379 C202.846117,460.807766 213.658232,457.203728 222.549845,461.649534 C226.033338,463.391281 228.857943,466.215886 230.599689,469.699379 Z",
-                  transform: "matrix(0 -1 -1 0 715.5 715.5)"
-                }),
-                /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("text", {
-                  fill: "#ffffff",
-                  "font-family": "Roboto, sans-serif",
-                  "font-size": "500",
-                  "font-weight": "500",
-                  children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("tspan", {
-                    x: "993.25",
-                    y: "697",
-                    children: "Pencil"
-                  })
-                }),
-                /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("text", {
-                  fill: "#ffffff",
-                  "font-family": "Roboto, sans-serif",
-                  "font-size": "100",
-                  "font-weight": "500",
-                  children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("tspan", {
-                    x: "690.95",
-                    y: "829",
-                    children: "\xA9"
-                  })
-                }),
-                /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("text", {
-                  fill: "#ffffff",
-                  "font-family": "Roboto, sans-serif",
-                  "font-size": "75",
-                  "font-weight": "500",
-                  children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("tspan", {
-                    x: "2386.5",
-                    y: "248",
-                    children: "TM"
-                  })
-                })
-              ]
-            })
-          ]
-        })
-      })
-    })
-  });
-};
-
 // ../../node_modules/framer-motion/dist/es/motion/index.mjs
 var React = __toESM(require("react"), 1);
 var import_react13 = require("react");
@@ -7723,7 +7635,7 @@ function useScroll(_a = {}) {
 }
 
 // src/Menu.tsx
-var import_jsx_runtime4 = require("react/jsx-runtime");
+var import_jsx_runtime3 = require("react/jsx-runtime");
 {
   new Date().toLocaleTimeString("en-US", {
     hour: "numeric",
@@ -7732,47 +7644,54 @@ var import_jsx_runtime4 = require("react/jsx-runtime");
 }
 var Menu = () => {
   const { scrollYProgress } = useScroll();
-  return /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("div", {
     className: "hidden sm:block",
     children: [
-      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(motion.div, {
+      /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(motion.div, {
         className: "progress-bar",
         style: { scaleX: scrollYProgress }
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", {
+      /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("div", {
         className: "flex flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500",
         children: [
-          /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(MenuLogo, {}),
-          " ",
-          /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
+          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("button", {
             className: "rounded-xl py-2 px-4 font-bold text-white",
-            children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
+            children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
               href: "/explorer",
-              children: "Explorer"
-            })
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
-            className: "rounded-xl py-2 px-4 font-bold text-white",
-            children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
-              href: "/domains",
-              children: "Domains"
-            })
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
-            className: "hidden rounded-xl py-2 px-4 font-bold text-white sm:block",
-            children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
-              href: "/pylar",
               children: "Pylar\u2122 AI"
             })
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
-            className: "hidden rounded-xl py-2 px-4 font-bold text-white sm:block",
-            children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
-              href: "/corporate",
-              children: "Corporate"
+          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("button", {
+            className: "rounded-xl py-2 px-4 font-bold text-white",
+            children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
+              href: "/explorer",
+              children: "Daily Work"
             })
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("button", {
+            className: "rounded-xl py-2 px-4 font-bold text-white",
+            children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
+              href: "/explorer",
+              children: "About"
+            })
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("button", {
+            className: "rounded-xl py-2 px-4 font-bold text-white",
+            children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
+              href: "/explorer",
+              children: "The License"
+            })
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("button", {
+            className: "rounded-xl py-2 px-4 font-bold text-white",
+            children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
+              href: "https://pencil.domains",
+              target: "_blank",
+              rel: "noreferrer",
+              children: "Pencil Domains"
+            })
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("div", {
             className: "hidden py-2 px-4 font-bold text-white md:block",
             style: {
               display: "flex",
@@ -7781,22 +7700,22 @@ var Menu = () => {
             },
             children: [
               " ",
-              /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
+              /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("button", {
                 className: "hidden py-2 px-4 font-bold text-white md:block",
-                children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
                   href: "http://twitter.com/miguelgargallo",
                   target: "_blank",
                   rel: "noopener noreferrer",
                   children: "Twitter"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
                 href: "https://github.com/miguelgargallo/Next13-Fetch-Data-turbo",
                 target: "_blank",
                 rel: "noopener noreferrer",
                 className: "hidden py-2 px-4 font-bold text-white md:block",
-                children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("picture", {
-                  children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("img", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("picture", {
+                  children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("img", {
                     src: "https://img.shields.io/github/stars/miguelgargallo/Next13-Fetch-Data-turbo?style=social",
                     alt: "Landscape picture",
                     width: 100,
@@ -7805,7 +7724,7 @@ var Menu = () => {
                 })
               }),
               " ",
-              /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Version, {})
+              /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(Version, {})
             ]
           })
         ]
@@ -7815,44 +7734,44 @@ var Menu = () => {
 };
 
 // src/MenuDomains.tsx
-var import_jsx_runtime5 = require("react/jsx-runtime");
+var import_jsx_runtime4 = require("react/jsx-runtime");
 var MenuDomains = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", {
     className: "flex hidden flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500 sm:block",
-    children: /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", {
+    children: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", {
       className: "flex flex-row",
       children: [
-        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("button", {
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
+          children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
             href: "/domains",
             children: "All Domains"
           })
         }),
-        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("button", {
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
+          children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
             href: "/domains-geographic",
             children: "Geographic"
           })
         }),
-        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("button", {
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
+          children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
             href: "/domains-blockchain",
             children: "Blockchain"
           })
         }),
-        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("button", {
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
+          children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
             href: "/domains-metaverse",
             children: "Metaverse"
           })
         }),
-        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("button", {
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
+          children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
             href: "/domains-new",
             children: "New"
           })
@@ -7863,37 +7782,37 @@ var MenuDomains = () => {
 };
 
 // src/SupportMenu.tsx
-var import_jsx_runtime6 = require("react/jsx-runtime");
+var import_jsx_runtime5 = require("react/jsx-runtime");
 var SupportMenu = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", {
     className: "flex hidden flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500 sm:block",
-    children: /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", {
+    children: /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", {
       className: "flex flex-row",
       children: [
-        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("button", {
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
+          children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
             href: "/support-tos",
             children: "Terms Of Service"
           })
         }),
-        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("button", {
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
+          children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
             href: "/support-pp",
             children: "Privacy Policy"
           })
         }),
-        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("button", {
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
+          children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
             href: "/support-answers",
             children: "Answers"
           })
         }),
-        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("button", {
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
+          children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
             href: "/support-trademarks",
             children: "Trademarks"
           })
@@ -7904,30 +7823,30 @@ var SupportMenu = () => {
 };
 
 // src/MenuDevs.tsx
-var import_jsx_runtime7 = require("react/jsx-runtime");
+var import_jsx_runtime6 = require("react/jsx-runtime");
 var MenuDevs = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("div", {
     className: "flex hidden flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500 sm:block",
-    children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", {
+    children: /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", {
       className: "flex flex-row",
       children: [
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("button", {
+        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
+          children: /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
             href: "/developer",
             children: "Home"
           })
         }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("button", {
+        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
+          children: /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
             href: "/developer-launch",
             children: "Launch your TLD"
           })
         }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("button", {
+        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
+          children: /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
             href: "/developer-agreement",
             children: "Agreement"
           })
@@ -7938,30 +7857,30 @@ var MenuDevs = () => {
 };
 
 // src/MenuCorporate.tsx
-var import_jsx_runtime8 = require("react/jsx-runtime");
+var import_jsx_runtime7 = require("react/jsx-runtime");
 var MenuCorporate = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", {
     className: "flex hidden flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500 sm:block",
-    children: /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("div", {
+    children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", {
       className: "flex flex-row",
       children: [
-        /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("button", {
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
+          children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
             href: "/developer",
             children: "Developer"
           })
         }),
-        /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("button", {
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
+          children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
             href: "/office",
             children: "Office"
           })
         }),
-        /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("button", {
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
+          children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
             href: "/support",
             children: "Support"
           })
@@ -7972,30 +7891,30 @@ var MenuCorporate = () => {
 };
 
 // src/MenuPylar.tsx
-var import_jsx_runtime9 = require("react/jsx-runtime");
+var import_jsx_runtime8 = require("react/jsx-runtime");
 var MenuPylar = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", {
     className: "flex hidden flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500 sm:block",
-    children: /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("div", {
+    children: /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("div", {
       className: "flex flex-row",
       children: [
-        /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("button", {
+        /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("a", {
+          children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
             href: "/blog",
             children: "Our Daily Work"
           })
         }),
-        /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("button", {
+        /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("a", {
+          children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
             href: "/what-is-pylar",
             children: "What is Pylar AI"
           })
         }),
-        /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("button", {
+        /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("a", {
+          children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
             href: "/pylar-license",
             children: "License"
           })
@@ -8006,18 +7925,106 @@ var MenuPylar = () => {
 };
 
 // src/Logo.tsx
-var import_jsx_runtime10 = require("react/jsx-runtime");
+var import_jsx_runtime9 = require("react/jsx-runtime");
 var Logo = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", {
     className: "flex flex-col items-center justify-center py-16 px-20 text-center",
+    children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("a", {
+      href: "https://pencil.li",
+      className: "",
+      children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("picture", {
+        children: /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("svg", {
+          xmlns: "http://www.w3.org/2000/svg",
+          width: "300",
+          height: "50",
+          viewBox: "0 0 2344 678",
+          children: [
+            /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("defs", {}),
+            /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("g", {
+              fill: "#be0aff",
+              "fill-rule": "evenodd",
+              transform: "translate(-151 -173)",
+              children: [
+                /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("path", {
+                  fill: "#be0aff",
+                  d: "M508.516097,232.032195 L783.120976,781.241951 C791.271621,797.543242 784.664217,817.365452 768.362927,825.516097 C763.780698,827.807212 758.727967,829 753.604878,829 L204.395122,829 C186.169725,829 171.395122,814.225397 171.395122,796 C171.395122,790.876912 172.58791,785.824181 174.879024,781.241951 L449.483903,232.032195 C457.634548,215.730904 477.456758,209.123501 493.758049,217.274146 C500.144453,220.467348 505.322895,225.64579 508.516097,232.032195 Z",
+                  transform: "matrix(0 -1 -1 0 980 980)"
+                }),
+                /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("path", {
+                  fill: "#147df5",
+                  d: "M419.705262,277.910524 L658,754.5 L658,754.5 L151,754.5 L389.294738,277.910524 C393.493555,269.51289 403.704997,266.109076 412.102631,270.307893 C415.392597,271.952876 418.060279,274.620559 419.705262,277.910524 Z",
+                  transform: "matrix(0 -1 -1 0 905.5 905.5)"
+                }),
+                /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("path", {
+                  fill: "#0aff99",
+                  d: "M356.705262,340.910524 L532,691.5 L532,691.5 L151,691.5 L326.294738,340.910524 C330.493555,332.51289 340.704997,329.109076 349.102631,333.307893 C352.392597,334.952876 355.060279,337.620559 356.705262,340.910524 Z",
+                  transform: "matrix(0 -1 -1 0 842.5 842.5)"
+                }),
+                /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("path", {
+                  fill: "#deff0a",
+                  d: "M293.205262,404.410524 L405,628 L405,628 L151,628 L262.794738,404.410524 C266.993555,396.01289 277.204997,392.609076 285.602631,396.807893 C288.892597,398.452876 291.560279,401.120559 293.205262,404.410524 Z",
+                  transform: "matrix(0 -1 -1 0 779 779)"
+                }),
+                /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("path", {
+                  fill: "#ff0000",
+                  d: "M230.599689,469.699379 L278,564.5 L278,564.5 L151,564.5 L198.400311,469.699379 C202.846117,460.807766 213.658232,457.203728 222.549845,461.649534 C226.033338,463.391281 228.857943,466.215886 230.599689,469.699379 Z",
+                  transform: "matrix(0 -1 -1 0 715.5 715.5)"
+                }),
+                /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("text", {
+                  fill: "#000000",
+                  "font-family": "Roboto, sans-serif",
+                  "font-size": "500",
+                  "font-weight": "500",
+                  children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("tspan", {
+                    x: "993.25",
+                    y: "697",
+                    children: "Pencil"
+                  })
+                }),
+                /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("text", {
+                  fill: "#000000",
+                  "font-family": "Roboto, sans-serif",
+                  "font-size": "100",
+                  "font-weight": "500",
+                  children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("tspan", {
+                    x: "690.95",
+                    y: "829",
+                    children: "\xA9"
+                  })
+                }),
+                /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("text", {
+                  fill: "#000000",
+                  "font-family": "Roboto, sans-serif",
+                  "font-size": "75",
+                  "font-weight": "500",
+                  children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("tspan", {
+                    x: "2386.5",
+                    y: "248",
+                    children: "TM"
+                  })
+                })
+              ]
+            })
+          ]
+        })
+      })
+    })
+  });
+};
+
+// src/MenuLogo.tsx
+var import_jsx_runtime10 = require("react/jsx-runtime");
+var MenuLogo = () => {
+  return /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", {
+    className: "flex flex-col items-center justify-center text-center",
     children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("a", {
       href: "https://pencil.li",
       className: "",
       children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("picture", {
         children: /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("svg", {
           xmlns: "http://www.w3.org/2000/svg",
-          width: "300",
-          height: "50",
+          width: "150",
+          height: "25",
           viewBox: "0 0 2344 678",
           children: [
             /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("defs", {}),
@@ -8052,7 +8059,7 @@ var Logo = () => {
                   transform: "matrix(0 -1 -1 0 715.5 715.5)"
                 }),
                 /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("text", {
-                  fill: "#000000",
+                  fill: "#ffffff",
                   "font-family": "Roboto, sans-serif",
                   "font-size": "500",
                   "font-weight": "500",
@@ -8063,7 +8070,7 @@ var Logo = () => {
                   })
                 }),
                 /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("text", {
-                  fill: "#000000",
+                  fill: "#ffffff",
                   "font-family": "Roboto, sans-serif",
                   "font-size": "100",
                   "font-weight": "500",
@@ -8074,7 +8081,7 @@ var Logo = () => {
                   })
                 }),
                 /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("text", {
-                  fill: "#000000",
+                  fill: "#ffffff",
                   "font-family": "Roboto, sans-serif",
                   "font-size": "75",
                   "font-weight": "500",
