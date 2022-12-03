@@ -7657,28 +7657,28 @@ var Menu = () => {
           /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("button", {
             className: "rounded-xl py-2 px-4 font-bold text-white",
             children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
-              href: "/explorer",
+              href: "/",
               children: "Pylar\u2122 AI"
             })
           }),
           /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("button", {
             className: "rounded-xl py-2 px-4 font-bold text-white",
             children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
-              href: "/explorer",
+              href: "/blog",
               children: "Daily Work"
             })
           }),
           /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("button", {
             className: "rounded-xl py-2 px-4 font-bold text-white",
             children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
-              href: "/explorer",
+              href: "/what-is-pylar",
               children: "About"
             })
           }),
           /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("button", {
             className: "rounded-xl py-2 px-4 font-bold text-white",
             children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
-              href: "/explorer",
+              href: "/pylar-license",
               children: "The License"
             })
           }),

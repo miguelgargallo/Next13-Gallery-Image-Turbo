@@ -7615,28 +7615,28 @@ var Menu = () => {
           /* @__PURE__ */ jsx3("button", {
             className: "rounded-xl py-2 px-4 font-bold text-white",
             children: /* @__PURE__ */ jsx3("a", {
-              href: "/explorer",
+              href: "/",
               children: "Pylar\u2122 AI"
             })
           }),
           /* @__PURE__ */ jsx3("button", {
             className: "rounded-xl py-2 px-4 font-bold text-white",
             children: /* @__PURE__ */ jsx3("a", {
-              href: "/explorer",
+              href: "/blog",
               children: "Daily Work"
             })
           }),
           /* @__PURE__ */ jsx3("button", {
             className: "rounded-xl py-2 px-4 font-bold text-white",
             children: /* @__PURE__ */ jsx3("a", {
-              href: "/explorer",
+              href: "/what-is-pylar",
               children: "About"
             })
           }),
           /* @__PURE__ */ jsx3("button", {
             className: "rounded-xl py-2 px-4 font-bold text-white",
             children: /* @__PURE__ */ jsx3("a", {
-              href: "/explorer",
+              href: "/pylar-license",
               children: "The License"
             })
           }),

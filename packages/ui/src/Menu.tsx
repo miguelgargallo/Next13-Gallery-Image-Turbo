@@ -21,16 +21,16 @@ export const Menu = () => {
       />
       <div className="flex flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500">
       <button className="rounded-xl py-2 px-4 font-bold text-white">
-          <a href="/explorer">Pylar&trade; AI</a>
+          <a href="/">Pylar&trade; AI</a>
         </button>
         <button className="rounded-xl py-2 px-4 font-bold text-white">
-          <a href="/explorer">Daily Work</a>
+          <a href="/blog">Daily Work</a>
         </button>
         <button className="rounded-xl py-2 px-4 font-bold text-white">
-          <a href="/explorer">About</a>
+          <a href="/what-is-pylar">About</a>
         </button>
         <button className="rounded-xl py-2 px-4 font-bold text-white">
-          <a href="/explorer">The License</a>
+          <a href="/pylar-license">The License</a>
         </button>
         <button className="rounded-xl py-2 px-4 font-bold text-white">
           <a href="https://pencil.domains"

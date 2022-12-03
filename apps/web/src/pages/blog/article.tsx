@@ -14,10 +14,7 @@ export default function Home() {
         <link rel="icon" href="./favicon.ico" />
       </Head>
       <Menu />
-      <MenuPylar />
-      <main>
-      <TitlePylar />
-      
+      <main>      
       </main>
       <Footer />
     </div>
