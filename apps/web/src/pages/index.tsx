@@ -19,7 +19,7 @@ export default function Home() {
       <div className="pylarDiv">
       <motion.img
           className="pylarDimension"
-          src="https://raw.githubusercontent.com/miguelgargallo/Next13-Fetch-Data-turbo/main/Data.pylar/Images/Pylar-v1.0/A_photography_of_the_earth__from_the_moon_on_a_fis_AAAGOLpA_RealESRGAN_x4plus.jpeg"
+          src="https://raw.githubusercontent.com/miguelgargallo/Next13-Gallery-Image-Turbo/main/Data.pylar/Images/Pylar-v1.0/A_photography_of_the_earth__from_the_moon_on_a_fis_AAAGOLpA_RealESRGAN_x4plus.jpeg"
           alt="Pylar AI"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -27,7 +27,7 @@ export default function Home() {
         />
         <motion.img
           className="pylarDimension"
-          src="https://raw.githubusercontent.com/miguelgargallo/Next13-Fetch-Data-turbo/main/Data.pylar/Images/Pylar-v1.1/A_photography_of_the_earth__from_the_moon_on_a_fis_AAAGOLjw_RealESRGAN_x4plus.jpeg"
+          src="https://raw.githubusercontent.com/miguelgargallo/Next13-Gallery-Image-Turbo/main/Data.pylar/Images/Pylar-v1.1/A_photography_of_the_earth__from_the_moon_on_a_fis_AAAGOLjw_RealESRGAN_x4plus.jpeg"
           alt="Pylar AI"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
