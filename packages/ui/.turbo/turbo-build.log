@@ -1,0 +1,22 @@
+yarn run v1.22.19
+$ tsup src/index.tsx --format esm,cjs --dts --external react && tailwindcss -i ./src/styles.css -o ./dist/styles.css
+CLI Building entry: src/index.tsx
+CLI Using tsconfig: tsconfig.json
+CLI tsup v6.5.0
+CLI Target: es6
+ESM Build start
+CJS Build start
+CJS dist/index.css 2.48 KB
+CJS dist/index.js  294.46 KB
+CJS ⚡️ Build success in 229ms
+ESM dist/index.css 2.48 KB
+ESM dist/index.mjs 291.55 KB
+ESM ⚡️ Build success in 230ms
+DTS Build start
+DTS ⚡️ Build success in 1406ms
+DTS dist/index.d.ts 495.00 B
+
+Rebuilding...
+
+Done in 273ms.
+Done in 3.02s.
