@@ -37,7 +37,7 @@ export default function Home() {
         transition={{ delay: 2.0 }}
         className="text-white text-l px-4 m-2"
       >
-        In today's fast-paced world, organizations are under constant pressure to innovate and stay ahead of the competition. One way that many organizations are meeting this challenge is by embracing the power of artificial intelligence (AI) and machine learning (ML). These technologies have the potential to revolutionize many different fields, from healthcare and transportation to finance and marketing.
+        In today&apos;s fast-paced world, organizations are under constant pressure to innovate and stay ahead of the competition. One way that many organizations are meeting this challenge is by embracing the power of artificial intelligence (AI) and machine learning (ML). These technologies have the potential to revolutionize many different fields, from healthcare and transportation to finance and marketing.
         </motion.p> <motion.p
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -58,21 +58,21 @@ One of the key features of the Pylar project is its focus on lean and agile prin
         transition={{ delay: 2.6 }}
         className="text-white text-l px-4 m-2"
       >
-In addition to its focus on lean and agile principles, the Pylar project is also known for its cutting-edge research and innovation. The project's team of experts is constantly exploring new techniques and technologies, and is always looking for ways to push the boundaries of what is possible with AI and ML.
+In addition to its focus on lean and agile principles, the Pylar project is also known for its cutting-edge research and innovation. The project&apos;s team of experts is constantly exploring new techniques and technologies, and is always looking for ways to push the boundaries of what is possible with AI and ML.
 </motion.p><motion.p
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 2.8 }}
         className="text-white text-l px-4 m-2"
       >
-One example of the Pylar project's innovative work is its use of deep learning algorithms. These algorithms, which are based on the structure and function of the human brain, are able to learn and adapt to new data and environments in ways that traditional algorithms cannot. By using deep learning algorithms, the Pylar project is able to produce results that are more accurate, more efficient, and more flexible than those produced by other AI and ML technologies.
+One example of the Pylar project&apos;s innovative work is its use of deep learning algorithms. These algorithms, which are based on the structure and function of the human brain, are able to learn and adapt to new data and environments in ways that traditional algorithms cannot. By using deep learning algorithms, the Pylar project is able to produce results that are more accurate, more efficient, and more flexible than those produced by other AI and ML technologies.
 </motion.p><motion.p
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 3.0 }}
         className="text-white text-l px-4 m-2"
       >
-Overall, the Pylar project is a cutting-edge and innovative AI and ML project that is helping organizations to quickly and efficiently produce results that are valuable and beneficial. Whether you are a business leader, a researcher, or simply someone who is interested in the future of AI and ML, the Pylar project is worth keeping an eye on. So, let's join hands and be a part of this revolutionary project and witness the future of AI and ML together.
+Overall, the Pylar project is a cutting-edge and innovative AI and ML project that is helping organizations to quickly and efficiently produce results that are valuable and beneficial. Whether you are a business leader, a researcher, or simply someone who is interested in the future of AI and ML, the Pylar project is worth keeping an eye on. So, let&apos;s join hands and be a part of this revolutionary project and witness the future of AI and ML together.
       </motion.p>
 
 
