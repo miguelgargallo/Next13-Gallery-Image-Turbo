@@ -629,7 +629,7 @@ var Version = () => {
       href: "http://twitter.com/miguelgargallo",
       target: "_blank",
       rel: "noopener noreferrer",
-      children: "v1.0.0"
+      children: "v1.0.1"
     })
   });
 };
