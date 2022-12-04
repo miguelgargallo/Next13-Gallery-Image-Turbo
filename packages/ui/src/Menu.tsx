@@ -20,7 +20,7 @@ export const Menu = () => {
       />
       <div className="flex flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500">
       <button className="rounded-xl py-2 px-4 font-bold text-white">
-          <a href="/">Pylar&trade; AI</a>
+          <a href="/">Pylar&trade; AI by SUPERDATAS</a>
         </button>
         <button className="rounded-xl py-2 px-4 font-bold text-white">
           <a href="/blog">Daily Work</a>
@@ -56,14 +56,14 @@ export const Menu = () => {
             </a>
           </button>
           <a
-            href="https://github.com/miguelgargallo/Next13-Fetch-Data-turbo"
+            href="http://github.com/miguelgargallo/next13-gallery-image-turbo"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden py-2 px-4 font-bold text-white md:block"
           >
             <picture>
               <img
-                src="https://img.shields.io/github/stars/miguelgargallo/Next13-Fetch-Data-turbo?style=social"
+                src="https://img.shields.io/github/stars/miguelgargallo/Next13-gallery-image-turbo?style=social"
                 alt="Landscape picture"
                 width={100}
                 height={20}
