@@ -1,4 +1,4 @@
-yarn run v1.22.19
+yarn run v1.22.17
 $ next build
 info  - Linting and checking validity of types...
 info  - Creating an optimized production build...
@@ -10,7 +10,7 @@ info  - Generating static pages (3/3)
 info  - Finalizing page optimization...
 
 Route (pages)                              Size     First Load JS
-┌ ○ /                                      41.8 kB         115 kB
+┌ ○ / (379 ms)                             41.7 kB         115 kB
 ├   /_app                                  0 B            73.2 kB
 └ ○ /404                                   181 B          73.4 kB
 + First Load JS shared by all              76.3 kB
@@ -18,8 +18,8 @@ Route (pages)                              Size     First Load JS
   ├ chunks/main-b8adf948f7f01545.js        26.7 kB
   ├ chunks/pages/_app-8198e3d352f586ca.js  309 B
   ├ chunks/webpack-ee7e63bc15b31913.js     815 B
-  └ css/3b5f5de2ad290afe.css               3.07 kB
+  └ css/88cfa660c16ac5cc.css               3.07 kB
 
 ○  (Static)  automatically rendered as static HTML (uses no initial props)
 
-Done in 6.92s.
+Done in 22.27s.

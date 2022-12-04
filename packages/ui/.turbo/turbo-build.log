@@ -1,22 +1,22 @@
-yarn run v1.22.19
+yarn run v1.22.17
 $ tsup src/index.tsx --format esm,cjs --dts --external react && tailwindcss -i ./src/styles.css -o ./dist/styles.css
-CLI Building entry: src/index.tsx
-CLI Using tsconfig: tsconfig.json
-CLI tsup v6.5.0
-CLI Target: es6
-ESM Build start
-CJS Build start
-CJS dist/index.css 2.48 KB
-CJS dist/index.js  294.46 KB
-CJS ⚡️ Build success in 188ms
-ESM dist/index.css 2.48 KB
-ESM dist/index.mjs 291.55 KB
-ESM ⚡️ Build success in 189ms
-DTS Build start
-DTS ⚡️ Build success in 1112ms
-DTS dist/index.d.ts 495.00 B
+[34mCLI[39m Building entry: src/index.tsx
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v6.5.0
+[34mCLI[39m Target: es6
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist\index.js  [22m[32m293.50 KB[39m
+[32mCJS[39m [1mdist\index.css [22m[32m2.48 KB[39m
+[32mCJS[39m ⚡️ Build success in 212ms
+[32mESM[39m [1mdist\index.mjs [22m[32m290.66 KB[39m
+[32mESM[39m [1mdist\index.css [22m[32m2.48 KB[39m
+[32mESM[39m ⚡️ Build success in 213ms
+[34mDTS[39m Build start
+[32mDTS[39m ⚡️ Build success in 1782ms
+[32mDTS[39m [1mdist\index.d.ts [22m[32m495.00 B[39m
 
 Rebuilding...
 
-Done in 263ms.
-Done in 2.53s.
+Done in 310ms.
+Done in 3.66s.
