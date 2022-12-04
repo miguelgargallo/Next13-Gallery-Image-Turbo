@@ -48,7 +48,7 @@ export const Menu = () => {
           {" "}
           <button className="hidden py-2 px-4 font-bold text-white md:block">
             <a
-              href="http://twitter.com/miguelgargallo"
+              href="http://twitter.com/superdatas"
               target="_blank"
               rel="noopener noreferrer"
             >
