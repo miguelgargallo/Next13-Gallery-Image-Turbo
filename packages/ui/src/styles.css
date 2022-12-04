@@ -5,7 +5,7 @@
 
 .progress-bar
 {
-    @apply fixed top-0 left-0 w-full h-1 z-50 bg-sky-500;
+    @apply fixed top-0 left-0 w-full h-1 z-50 bg-gray-600;
 }
 
 /* Colors by lenghts */
