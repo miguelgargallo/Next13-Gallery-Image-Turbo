@@ -7273,7 +7273,7 @@ var Menu = () => {
           /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
             className: "rounded-xl py-2 px-4 font-bold text-white",
             children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
-              href: "/pylar",
+              href: "/",
               children: "Our Works"
             })
           }),
@@ -7820,163 +7820,121 @@ var import_jsx_runtime13 = require("react/jsx-runtime");
 var TitlePylar = () => {
   return /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", {
     children: [
-      /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("a", {
-        href: "https://pylar.org",
-        className: "justify-center flex m-4 py-8",
-        children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("picture", {
-          children: /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("svg", {
-            xmlns: "http://www.w3.org/2000/svg",
-            width: "300",
-            height: "50",
-            viewBox: "0 0 2344 678",
-            children: [
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("defs", {}),
-              /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("g", {
-                fill: "#000000",
-                "fill-rule": "evenodd",
-                transform: "translate(-151 -173)",
-                children: [
-                  /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("path", {
-                    fill: "#ffffff",
-                    d: "M508.516097,232.032195 L783.120976,781.241951 C791.271621,797.543242 784.664217,817.365452 768.362927,825.516097 C763.780698,827.807212 758.727967,829 753.604878,829 L204.395122,829 C186.169725,829 171.395122,814.225397 171.395122,796 C171.395122,790.876912 172.58791,785.824181 174.879024,781.241951 L449.483903,232.032195 C457.634548,215.730904 477.456758,209.123501 493.758049,217.274146 C500.144453,220.467348 505.322895,225.64579 508.516097,232.032195 Z",
-                    transform: "matrix(0 -1 -1 0 980 980)"
-                  }),
-                  /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("path", {
-                    fill: "#000000",
-                    d: "M419.705262,277.910524 L658,754.5 L658,754.5 L151,754.5 L389.294738,277.910524 C393.493555,269.51289 403.704997,266.109076 412.102631,270.307893 C415.392597,271.952876 418.060279,274.620559 419.705262,277.910524 Z",
-                    transform: "matrix(0 -1 -1 0 905.5 905.5)"
-                  }),
-                  /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("path", {
-                    fill: "#ffffff",
-                    d: "M356.705262,340.910524 L532,691.5 L532,691.5 L151,691.5 L326.294738,340.910524 C330.493555,332.51289 340.704997,329.109076 349.102631,333.307893 C352.392597,334.952876 355.060279,337.620559 356.705262,340.910524 Z",
-                    transform: "matrix(0 -1 -1 0 842.5 842.5)"
-                  }),
-                  /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("path", {
-                    fill: "#000000",
-                    d: "M293.205262,404.410524 L405,628 L405,628 L151,628 L262.794738,404.410524 C266.993555,396.01289 277.204997,392.609076 285.602631,396.807893 C288.892597,398.452876 291.560279,401.120559 293.205262,404.410524 Z",
-                    transform: "matrix(0 -1 -1 0 779 779)"
-                  }),
-                  /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("path", {
-                    fill: "#ffffff",
-                    d: "M230.599689,469.699379 L278,564.5 L278,564.5 L151,564.5 L198.400311,469.699379 C202.846117,460.807766 213.658232,457.203728 222.549845,461.649534 C226.033338,463.391281 228.857943,466.215886 230.599689,469.699379 Z",
-                    transform: "matrix(0 -1 -1 0 715.5 715.5)"
-                  }),
-                  /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("text", {
-                    fill: "#ffffff",
-                    "font-family": "Roboto, sans-serif",
-                    "font-size": "500",
-                    "font-weight": "500",
-                    children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("tspan", {
-                      x: "993.25",
-                      y: "697",
-                      children: "Pylar\u2122 AI"
+      /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("h1", {
+        className: "py-8 text-center text-5xl font-bold text-white",
+        children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(motion.span, {
+          initial: { opacity: 0 },
+          animate: { opacity: 1 },
+          transition: { delay: 0.5, duration: 1.5 },
+          children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("a", {
+            href: "https://pylar.org",
+            className: "justify-center flex m-4 py-8",
+            children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("picture", {
+              children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("svg", {
+                xmlns: "http://www.w3.org/2000/svg",
+                width: "300",
+                height: "50",
+                viewBox: "0 0 2344 678",
+                children: /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("g", {
+                  fill: "#000000",
+                  "fill-rule": "evenodd",
+                  transform: "translate(-151 -173)",
+                  children: [
+                    /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("path", {
+                      fill: "#ffffff",
+                      d: "M508.516097,232.032195 L783.120976,781.241951 C791.271621,797.543242 784.664217,817.365452 768.362927,825.516097 C763.780698,827.807212 758.727967,829 753.604878,829 L204.395122,829 C186.169725,829 171.395122,814.225397 171.395122,796 C171.395122,790.876912 172.58791,785.824181 174.879024,781.241951 L449.483903,232.032195 C457.634548,215.730904 477.456758,209.123501 493.758049,217.274146 C500.144453,220.467348 505.322895,225.64579 508.516097,232.032195 Z",
+                      transform: "matrix(0 -1 -1 0 980 980)"
+                    }),
+                    /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("path", {
+                      fill: "#000000",
+                      d: "M419.705262,277.910524 L658,754.5 L658,754.5 L151,754.5 L389.294738,277.910524 C393.493555,269.51289 403.704997,266.109076 412.102631,270.307893 C415.392597,271.952876 418.060279,274.620559 419.705262,277.910524 Z",
+                      transform: "matrix(0 -1 -1 0 905.5 905.5)"
+                    }),
+                    /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("path", {
+                      fill: "#ffffff",
+                      d: "M356.705262,340.910524 L532,691.5 L532,691.5 L151,691.5 L326.294738,340.910524 C330.493555,332.51289 340.704997,329.109076 349.102631,333.307893 C352.392597,334.952876 355.060279,337.620559 356.705262,340.910524 Z",
+                      transform: "matrix(0 -1 -1 0 842.5 842.5)"
+                    }),
+                    /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("path", {
+                      fill: "#000000",
+                      d: "M293.205262,404.410524 L405,628 L405,628 L151,628 L262.794738,404.410524 C266.993555,396.01289 277.204997,392.609076 285.602631,396.807893 C288.892597,398.452876 291.560279,401.120559 293.205262,404.410524 Z",
+                      transform: "matrix(0 -1 -1 0 779 779)"
+                    }),
+                    /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("path", {
+                      fill: "#ffffff",
+                      d: "M230.599689,469.699379 L278,564.5 L278,564.5 L151,564.5 L198.400311,469.699379 C202.846117,460.807766 213.658232,457.203728 222.549845,461.649534 C226.033338,463.391281 228.857943,466.215886 230.599689,469.699379 Z",
+                      transform: "matrix(0 -1 -1 0 715.5 715.5)"
+                    }),
+                    /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("text", {
+                      fill: "#ffffff",
+                      "font-family": "Roboto, sans-serif",
+                      "font-size": "500",
+                      "font-weight": "500",
+                      children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("tspan", {
+                        x: "993.25",
+                        y: "697",
+                        children: "Pylar\u2122 AI"
+                      })
+                    }),
+                    /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("text", {
+                      fill: "#ffffff",
+                      "font-family": "Roboto, sans-serif",
+                      "font-size": "100",
+                      "font-weight": "500",
+                      children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("tspan", {
+                        x: "690.95",
+                        y: "829",
+                        children: "\xA9"
+                      })
+                    }),
+                    /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("text", {
+                      fill: "#ffffff",
+                      "font-family": "Roboto, sans-serif",
+                      "font-size": "75",
+                      "font-weight": "500"
                     })
-                  }),
-                  /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("text", {
-                    fill: "#ffffff",
-                    "font-family": "Roboto, sans-serif",
-                    "font-size": "100",
-                    "font-weight": "500",
-                    children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("tspan", {
-                      x: "690.95",
-                      y: "829",
-                      children: "\xA9"
-                    })
-                  }),
-                  /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("text", {
-                    fill: "#ffffff",
-                    "font-family": "Roboto, sans-serif",
-                    "font-size": "75",
-                    "font-weight": "500"
-                  })
-                ]
+                  ]
+                })
               })
-            ]
+            })
           })
         })
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("h1", {
-        className: "py-8 text-center text-5xl font-bold",
-        children: [
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 0.5, duration: 1.5 },
-            children: "P"
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 0.6, duration: 1.5 },
-            children: "y"
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 0.7, duration: 1.5 },
-            children: "l"
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 0.8, duration: 1.5 },
-            children: "a"
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 0.9, duration: 1.5 },
-            children: "r\u2122"
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 1, duration: 1.5 },
-            children: "\xA0"
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 1.1, duration: 1.5 },
-            children: "A"
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 1.2, duration: 1.5 },
-            children: "I"
-          })
-        ]
-      }),
       /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)(motion.h2, {
-        className: "py-8 text-center text-4xl font-bold",
+        className: "py-8 text-center text-4xl font-bold text-white",
         initial: { opacity: 0 },
         animate: { opacity: 1 },
         transition: { delay: 1.4, duration: 1.5 },
         children: [
           /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", {
             className: "text-blue-500",
-            children: "Py"
+            children: "P"
           }),
-          "thon",
+          "rompt",
+          " ",
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", {
+            className: "text-blue-500",
+            children: "Y"
+          }),
+          "ielding",
           " ",
           /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", {
             className: "text-blue-500",
             children: "L"
           }),
-          "earning",
+          "ean",
           " ",
           /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", {
             className: "text-blue-500",
             children: "A"
           }),
-          "rtificial",
+          "gile",
           " ",
           /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", {
             className: "text-blue-500",
             children: "R"
           }),
-          "esearch\u2122",
+          "apidness\u2122",
           " ",
           /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", {
             className: "text-black",
@@ -9574,7 +9532,7 @@ var DomainsNew = () => {
 var import_jsx_runtime27 = require("react/jsx-runtime");
 var Footer = () => {
   return /* @__PURE__ */ (0, import_jsx_runtime27.jsxs)("footer", {
-    className: "bg-white py-8 text-center",
+    className: "bg-black py-8 text-center text-white",
     children: [
       /* @__PURE__ */ (0, import_jsx_runtime27.jsx)("div", {
         children: /* @__PURE__ */ (0, import_jsx_runtime27.jsxs)("a", {
@@ -9610,42 +9568,27 @@ var Footer = () => {
       }),
       /* @__PURE__ */ (0, import_jsx_runtime27.jsx)("div", {
         className: "hidden sm:block",
-        children: /* @__PURE__ */ (0, import_jsx_runtime27.jsxs)("div", {
+        children: /* @__PURE__ */ (0, import_jsx_runtime27.jsx)("div", {
           className: "flex w-full items-center justify-center",
-          children: [
-            /* @__PURE__ */ (0, import_jsx_runtime27.jsx)("a", {
-              href: "https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmiguelgargallo%2FNext13-Fetch-Data-turbo&project-name=miguelgargallo-next13-fetch-data-turbo&repo-name=miguelgargallo-next13-fetch-data-turbo",
-              target: "_blank",
-              rel: "noopener noreferrer",
-              className: "hidden p-2 md:block",
-              children: /* @__PURE__ */ (0, import_jsx_runtime27.jsx)("picture", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime27.jsx)("img", {
-                  src: "https://vercel.com/button",
-                  alt: "Landscape picture",
-                  width: 75,
-                  height: 20
-                })
-              })
-            }),
-            /* @__PURE__ */ (0, import_jsx_runtime27.jsx)("a", {
-              href: "https://huggingface.co/spaces/superdatas/LICENSE",
-              target: "_blank",
-              rel: "noopener noreferrer",
-              className: "hidden p-2 md:block",
-              children: /* @__PURE__ */ (0, import_jsx_runtime27.jsx)("picture", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime27.jsx)("img", {
-                  src: "https://huggingface.co/front/assets/huggingface_logo.svg",
-                  alt: "Landscape picture",
-                  width: 40,
-                  height: 20
-                })
+          children: /* @__PURE__ */ (0, import_jsx_runtime27.jsx)("a", {
+            href: "https://huggingface.co/spaces/superdatas/LICENSE",
+            target: "_blank",
+            rel: "noopener noreferrer",
+            className: "hidden p-2 md:block",
+            children: /* @__PURE__ */ (0, import_jsx_runtime27.jsx)("picture", {
+              children: /* @__PURE__ */ (0, import_jsx_runtime27.jsx)("img", {
+                src: "https://huggingface.co/front/assets/huggingface_logo.svg",
+                alt: "Landscape picture",
+                width: 40,
+                height: 20
               })
             })
-          ]
+          })
         })
       }),
       /* @__PURE__ */ (0, import_jsx_runtime27.jsx)("p", {
-        children: "Please do not consider the score as investment advice."
+        className: "text-white",
+        children: "The Art of Prompting, tomorrow, today."
       })
     ]
   });
