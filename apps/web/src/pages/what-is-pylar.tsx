@@ -44,7 +44,7 @@ export default function Home() {
         transition={{ delay: 2.2 }}
         className="text-white text-l px-4 m-2"
       >
-One of the most exciting and innovative AI and ML projects currently underway is Pylar. This project, which stands for "Prompt Yielding Lean and Agile Rapidness," is focused on using AI and ML technologies to quickly and efficiently produce results that yield benefits or advantages.
+One of the most exciting and innovative AI and ML projects currently underway is Pylar. This project, which stands for &quot;Prompt Yielding Lean and Agile Rapidness,&quot; is focused on using AI and ML technologies to quickly and efficiently produce results that yield benefits or advantages.
 </motion.p><motion.p
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
