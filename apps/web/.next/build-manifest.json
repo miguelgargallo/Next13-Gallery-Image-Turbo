@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/NC0W0LRL79ucdJODXMsY4/_buildManifest.js",
-    "static/NC0W0LRL79ucdJODXMsY4/_ssgManifest.js"
+    "static/xkLAbK8YIIPuVX2DtxrAV/_buildManifest.js",
+    "static/xkLAbK8YIIPuVX2DtxrAV/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -14,7 +14,7 @@
       "static/chunks/webpack-ee7e63bc15b31913.js",
       "static/chunks/framework-aedff47d294e0670.js",
       "static/chunks/main-b8adf948f7f01545.js",
-      "static/chunks/886-02d4f031136c6dfc.js",
+      "static/chunks/886-a1ab888fd0c2f857.js",
       "static/chunks/pages/index-965eb46ccf10b9b8.js"
     ],
     "/_app": [
@@ -34,35 +34,35 @@
       "static/chunks/webpack-ee7e63bc15b31913.js",
       "static/chunks/framework-aedff47d294e0670.js",
       "static/chunks/main-b8adf948f7f01545.js",
-      "static/chunks/886-02d4f031136c6dfc.js",
-      "static/chunks/pages/blog-d39bf6b4beac0eb0.js"
+      "static/chunks/886-a1ab888fd0c2f857.js",
+      "static/chunks/pages/blog-1e17a5feee123722.js"
     ],
     "/blog/article": [
       "static/chunks/webpack-ee7e63bc15b31913.js",
       "static/chunks/framework-aedff47d294e0670.js",
       "static/chunks/main-b8adf948f7f01545.js",
-      "static/chunks/886-02d4f031136c6dfc.js",
-      "static/chunks/pages/blog/article-20f9adbadc8643db.js"
+      "static/chunks/886-a1ab888fd0c2f857.js",
+      "static/chunks/pages/blog/article-abc6517df96d46e0.js"
     ],
     "/pylar": [
       "static/chunks/webpack-ee7e63bc15b31913.js",
       "static/chunks/framework-aedff47d294e0670.js",
       "static/chunks/main-b8adf948f7f01545.js",
-      "static/chunks/886-02d4f031136c6dfc.js",
+      "static/chunks/886-a1ab888fd0c2f857.js",
       "static/chunks/pages/pylar-a8a4201ba68e7129.js"
     ],
     "/pylar-license": [
       "static/chunks/webpack-ee7e63bc15b31913.js",
       "static/chunks/framework-aedff47d294e0670.js",
       "static/chunks/main-b8adf948f7f01545.js",
-      "static/chunks/886-02d4f031136c6dfc.js",
+      "static/chunks/886-a1ab888fd0c2f857.js",
       "static/chunks/pages/pylar-license-e8f0df6194079128.js"
     ],
     "/what-is-pylar": [
       "static/chunks/webpack-ee7e63bc15b31913.js",
       "static/chunks/framework-aedff47d294e0670.js",
       "static/chunks/main-b8adf948f7f01545.js",
-      "static/chunks/886-02d4f031136c6dfc.js",
+      "static/chunks/886-a1ab888fd0c2f857.js",
       "static/chunks/pages/what-is-pylar-4f8d0760ea109328.js"
     ]
   },

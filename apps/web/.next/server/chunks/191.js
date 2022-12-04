@@ -1045,10 +1045,10 @@ var Version = () => {
     className: "m-2 hidden rounded-full py-2 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block",
     style: k(ELEMENTS),
     children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-      href: "http://github.com/miguelgargallo/next13-Fetch-Data-turbo",
+      href: "http://github.com/miguelgargallo/next13-gallery-image-turbo",
       target: "_blank",
       rel: "noopener noreferrer",
-      children: "v1.8.8"
+      children: "v1.0.3"
     })
   });
 };
@@ -7600,7 +7600,7 @@ var Menu = () => {
             className: "rounded-xl py-2 px-4 font-bold text-white",
             children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", {
               href: "/",
-              children: "Pylar\u2122 AI"
+              children: "Pylar\u2122 AI by SUPERDATAS"
             })
           }),
           /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", {
@@ -7645,20 +7645,20 @@ var Menu = () => {
               /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", {
                 className: "hidden py-2 px-4 font-bold text-white md:block",
                 children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", {
-                  href: "http://twitter.com/miguelgargallo",
+                  href: "http://twitter.com/superdatas",
                   target: "_blank",
                   rel: "noopener noreferrer",
                   children: "Twitter"
                 })
               }),
               /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", {
-                href: "https://github.com/miguelgargallo/Next13-Fetch-Data-turbo",
+                href: "http://github.com/miguelgargallo/next13-gallery-image-turbo",
                 target: "_blank",
                 rel: "noopener noreferrer",
                 className: "hidden py-2 px-4 font-bold text-white md:block",
                 children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("picture", {
                   children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("img", {
-                    src: "https://img.shields.io/github/stars/miguelgargallo/Next13-Fetch-Data-turbo?style=social",
+                    src: "https://img.shields.io/github/stars/miguelgargallo/Next13-gallery-image-turbo?style=social",
                     alt: "Landscape picture",
                     width: 100,
                     height: 20
