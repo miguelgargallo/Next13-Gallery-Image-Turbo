@@ -20,7 +20,7 @@ export default function Home() {
       <motion.img
           className="pylarDimension"
           src="https://raw.githubusercontent.com/miguelgargallo/Next13-Gallery-Image-Turbo/main/Data.pylar/Images/Pylar-v1.0/A_photography_of_the_earth__from_the_moon_on_a_fis_AAAGOLpA_RealESRGAN_x4plus.jpeg"
-          alt="Pylar AI"
+          alt="Earth by Stable Diffusion 1.4 and Pylar Prompt guidelines"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.2 }}
@@ -28,7 +28,15 @@ export default function Home() {
         <motion.img
           className="pylarDimension"
           src="https://raw.githubusercontent.com/miguelgargallo/Next13-Gallery-Image-Turbo/main/Data.pylar/Images/Pylar-v1.1/A_photography_of_the_earth__from_the_moon_on_a_fis_AAAGOLjw_RealESRGAN_x4plus.jpeg"
-          alt="Pylar AI"
+          alt="Earth by Stable Diffusion 1.5 and Pylar Prompt guidelines"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1.4 }}
+        />
+                <motion.img
+          className="pylarDimension"
+          src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/120422/00005-1833717168-Earth%20seen%20fr.png"
+          alt="Earth by Stable Diffusion 2.0 and Pylar Prompt guidelines"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.4 }}
