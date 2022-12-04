@@ -15,6 +15,23 @@ export default function Home() {
       <Menu />
       <main>
         <TitlePylar />
+
+        <div className="col-span-2 flex flex-col items-center py-2">
+          <div className="flex flex-col items-center col-span-2">
+            <img
+              src="https://raw.githubusercontent.com/miguelgargallo/Next13-Gallery-Image-Turbo/main/Data.pylar/Images/Pylar-v1.1/A_photography_of_the_earth__from_the_moon_on_a_fis_AAAGOLjw_RealESRGAN_x4plus.jpeg"
+              alt="Pylar AI"
+              className="h-96 w-96"
+            />
+          </div>
+          <div className="flex flex-col items-center col-span-2">
+            <img
+              src="https://raw.githubusercontent.com/miguelgargallo/Next13-Gallery-Image-Turbo/main/Data.pylar/Images/Pylar-v1.1/A_photography_of_the_earth__from_the_moon_on_a_fis_AAAGOLjw_RealESRGAN_x4plus.jpeg"
+              alt="Pylar AI"
+              className="h-96 w-96"
+            />
+          </div>
+        </div>
       </main>
       <Footer />
     </div>

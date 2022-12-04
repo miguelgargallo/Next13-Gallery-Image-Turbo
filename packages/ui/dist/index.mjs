@@ -1030,7 +1030,7 @@ var Version = () => {
       href: "http://github.com/miguelgargallo/next13-gallery-image-turbo",
       target: "_blank",
       rel: "noopener noreferrer",
-      children: "v1.0.0"
+      children: "v1.0.1"
     })
   });
 };
@@ -7573,12 +7573,6 @@ function useScroll(_a = {}) {
 
 // src/Menu.tsx
 import { jsx as jsx2, jsxs } from "react/jsx-runtime";
-{
-  new Date().toLocaleTimeString("en-US", {
-    hour: "numeric",
-    minute: "numeric"
-  });
-}
 var Menu = () => {
   const { scrollYProgress } = useScroll();
   return /* @__PURE__ */ jsxs("div", {
@@ -7595,7 +7589,7 @@ var Menu = () => {
             className: "rounded-xl py-2 px-4 font-bold text-white",
             children: /* @__PURE__ */ jsx2("a", {
               href: "/",
-              children: "Pylar\u2122 AI by SUPERDATAS"
+              children: "Pylar\u2122 AI"
             })
           }),
           /* @__PURE__ */ jsx2("button", {
