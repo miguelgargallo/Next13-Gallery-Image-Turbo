@@ -8,7 +8,7 @@ export const Version = () => {
       style={generateJSXMeshGradient(ELEMENTS)}
     >
       <a
-        href="http://twitter.com/superdatas"
+        href="http://twitter.com/miguelgargallo"
         target="_blank"
         rel="noopener noreferrer"
       >

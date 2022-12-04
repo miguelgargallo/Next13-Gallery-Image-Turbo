@@ -626,7 +626,7 @@ var Version = () => {
     className: "m-2 hidden rounded-full py-2 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block",
     style: k(ELEMENTS),
     children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", {
-      href: "http://twitter.com/superdatas",
+      href: "http://twitter.com/miguelgargallo",
       target: "_blank",
       rel: "noopener noreferrer",
       children: "v1.0.0"
