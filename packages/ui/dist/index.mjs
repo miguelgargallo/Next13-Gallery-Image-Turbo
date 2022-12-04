@@ -7234,21 +7234,6 @@ var Menu = () => {
                   children: "Twitter"
                 })
               }),
-              /* @__PURE__ */ jsx4("a", {
-                href: "https://github.com/miguelgargallo/Next13-Gallery-Image-Turbo",
-                target: "_blank",
-                rel: "noopener noreferrer",
-                className: "hidden py-2 px-4 font-bold text-white md:block",
-                children: /* @__PURE__ */ jsx4("picture", {
-                  children: /* @__PURE__ */ jsx4("img", {
-                    src: "https://img.shields.io/github/stars/miguelgargallo/Next13-Gallery-Image-Turbo?style=social",
-                    alt: "Landscape picture",
-                    width: 100,
-                    height: 20
-                  })
-                })
-              }),
-              " ",
               /* @__PURE__ */ jsx4(Version, {})
             ]
           })
