@@ -672,7 +672,7 @@ var MenuLogo = () => {
           xmlns: "http://www.w3.org/2000/svg",
           width: "150",
           height: "25",
-          viewBox: "0 0 3040 678",
+          viewBox: "0 0 3060 678",
           className: "w-24 h-6 m-3",
           children: [
             /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("defs", {}),

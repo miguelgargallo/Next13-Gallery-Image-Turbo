@@ -7,7 +7,7 @@ export const MenuLogo = () => {
             xmlns="http://www.w3.org/2000/svg"
             width="150" /* 150 x 2 = 300 */
             height="25" /* 25 x 2 = 50 */
-            viewBox="0 0 3040 678"
+            viewBox="0 0 3060 678"
             className="w-24 h-6 m-3"
           >
             <defs></defs>
