@@ -1048,7 +1048,7 @@ var Version = () => {
       href: "http://github.com/miguelgargallo/next13-gallery-image-turbo",
       target: "_blank",
       rel: "noopener noreferrer",
-      children: "v1.0.3"
+      children: "v1.0.4"
     })
   });
 };
