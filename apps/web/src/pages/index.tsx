@@ -2,7 +2,7 @@
 import Head from "next/head";
 import { Menu } from "ui";
 import { motion } from "framer-motion";
-import { TitleIndex } from "ui";
+import { TitlePylar } from "ui";
 import { Footer } from "ui";
 import {
   JSXElementConstructor,
@@ -55,7 +55,7 @@ export default function Home() {
       </Head>
       <Menu />
       <main>
-        <TitleIndex />
+        <TitlePylar />
         <div className="hidden md:block">
           <div className="flex flex-row justify-center">
             <div className="flex justify-center">

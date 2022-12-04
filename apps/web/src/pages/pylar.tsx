@@ -3,7 +3,6 @@ import Head from "next/head";
 import { Menu } from "ui";
 import { TitlePylar } from "ui";
 import { Footer } from "ui";
-import { MenuPylar } from "ui";
 
 export default function Home() {
   console.log("✅ Pylar AI");
@@ -14,7 +13,6 @@ export default function Home() {
         <link rel="icon" href="./favicon.ico" />
       </Head>
       <Menu />
-      <MenuPylar />
       <main>
       <TitlePylar />
         <div className="pylarDiv">
