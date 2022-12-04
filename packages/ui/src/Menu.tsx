@@ -2,13 +2,6 @@ import { Version } from "./Version";
 import { motion, useScroll } from "framer-motion";
 import "./styles.css";
 
-{
-  // show hour and minute locale
-  new Date().toLocaleTimeString("en-US", {
-    hour: "numeric",
-    minute: "numeric",
-  });
-}
 export const Menu = () => {
   const { scrollYProgress } = useScroll();
 
@@ -20,7 +13,7 @@ export const Menu = () => {
       />
       <div className="flex flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500">
         <button className="rounded-xl py-2 px-4 font-bold text-white">
-          <a href="/">Pylar&trade; AI by SUPERDATAS</a>
+          <a href="/">Pylar&trade; AI</a>
         </button>
         <button className="rounded-xl py-2 px-4 font-bold text-white">
           <a href="/blog">Daily Work</a>
