@@ -68,26 +68,3 @@ export const Menu = () => {
     </div>
   );
 };
-
-/* 
-<button className="hidden rounded-xl px-8 font-bold text-white sm:block">
-<a href="/">
-  {new Date().toLocaleTimeString("en-US", {
-    hour: "numeric",
-    minute: "numeric",
-  })}
-</a>
-</button>ç
-*/
-
-/*
-<button className="hidden rounded-xl py-2 px-4 font-bold text-white sm:block">
-<a
-  href="https://newsroom.pencil.domains/"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  Newsroom
-</a>
-</button>
-*/
