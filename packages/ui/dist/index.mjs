@@ -609,7 +609,7 @@ var Version = () => {
     className: "m-2 hidden rounded-full py-2 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block",
     style: k(ELEMENTS),
     children: /* @__PURE__ */ jsx2("a", {
-      href: "http://github.com/miguelgargallo/next13-Fetch-Data-turbo",
+      href: "http://twitter.com/superdatas",
       target: "_blank",
       rel: "noopener noreferrer",
       children: "v1.0.0"
