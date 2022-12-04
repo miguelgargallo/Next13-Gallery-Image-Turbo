@@ -6,8 +6,8 @@ info  - Compiled successfully
 info  - Collecting page data...
 info  - Generating static pages (0/8)
 ✅ Pylar AI
-✅ Pylar AI
 info  - Generating static pages (2/8)
+✅ Pylar AI
 info  - Generating static pages (4/8)
 ✅ Pylar AI
 ✅ Pylar AI
@@ -33,4 +33,4 @@ Route (pages)                              Size     First Load JS
 
 ○  (Static)  automatically rendered as static HTML (uses no initial props)
 
-Done in 8.67s.
+Done in 6.46s.
