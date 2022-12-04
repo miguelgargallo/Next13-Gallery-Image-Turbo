@@ -624,7 +624,7 @@ var MenuLogo = () => {
     className: "flex flex-col items-center justify-center text-center",
     children: /* @__PURE__ */ jsx3("a", {
       href: "https://pylar.org",
-      className: "",
+      className: "m-2",
       children: /* @__PURE__ */ jsx3("picture", {
         children: /* @__PURE__ */ jsxs2("svg", {
           xmlns: "http://www.w3.org/2000/svg",
