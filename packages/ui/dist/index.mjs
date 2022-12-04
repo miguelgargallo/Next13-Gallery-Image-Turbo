@@ -8,19 +8,20 @@ var __getOwnPropSymbols = Object.getOwnPropertySymbols;
 var __getProtoOf = Object.getPrototypeOf;
 var __hasOwnProp = Object.prototype.hasOwnProperty;
 var __propIsEnum = Object.prototype.propertyIsEnumerable;
+var __pow = Math.pow;
 var __defNormalProp = (obj, key, value) => key in obj ? __defProp(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
-var __spreadValues = (a2, b2) => {
-  for (var prop in b2 || (b2 = {}))
-    if (__hasOwnProp.call(b2, prop))
-      __defNormalProp(a2, prop, b2[prop]);
+var __spreadValues = (a, b) => {
+  for (var prop in b || (b = {}))
+    if (__hasOwnProp.call(b, prop))
+      __defNormalProp(a, prop, b[prop]);
   if (__getOwnPropSymbols)
-    for (var prop of __getOwnPropSymbols(b2)) {
-      if (__propIsEnum.call(b2, prop))
-        __defNormalProp(a2, prop, b2[prop]);
+    for (var prop of __getOwnPropSymbols(b)) {
+      if (__propIsEnum.call(b, prop))
+        __defNormalProp(a, prop, b[prop]);
     }
-  return a2;
+  return a;
 };
-var __spreadProps = (a2, b2) => __defProps(a2, __getOwnPropDescs(b2));
+var __spreadProps = (a, b) => __defProps(a, __getOwnPropDescs(b));
 var __objRest = (source, exclude) => {
   var target = {};
   for (var prop in source)
@@ -36,8 +37,8 @@ var __objRest = (source, exclude) => {
 var __esm = (fn, res) => function __init() {
   return fn && (res = (0, fn[__getOwnPropNames(fn)[0]])(fn = 0)), res;
 };
-var __commonJS = (cb2, mod) => function __require() {
-  return mod || (0, cb2[__getOwnPropNames(cb2)[0]])((mod = { exports: {} }).exports, mod), mod.exports;
+var __commonJS = (cb, mod) => function __require() {
+  return mod || (0, cb[__getOwnPropNames(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports;
 };
 var __export = (target, all) => {
   for (var name in all)
@@ -139,26 +140,26 @@ var require_tslib = __commonJS({
             exports2.__esModule = true;
           }
         }
-        return function(id2, v) {
-          return exports2[id2] = previous ? previous(id2, v) : v;
+        return function(id3, v) {
+          return exports2[id3] = previous ? previous(id3, v) : v;
         };
       }
     })(function(exporter) {
-      var extendStatics = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
-        d2.__proto__ = b2;
-      } || function(d2, b2) {
-        for (var p2 in b2)
-          if (Object.prototype.hasOwnProperty.call(b2, p2))
-            d2[p2] = b2[p2];
+      var extendStatics = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b) {
+        d2.__proto__ = b;
+      } || function(d2, b) {
+        for (var p2 in b)
+          if (Object.prototype.hasOwnProperty.call(b, p2))
+            d2[p2] = b[p2];
       };
-      __extends2 = function(d2, b2) {
-        if (typeof b2 !== "function" && b2 !== null)
-          throw new TypeError("Class extends value " + String(b2) + " is not a constructor or null");
-        extendStatics(d2, b2);
+      __extends2 = function(d2, b) {
+        if (typeof b !== "function" && b !== null)
+          throw new TypeError("Class extends value " + String(b) + " is not a constructor or null");
+        extendStatics(d2, b);
         function __() {
           this.constructor = d2;
         }
-        d2.prototype = b2 === null ? Object.create(b2) : (__.prototype = b2.prototype, new __());
+        d2.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
       };
       __assign2 = Object.assign || function(t) {
         for (var s, i2 = 1, n = arguments.length; i2 < n; i2++) {
@@ -182,14 +183,14 @@ var require_tslib = __commonJS({
         return t;
       };
       __decorate2 = function(decorators, target, key, desc) {
-        var c3 = arguments.length, r = c3 < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d2;
+        var c2 = arguments.length, r = c2 < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d2;
         if (typeof Reflect === "object" && typeof Reflect.decorate === "function")
           r = Reflect.decorate(decorators, target, key, desc);
         else
           for (var i2 = decorators.length - 1; i2 >= 0; i2--)
             if (d2 = decorators[i2])
-              r = (c3 < 3 ? d2(r) : c3 > 3 ? d2(target, key, r) : d2(target, key)) || r;
-        return c3 > 3 && r && Object.defineProperty(target, key, r), r;
+              r = (c2 < 3 ? d2(r) : c2 > 3 ? d2(target, key, r) : d2(target, key)) || r;
+        return c2 > 3 && r && Object.defineProperty(target, key, r), r;
       };
       __param2 = function(paramIndex, decorator) {
         return function(target, key) {
@@ -367,8 +368,8 @@ var require_tslib = __commonJS({
         for (var s = 0, i2 = 0, il = arguments.length; i2 < il; i2++)
           s += arguments[i2].length;
         for (var r = Array(s), k2 = 0, i2 = 0; i2 < il; i2++)
-          for (var a2 = arguments[i2], j = 0, jl = a2.length; j < jl; j++, k2++)
-            r[k2] = a2[j];
+          for (var a = arguments[i2], j = 0, jl = a.length; j < jl; j++, k2++)
+            r[k2] = a[j];
         return r;
       };
       __spreadArray2 = function(to, from, pack) {
@@ -395,8 +396,8 @@ var require_tslib = __commonJS({
         function verb(n) {
           if (g2[n])
             i2[n] = function(v) {
-              return new Promise(function(a2, b2) {
-                q.push([n, v, a2, b2]) > 1 || resume(n, v);
+              return new Promise(function(a, b) {
+                q.push([n, v, a, b]) > 1 || resume(n, v);
               });
             };
         }
@@ -559,26 +560,26 @@ var c = (n) => Math.round(Math.random() * (n * 100) % 100);
 var g = (n, t, e) => Math.round(t / e * (n * 100) % 100);
 var d = (n) => {
   if (!!n) {
-    n = n.replace(/#/g, ""), n.length === 3 && (n = n.split("").map(function(b2) {
-      return b2 + b2;
+    n = n.replace(/#/g, ""), n.length === 3 && (n = n.split("").map(function(b) {
+      return b + b;
     }).join(""));
     var t = /^([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})[\da-z]{0,0}$/i.exec(n);
     if (!!t) {
-      var e = parseInt(t[1], 16), r = parseInt(t[2], 16), a2 = parseInt(t[3], 16);
-      e /= 255, r /= 255, a2 /= 255;
-      var o = Math.max(e, r, a2), s = Math.min(e, r, a2), u = (o + s) / 2;
+      var e = parseInt(t[1], 16), r = parseInt(t[2], 16), a = parseInt(t[3], 16);
+      e /= 255, r /= 255, a /= 255;
+      var o = Math.max(e, r, a), s = Math.min(e, r, a), u = (o + s) / 2;
       if (o == s)
         u = 0;
       else {
         var m = o - s;
         switch (o) {
           case e:
-            u = (r - a2) / m + (r < a2 ? 6 : 0);
+            u = (r - a) / m + (r < a ? 6 : 0);
             break;
           case r:
-            u = (a2 - e) / m + 2;
+            u = (a - e) / m + 2;
             break;
-          case a2:
+          case a:
             u = (e - r) / m + 4;
             break;
         }
@@ -589,15 +590,15 @@ var d = (n) => {
   }
 };
 var p = (n, t) => Array.from({ length: n }, (e, r) => r === 0 ? `hsl(${t}, 100%, 80%)` : r < n / 1.4 ? `hsl(${t - 30 * (1 - 2 * (r % 2)) * (r > 2 ? r / 2 : r)}, 100%, ${76 - r * (1 - 2 * (r % 2)) * 1.75}%)` : `hsl(${t - 150 * (1 - 2 * (r % 2))}, 100%, ${76 - r * (1 - 2 * (r % 2)) * 1.25}%)`);
-var M = (n, t, e) => Array.from({ length: n }, (r, a2) => `radial-gradient(at ${e ? g(a2, e, n) : c(a2)}% ${e ? g(a2 * 10, e, n) : c(a2 * 10)}%, ${t[a2]} 0px, transparent 50%)
+var M = (n, t, e) => Array.from({ length: n }, (r, a) => `radial-gradient(at ${e ? g(a, e, n) : c(a)}% ${e ? g(a * 10, e, n) : c(a * 10)}%, ${t[a]} 0px, transparent 50%)
 `);
 var f = (n, t, e) => {
-  let r = p(n, t || i()), a2 = M(n, r, e || void 0);
-  return [r[0], a2.join(",")];
+  let r = p(n, t || i()), a = M(n, r, e || void 0);
+  return [r[0], a.join(",")];
 };
 var k = (n, t, e) => {
-  let [r, a2] = f(n, d(t) ? d(t) : void 0, e || void 0);
-  return { backgroundColor: r, backgroundImage: a2 };
+  let [r, a] = f(n, d(t) ? d(t) : void 0, e || void 0);
+  return { backgroundColor: r, backgroundImage: a };
 };
 
 // src/Version.tsx
@@ -629,7 +630,7 @@ var MenuLogo = () => {
           xmlns: "http://www.w3.org/2000/svg",
           width: "150",
           height: "25",
-          viewBox: "0 0 2344 678",
+          viewBox: "0 0 3032 678",
           className: "w-24 h-6 m-3",
           children: [
             /* @__PURE__ */ jsx3("defs", {}),
@@ -1030,7 +1031,6 @@ var lowercaseSVGElements = [
   "polyline",
   "rect",
   "stop",
-  "svg",
   "switch",
   "symbol",
   "text",
@@ -1098,7 +1098,7 @@ var translateAlias = {
   z: "translateZ",
   transformPerspective: "perspective"
 };
-var sortTransformProps = (a2, b2) => transformPropOrder.indexOf(a2) - transformPropOrder.indexOf(b2);
+var sortTransformProps = (a, b) => transformPropOrder.indexOf(a) - transformPropOrder.indexOf(b);
 function buildTransform({ transform, transformKeys: transformKeys2 }, { enableHardwareAcceleration = true, allowTransformNone = true }, transformIsDefault, transformTemplate) {
   let transformString = "";
   transformKeys2.sort(sortTransformProps);
@@ -1166,11 +1166,11 @@ var isColorString = (type, testProp) => (v) => {
 var splitColor = (aName, bName, cName) => (v) => {
   if (!isString(v))
     return v;
-  const [a2, b2, c3, alpha2] = v.match(floatRegex);
+  const [a, b, c2, alpha2] = v.match(floatRegex);
   return {
-    [aName]: parseFloat(a2),
-    [bName]: parseFloat(b2),
-    [cName]: parseFloat(c3),
+    [aName]: parseFloat(a),
+    [bName]: parseFloat(b),
+    [cName]: parseFloat(c2),
     alpha: alpha2 !== void 0 ? parseFloat(alpha2) : 1
   };
 };
@@ -1197,28 +1197,28 @@ var rgba = {
 function parseHex(v) {
   let r = "";
   let g2 = "";
-  let b2 = "";
-  let a2 = "";
+  let b = "";
+  let a = "";
   if (v.length > 5) {
     r = v.substr(1, 2);
     g2 = v.substr(3, 2);
-    b2 = v.substr(5, 2);
-    a2 = v.substr(7, 2);
+    b = v.substr(5, 2);
+    a = v.substr(7, 2);
   } else {
     r = v.substr(1, 1);
     g2 = v.substr(2, 1);
-    b2 = v.substr(3, 1);
-    a2 = v.substr(4, 1);
+    b = v.substr(3, 1);
+    a = v.substr(4, 1);
     r += r;
     g2 += g2;
-    b2 += b2;
-    a2 += a2;
+    b += b;
+    a += a;
   }
   return {
     red: parseInt(r, 16),
     green: parseInt(g2, 16),
-    blue: parseInt(b2, 16),
-    alpha: a2 ? parseInt(a2, 16) / 255 : 1
+    blue: parseInt(b, 16),
+    alpha: a ? parseInt(a, 16) / 255 : 1
   };
 }
 var hex = {
@@ -2078,912 +2078,9 @@ function useUnmountEffect(callback) {
   return useEffect4(() => () => callback(), []);
 }
 
-// ../../node_modules/tslib/modules/index.js
-var import_tslib = __toESM(require_tslib(), 1);
-var {
-  __extends,
-  __assign,
-  __rest,
-  __decorate,
-  __param,
-  __metadata,
-  __awaiter,
-  __generator,
-  __exportStar,
-  __createBinding,
-  __values,
-  __read,
-  __spread,
-  __spreadArrays,
-  __spreadArray,
-  __await,
-  __asyncGenerator,
-  __asyncDelegator,
-  __asyncValues,
-  __makeTemplateObject,
-  __importStar,
-  __importDefault,
-  __classPrivateFieldGet,
-  __classPrivateFieldSet,
-  __classPrivateFieldIn
-} = import_tslib.default;
-
-// ../../node_modules/hey-listen/dist/hey-listen.es.js
-var warning = function() {
-};
-var invariant = function() {
-};
-if (process.env.NODE_ENV !== "production") {
-  warning = function(check, message) {
-    if (!check && typeof console !== "undefined") {
-      console.warn(message);
-    }
-  };
-  invariant = function(check, message) {
-    if (!check) {
-      throw new Error(message);
-    }
-  };
-}
-
-// ../../node_modules/popmotion/dist/es/utils/clamp.mjs
-var clamp2 = (min, max, v) => Math.min(Math.max(v, min), max);
-
-// ../../node_modules/popmotion/dist/es/animations/utils/find-spring.mjs
-var safeMin = 1e-3;
-var minDuration = 0.01;
-var maxDuration = 10;
-var minDamping = 0.05;
-var maxDamping = 1;
-function findSpring({ duration = 800, bounce = 0.25, velocity = 0, mass = 1 }) {
-  let envelope;
-  let derivative;
-  warning(duration <= maxDuration * 1e3, "Spring duration must be 10 seconds or less");
-  let dampingRatio = 1 - bounce;
-  dampingRatio = clamp2(minDamping, maxDamping, dampingRatio);
-  duration = clamp2(minDuration, maxDuration, duration / 1e3);
-  if (dampingRatio < 1) {
-    envelope = (undampedFreq2) => {
-      const exponentialDecay = undampedFreq2 * dampingRatio;
-      const delta = exponentialDecay * duration;
-      const a2 = exponentialDecay - velocity;
-      const b2 = calcAngularFreq(undampedFreq2, dampingRatio);
-      const c3 = Math.exp(-delta);
-      return safeMin - a2 / b2 * c3;
-    };
-    derivative = (undampedFreq2) => {
-      const exponentialDecay = undampedFreq2 * dampingRatio;
-      const delta = exponentialDecay * duration;
-      const d2 = delta * velocity + velocity;
-      const e = Math.pow(dampingRatio, 2) * Math.pow(undampedFreq2, 2) * duration;
-      const f2 = Math.exp(-delta);
-      const g2 = calcAngularFreq(Math.pow(undampedFreq2, 2), dampingRatio);
-      const factor = -envelope(undampedFreq2) + safeMin > 0 ? -1 : 1;
-      return factor * ((d2 - e) * f2) / g2;
-    };
-  } else {
-    envelope = (undampedFreq2) => {
-      const a2 = Math.exp(-undampedFreq2 * duration);
-      const b2 = (undampedFreq2 - velocity) * duration + 1;
-      return -safeMin + a2 * b2;
-    };
-    derivative = (undampedFreq2) => {
-      const a2 = Math.exp(-undampedFreq2 * duration);
-      const b2 = (velocity - undampedFreq2) * (duration * duration);
-      return a2 * b2;
-    };
-  }
-  const initialGuess = 5 / duration;
-  const undampedFreq = approximateRoot(envelope, derivative, initialGuess);
-  duration = duration * 1e3;
-  if (isNaN(undampedFreq)) {
-    return {
-      stiffness: 100,
-      damping: 10,
-      duration
-    };
-  } else {
-    const stiffness = Math.pow(undampedFreq, 2) * mass;
-    return {
-      stiffness,
-      damping: dampingRatio * 2 * Math.sqrt(mass * stiffness),
-      duration
-    };
-  }
-}
-var rootIterations = 12;
-function approximateRoot(envelope, derivative, initialGuess) {
-  let result = initialGuess;
-  for (let i2 = 1; i2 < rootIterations; i2++) {
-    result = result - envelope(result) / derivative(result);
-  }
-  return result;
-}
-function calcAngularFreq(undampedFreq, dampingRatio) {
-  return undampedFreq * Math.sqrt(1 - dampingRatio * dampingRatio);
-}
-
-// ../../node_modules/popmotion/dist/es/animations/generators/spring.mjs
-var durationKeys = ["duration", "bounce"];
-var physicsKeys = ["stiffness", "damping", "mass"];
-function isSpringType(options, keys2) {
-  return keys2.some((key) => options[key] !== void 0);
-}
-function getSpringOptions(options) {
-  let springOptions = Object.assign({ velocity: 0, stiffness: 100, damping: 10, mass: 1, isResolvedFromDuration: false }, options);
-  if (!isSpringType(options, physicsKeys) && isSpringType(options, durationKeys)) {
-    const derived = findSpring(options);
-    springOptions = Object.assign(Object.assign(Object.assign({}, springOptions), derived), { velocity: 0, mass: 1 });
-    springOptions.isResolvedFromDuration = true;
-  }
-  return springOptions;
-}
-function spring(_a) {
-  var { from = 0, to = 1, restSpeed = 2, restDelta } = _a, options = __rest(_a, ["from", "to", "restSpeed", "restDelta"]);
-  const state = { done: false, value: from };
-  let { stiffness, damping, mass, velocity, duration, isResolvedFromDuration } = getSpringOptions(options);
-  let resolveSpring = zero;
-  let resolveVelocity = zero;
-  function createSpring() {
-    const initialVelocity = velocity ? -(velocity / 1e3) : 0;
-    const initialDelta = to - from;
-    const dampingRatio = damping / (2 * Math.sqrt(stiffness * mass));
-    const undampedAngularFreq = Math.sqrt(stiffness / mass) / 1e3;
-    if (restDelta === void 0) {
-      restDelta = Math.min(Math.abs(to - from) / 100, 0.4);
-    }
-    if (dampingRatio < 1) {
-      const angularFreq = calcAngularFreq(undampedAngularFreq, dampingRatio);
-      resolveSpring = (t) => {
-        const envelope = Math.exp(-dampingRatio * undampedAngularFreq * t);
-        return to - envelope * ((initialVelocity + dampingRatio * undampedAngularFreq * initialDelta) / angularFreq * Math.sin(angularFreq * t) + initialDelta * Math.cos(angularFreq * t));
-      };
-      resolveVelocity = (t) => {
-        const envelope = Math.exp(-dampingRatio * undampedAngularFreq * t);
-        return dampingRatio * undampedAngularFreq * envelope * (Math.sin(angularFreq * t) * (initialVelocity + dampingRatio * undampedAngularFreq * initialDelta) / angularFreq + initialDelta * Math.cos(angularFreq * t)) - envelope * (Math.cos(angularFreq * t) * (initialVelocity + dampingRatio * undampedAngularFreq * initialDelta) - angularFreq * initialDelta * Math.sin(angularFreq * t));
-      };
-    } else if (dampingRatio === 1) {
-      resolveSpring = (t) => to - Math.exp(-undampedAngularFreq * t) * (initialDelta + (initialVelocity + undampedAngularFreq * initialDelta) * t);
-    } else {
-      const dampedAngularFreq = undampedAngularFreq * Math.sqrt(dampingRatio * dampingRatio - 1);
-      resolveSpring = (t) => {
-        const envelope = Math.exp(-dampingRatio * undampedAngularFreq * t);
-        const freqForT = Math.min(dampedAngularFreq * t, 300);
-        return to - envelope * ((initialVelocity + dampingRatio * undampedAngularFreq * initialDelta) * Math.sinh(freqForT) + dampedAngularFreq * initialDelta * Math.cosh(freqForT)) / dampedAngularFreq;
-      };
-    }
-  }
-  createSpring();
-  return {
-    next: (t) => {
-      const current = resolveSpring(t);
-      if (!isResolvedFromDuration) {
-        const currentVelocity = resolveVelocity(t) * 1e3;
-        const isBelowVelocityThreshold = Math.abs(currentVelocity) <= restSpeed;
-        const isBelowDisplacementThreshold = Math.abs(to - current) <= restDelta;
-        state.done = isBelowVelocityThreshold && isBelowDisplacementThreshold;
-      } else {
-        state.done = t >= duration;
-      }
-      state.value = state.done ? to : current;
-      return state;
-    },
-    flipTarget: () => {
-      velocity = -velocity;
-      [from, to] = [to, from];
-      createSpring();
-    }
-  };
-}
-spring.needsInterpolation = (a2, b2) => typeof a2 === "string" || typeof b2 === "string";
-var zero = (_t) => 0;
-
-// ../../node_modules/popmotion/dist/es/utils/progress.mjs
-var progress = (from, to, value) => {
-  const toFromDifference = to - from;
-  return toFromDifference === 0 ? 1 : (value - from) / toFromDifference;
-};
-
-// ../../node_modules/popmotion/dist/es/utils/mix.mjs
-var mix = (from, to, progress3) => -progress3 * from + progress3 * to + from;
-
-// ../../node_modules/popmotion/dist/es/utils/hsla-to-rgba.mjs
-function hueToRgb(p2, q, t) {
-  if (t < 0)
-    t += 1;
-  if (t > 1)
-    t -= 1;
-  if (t < 1 / 6)
-    return p2 + (q - p2) * 6 * t;
-  if (t < 1 / 2)
-    return q;
-  if (t < 2 / 3)
-    return p2 + (q - p2) * (2 / 3 - t) * 6;
-  return p2;
-}
-function hslaToRgba({ hue, saturation, lightness, alpha: alpha2 }) {
-  hue /= 360;
-  saturation /= 100;
-  lightness /= 100;
-  let red = 0;
-  let green = 0;
-  let blue = 0;
-  if (!saturation) {
-    red = green = blue = lightness;
-  } else {
-    const q = lightness < 0.5 ? lightness * (1 + saturation) : lightness + saturation - lightness * saturation;
-    const p2 = 2 * lightness - q;
-    red = hueToRgb(p2, q, hue + 1 / 3);
-    green = hueToRgb(p2, q, hue);
-    blue = hueToRgb(p2, q, hue - 1 / 3);
-  }
-  return {
-    red: Math.round(red * 255),
-    green: Math.round(green * 255),
-    blue: Math.round(blue * 255),
-    alpha: alpha2
-  };
-}
-
-// ../../node_modules/popmotion/dist/es/utils/mix-color.mjs
-var mixLinearColor = (from, to, v) => {
-  const fromExpo = from * from;
-  const toExpo = to * to;
-  return Math.sqrt(Math.max(0, v * (toExpo - fromExpo) + fromExpo));
-};
-var colorTypes = [hex, rgba, hsla];
-var getColorType = (v) => colorTypes.find((type) => type.test(v));
-var notAnimatable = (color2) => `'${color2}' is not an animatable color. Use the equivalent color code instead.`;
-var mixColor = (from, to) => {
-  let fromColorType = getColorType(from);
-  let toColorType = getColorType(to);
-  invariant(!!fromColorType, notAnimatable(from));
-  invariant(!!toColorType, notAnimatable(to));
-  let fromColor = fromColorType.parse(from);
-  let toColor = toColorType.parse(to);
-  if (fromColorType === hsla) {
-    fromColor = hslaToRgba(fromColor);
-    fromColorType = rgba;
-  }
-  if (toColorType === hsla) {
-    toColor = hslaToRgba(toColor);
-    toColorType = rgba;
-  }
-  const blended = Object.assign({}, fromColor);
-  return (v) => {
-    for (const key in blended) {
-      if (key !== "alpha") {
-        blended[key] = mixLinearColor(fromColor[key], toColor[key], v);
-      }
-    }
-    blended.alpha = mix(fromColor.alpha, toColor.alpha, v);
-    return fromColorType.transform(blended);
-  };
-};
-
-// ../../node_modules/popmotion/dist/es/utils/inc.mjs
-var isNum = (v) => typeof v === "number";
-
-// ../../node_modules/popmotion/dist/es/utils/pipe.mjs
-var combineFunctions = (a2, b2) => (v) => b2(a2(v));
+// ../../node_modules/framer-motion/dist/es/utils/pipe.mjs
+var combineFunctions = (a, b) => (v) => b(a(v));
 var pipe = (...transformers) => transformers.reduce(combineFunctions);
-
-// ../../node_modules/popmotion/dist/es/utils/mix-complex.mjs
-function getMixer(origin, target) {
-  if (isNum(origin)) {
-    return (v) => mix(origin, target, v);
-  } else if (color.test(origin)) {
-    return mixColor(origin, target);
-  } else {
-    return mixComplex(origin, target);
-  }
-}
-var mixArray = (from, to) => {
-  const output = [...from];
-  const numValues = output.length;
-  const blendValue = from.map((fromThis, i2) => getMixer(fromThis, to[i2]));
-  return (v) => {
-    for (let i2 = 0; i2 < numValues; i2++) {
-      output[i2] = blendValue[i2](v);
-    }
-    return output;
-  };
-};
-var mixObject = (origin, target) => {
-  const output = Object.assign(Object.assign({}, origin), target);
-  const blendValue = {};
-  for (const key in output) {
-    if (origin[key] !== void 0 && target[key] !== void 0) {
-      blendValue[key] = getMixer(origin[key], target[key]);
-    }
-  }
-  return (v) => {
-    for (const key in blendValue) {
-      output[key] = blendValue[key](v);
-    }
-    return output;
-  };
-};
-function analyse2(value) {
-  const parsed = complex.parse(value);
-  const numValues = parsed.length;
-  let numNumbers = 0;
-  let numRGB = 0;
-  let numHSL = 0;
-  for (let i2 = 0; i2 < numValues; i2++) {
-    if (numNumbers || typeof parsed[i2] === "number") {
-      numNumbers++;
-    } else {
-      if (parsed[i2].hue !== void 0) {
-        numHSL++;
-      } else {
-        numRGB++;
-      }
-    }
-  }
-  return { parsed, numNumbers, numRGB, numHSL };
-}
-var mixComplex = (origin, target) => {
-  const template = complex.createTransformer(target);
-  const originStats = analyse2(origin);
-  const targetStats = analyse2(target);
-  const canInterpolate = originStats.numHSL === targetStats.numHSL && originStats.numRGB === targetStats.numRGB && originStats.numNumbers >= targetStats.numNumbers;
-  if (canInterpolate) {
-    return pipe(mixArray(originStats.parsed, targetStats.parsed), template);
-  } else {
-    warning(true, `Complex values '${origin}' and '${target}' too different to mix. Ensure all colors are of the same type, and that each contains the same quantity of number and color values. Falling back to instant transition.`);
-    return (p2) => `${p2 > 0 ? target : origin}`;
-  }
-};
-
-// ../../node_modules/popmotion/dist/es/utils/interpolate.mjs
-var mixNumber = (from, to) => (p2) => mix(from, to, p2);
-function detectMixerFactory(v) {
-  if (typeof v === "number") {
-    return mixNumber;
-  } else if (typeof v === "string") {
-    if (color.test(v)) {
-      return mixColor;
-    } else {
-      return mixComplex;
-    }
-  } else if (Array.isArray(v)) {
-    return mixArray;
-  } else if (typeof v === "object") {
-    return mixObject;
-  }
-}
-function createMixers(output, ease, customMixer) {
-  const mixers = [];
-  const mixerFactory = customMixer || detectMixerFactory(output[0]);
-  const numMixers = output.length - 1;
-  for (let i2 = 0; i2 < numMixers; i2++) {
-    let mixer = mixerFactory(output[i2], output[i2 + 1]);
-    if (ease) {
-      const easingFunction = Array.isArray(ease) ? ease[i2] : ease;
-      mixer = pipe(easingFunction, mixer);
-    }
-    mixers.push(mixer);
-  }
-  return mixers;
-}
-function fastInterpolate([from, to], [mixer]) {
-  return (v) => mixer(progress(from, to, v));
-}
-function slowInterpolate(input, mixers) {
-  const inputLength = input.length;
-  const lastInputIndex = inputLength - 1;
-  return (v) => {
-    let mixerIndex = 0;
-    let foundMixerIndex = false;
-    if (v <= input[0]) {
-      foundMixerIndex = true;
-    } else if (v >= input[lastInputIndex]) {
-      mixerIndex = lastInputIndex - 1;
-      foundMixerIndex = true;
-    }
-    if (!foundMixerIndex) {
-      let i2 = 1;
-      for (; i2 < inputLength; i2++) {
-        if (input[i2] > v || i2 === lastInputIndex) {
-          break;
-        }
-      }
-      mixerIndex = i2 - 1;
-    }
-    const progressInRange = progress(input[mixerIndex], input[mixerIndex + 1], v);
-    return mixers[mixerIndex](progressInRange);
-  };
-}
-function interpolate(input, output, { clamp: isClamp = true, ease, mixer } = {}) {
-  const inputLength = input.length;
-  invariant(inputLength === output.length, "Both input and output ranges must be the same length");
-  invariant(!ease || !Array.isArray(ease) || ease.length === inputLength - 1, "Array of easing functions must be of length `input.length - 1`, as it applies to the transitions **between** the defined values.");
-  if (input[0] > input[inputLength - 1]) {
-    input = [].concat(input);
-    output = [].concat(output);
-    input.reverse();
-    output.reverse();
-  }
-  const mixers = createMixers(output, ease, mixer);
-  const interpolator = inputLength === 2 ? fastInterpolate(input, mixers) : slowInterpolate(input, mixers);
-  return isClamp ? (v) => interpolator(clamp2(input[0], input[inputLength - 1], v)) : interpolator;
-}
-
-// ../../node_modules/popmotion/dist/es/easing/utils.mjs
-var reverseEasing = (easing) => (p2) => 1 - easing(1 - p2);
-var mirrorEasing = (easing) => (p2) => p2 <= 0.5 ? easing(2 * p2) / 2 : (2 - easing(2 * (1 - p2))) / 2;
-var createExpoIn = (power) => (p2) => Math.pow(p2, power);
-var createBackIn = (power) => (p2) => p2 * p2 * ((power + 1) * p2 - power);
-var createAnticipate = (power) => {
-  const backEasing = createBackIn(power);
-  return (p2) => (p2 *= 2) < 1 ? 0.5 * backEasing(p2) : 0.5 * (2 - Math.pow(2, -10 * (p2 - 1)));
-};
-
-// ../../node_modules/popmotion/dist/es/easing/index.mjs
-var DEFAULT_OVERSHOOT_STRENGTH = 1.525;
-var BOUNCE_FIRST_THRESHOLD = 4 / 11;
-var BOUNCE_SECOND_THRESHOLD = 8 / 11;
-var BOUNCE_THIRD_THRESHOLD = 9 / 10;
-var linear = (p2) => p2;
-var easeIn = createExpoIn(2);
-var easeOut = reverseEasing(easeIn);
-var easeInOut = mirrorEasing(easeIn);
-var circIn = (p2) => 1 - Math.sin(Math.acos(p2));
-var circOut = reverseEasing(circIn);
-var circInOut = mirrorEasing(circOut);
-var backIn = createBackIn(DEFAULT_OVERSHOOT_STRENGTH);
-var backOut = reverseEasing(backIn);
-var backInOut = mirrorEasing(backIn);
-var anticipate = createAnticipate(DEFAULT_OVERSHOOT_STRENGTH);
-var ca = 4356 / 361;
-var cb = 35442 / 1805;
-var cc = 16061 / 1805;
-var bounceOut = (p2) => {
-  if (p2 === 1 || p2 === 0)
-    return p2;
-  const p22 = p2 * p2;
-  return p2 < BOUNCE_FIRST_THRESHOLD ? 7.5625 * p22 : p2 < BOUNCE_SECOND_THRESHOLD ? 9.075 * p22 - 9.9 * p2 + 3.4 : p2 < BOUNCE_THIRD_THRESHOLD ? ca * p22 - cb * p2 + cc : 10.8 * p2 * p2 - 20.52 * p2 + 10.72;
-};
-var bounceIn = reverseEasing(bounceOut);
-var bounceInOut = (p2) => p2 < 0.5 ? 0.5 * (1 - bounceOut(1 - p2 * 2)) : 0.5 * bounceOut(p2 * 2 - 1) + 0.5;
-
-// ../../node_modules/popmotion/dist/es/animations/generators/keyframes.mjs
-function defaultEasing(values, easing) {
-  return values.map(() => easing || easeInOut).splice(0, values.length - 1);
-}
-function defaultOffset(values) {
-  const numValues = values.length;
-  return values.map((_value, i2) => i2 !== 0 ? i2 / (numValues - 1) : 0);
-}
-function convertOffsetToTimes(offset, duration) {
-  return offset.map((o) => o * duration);
-}
-function keyframes({ from = 0, to = 1, ease, offset, duration = 300 }) {
-  const state = { done: false, value: from };
-  const values = Array.isArray(to) ? to : [from, to];
-  const times = convertOffsetToTimes(offset && offset.length === values.length ? offset : defaultOffset(values), duration);
-  function createInterpolator() {
-    return interpolate(times, values, {
-      ease: Array.isArray(ease) ? ease : defaultEasing(values, ease)
-    });
-  }
-  let interpolator = createInterpolator();
-  return {
-    next: (t) => {
-      state.value = interpolator(t);
-      state.done = t >= duration;
-      return state;
-    },
-    flipTarget: () => {
-      values.reverse();
-      interpolator = createInterpolator();
-    }
-  };
-}
-
-// ../../node_modules/popmotion/dist/es/animations/generators/decay.mjs
-function decay({ velocity = 0, from = 0, power = 0.8, timeConstant = 350, restDelta = 0.5, modifyTarget }) {
-  const state = { done: false, value: from };
-  let amplitude = power * velocity;
-  const ideal = from + amplitude;
-  const target = modifyTarget === void 0 ? ideal : modifyTarget(ideal);
-  if (target !== ideal)
-    amplitude = target - from;
-  return {
-    next: (t) => {
-      const delta = -amplitude * Math.exp(-t / timeConstant);
-      state.done = !(delta > restDelta || delta < -restDelta);
-      state.value = state.done ? target : target + delta;
-      return state;
-    },
-    flipTarget: () => {
-    }
-  };
-}
-
-// ../../node_modules/popmotion/dist/es/animations/utils/detect-animation-from-options.mjs
-var types = { keyframes, spring, decay };
-function detectAnimationFromOptions(config) {
-  if (Array.isArray(config.to)) {
-    return keyframes;
-  } else if (types[config.type]) {
-    return types[config.type];
-  }
-  const keys2 = new Set(Object.keys(config));
-  if (keys2.has("ease") || keys2.has("duration") && !keys2.has("dampingRatio")) {
-    return keyframes;
-  } else if (keys2.has("dampingRatio") || keys2.has("stiffness") || keys2.has("mass") || keys2.has("damping") || keys2.has("restSpeed") || keys2.has("restDelta")) {
-    return spring;
-  }
-  return keyframes;
-}
-
-// ../../node_modules/framesync/dist/es/on-next-frame.mjs
-var defaultTimestep = 1 / 60 * 1e3;
-var getCurrentTime = typeof performance !== "undefined" ? () => performance.now() : () => Date.now();
-var onNextFrame = typeof window !== "undefined" ? (callback) => window.requestAnimationFrame(callback) : (callback) => setTimeout(() => callback(getCurrentTime()), defaultTimestep);
-
-// ../../node_modules/framesync/dist/es/create-render-step.mjs
-function createRenderStep(runNextFrame2) {
-  let toRun = [];
-  let toRunNextFrame = [];
-  let numToRun = 0;
-  let isProcessing2 = false;
-  let flushNextFrame = false;
-  const toKeepAlive = /* @__PURE__ */ new WeakSet();
-  const step = {
-    schedule: (callback, keepAlive = false, immediate = false) => {
-      const addToCurrentFrame = immediate && isProcessing2;
-      const buffer = addToCurrentFrame ? toRun : toRunNextFrame;
-      if (keepAlive)
-        toKeepAlive.add(callback);
-      if (buffer.indexOf(callback) === -1) {
-        buffer.push(callback);
-        if (addToCurrentFrame && isProcessing2)
-          numToRun = toRun.length;
-      }
-      return callback;
-    },
-    cancel: (callback) => {
-      const index2 = toRunNextFrame.indexOf(callback);
-      if (index2 !== -1)
-        toRunNextFrame.splice(index2, 1);
-      toKeepAlive.delete(callback);
-    },
-    process: (frameData) => {
-      if (isProcessing2) {
-        flushNextFrame = true;
-        return;
-      }
-      isProcessing2 = true;
-      [toRun, toRunNextFrame] = [toRunNextFrame, toRun];
-      toRunNextFrame.length = 0;
-      numToRun = toRun.length;
-      if (numToRun) {
-        for (let i2 = 0; i2 < numToRun; i2++) {
-          const callback = toRun[i2];
-          callback(frameData);
-          if (toKeepAlive.has(callback)) {
-            step.schedule(callback);
-            runNextFrame2();
-          }
-        }
-      }
-      isProcessing2 = false;
-      if (flushNextFrame) {
-        flushNextFrame = false;
-        step.process(frameData);
-      }
-    }
-  };
-  return step;
-}
-
-// ../../node_modules/framesync/dist/es/index.mjs
-var maxElapsed = 40;
-var useDefaultElapsed = true;
-var runNextFrame = false;
-var isProcessing = false;
-var frame = {
-  delta: 0,
-  timestamp: 0
-};
-var stepsOrder = [
-  "read",
-  "update",
-  "preRender",
-  "render",
-  "postRender"
-];
-var steps = stepsOrder.reduce((acc, key) => {
-  acc[key] = createRenderStep(() => runNextFrame = true);
-  return acc;
-}, {});
-var sync = stepsOrder.reduce((acc, key) => {
-  const step = steps[key];
-  acc[key] = (process2, keepAlive = false, immediate = false) => {
-    if (!runNextFrame)
-      startLoop();
-    return step.schedule(process2, keepAlive, immediate);
-  };
-  return acc;
-}, {});
-var cancelSync = stepsOrder.reduce((acc, key) => {
-  acc[key] = steps[key].cancel;
-  return acc;
-}, {});
-var flushSync = stepsOrder.reduce((acc, key) => {
-  acc[key] = () => steps[key].process(frame);
-  return acc;
-}, {});
-var processStep = (stepId) => steps[stepId].process(frame);
-var processFrame = (timestamp) => {
-  runNextFrame = false;
-  frame.delta = useDefaultElapsed ? defaultTimestep : Math.max(Math.min(timestamp - frame.timestamp, maxElapsed), 1);
-  frame.timestamp = timestamp;
-  isProcessing = true;
-  stepsOrder.forEach(processStep);
-  isProcessing = false;
-  if (runNextFrame) {
-    useDefaultElapsed = false;
-    onNextFrame(processFrame);
-  }
-};
-var startLoop = () => {
-  runNextFrame = true;
-  useDefaultElapsed = true;
-  if (!isProcessing)
-    onNextFrame(processFrame);
-};
-var getFrameData = () => frame;
-var es_default = sync;
-
-// ../../node_modules/popmotion/dist/es/animations/utils/elapsed.mjs
-function loopElapsed(elapsed, duration, delay2 = 0) {
-  return elapsed - duration - delay2;
-}
-function reverseElapsed(elapsed, duration, delay2 = 0, isForwardPlayback = true) {
-  return isForwardPlayback ? loopElapsed(duration + -elapsed, duration, delay2) : duration - (elapsed - duration) + delay2;
-}
-function hasRepeatDelayElapsed(elapsed, duration, delay2, isForwardPlayback) {
-  return isForwardPlayback ? elapsed >= duration + delay2 : elapsed <= -delay2;
-}
-
-// ../../node_modules/popmotion/dist/es/animations/index.mjs
-var framesync = (update) => {
-  const passTimestamp = ({ delta }) => update(delta);
-  return {
-    start: () => es_default.update(passTimestamp, true),
-    stop: () => cancelSync.update(passTimestamp)
-  };
-};
-function animate(_a) {
-  var _b, _c;
-  var { from, autoplay = true, driver = framesync, elapsed = 0, repeat: repeatMax = 0, repeatType = "loop", repeatDelay = 0, onPlay, onStop, onComplete, onRepeat, onUpdate } = _a, options = __rest(_a, ["from", "autoplay", "driver", "elapsed", "repeat", "repeatType", "repeatDelay", "onPlay", "onStop", "onComplete", "onRepeat", "onUpdate"]);
-  let { to } = options;
-  let driverControls;
-  let repeatCount = 0;
-  let computedDuration = options.duration;
-  let latest;
-  let isComplete = false;
-  let isForwardPlayback = true;
-  let interpolateFromNumber;
-  const animator = detectAnimationFromOptions(options);
-  if ((_c = (_b = animator).needsInterpolation) === null || _c === void 0 ? void 0 : _c.call(_b, from, to)) {
-    interpolateFromNumber = interpolate([0, 100], [from, to], {
-      clamp: false
-    });
-    from = 0;
-    to = 100;
-  }
-  const animation = animator(Object.assign(Object.assign({}, options), { from, to }));
-  function repeat() {
-    repeatCount++;
-    if (repeatType === "reverse") {
-      isForwardPlayback = repeatCount % 2 === 0;
-      elapsed = reverseElapsed(elapsed, computedDuration, repeatDelay, isForwardPlayback);
-    } else {
-      elapsed = loopElapsed(elapsed, computedDuration, repeatDelay);
-      if (repeatType === "mirror")
-        animation.flipTarget();
-    }
-    isComplete = false;
-    onRepeat && onRepeat();
-  }
-  function complete() {
-    driverControls.stop();
-    onComplete && onComplete();
-  }
-  function update(delta) {
-    if (!isForwardPlayback)
-      delta = -delta;
-    elapsed += delta;
-    if (!isComplete) {
-      const state = animation.next(Math.max(0, elapsed));
-      latest = state.value;
-      if (interpolateFromNumber)
-        latest = interpolateFromNumber(latest);
-      isComplete = isForwardPlayback ? state.done : elapsed <= 0;
-    }
-    onUpdate === null || onUpdate === void 0 ? void 0 : onUpdate(latest);
-    if (isComplete) {
-      if (repeatCount === 0)
-        computedDuration !== null && computedDuration !== void 0 ? computedDuration : computedDuration = elapsed;
-      if (repeatCount < repeatMax) {
-        hasRepeatDelayElapsed(elapsed, computedDuration, repeatDelay, isForwardPlayback) && repeat();
-      } else {
-        complete();
-      }
-    }
-  }
-  function play() {
-    onPlay === null || onPlay === void 0 ? void 0 : onPlay();
-    driverControls = driver(update);
-    driverControls.start();
-  }
-  autoplay && play();
-  return {
-    stop: () => {
-      onStop === null || onStop === void 0 ? void 0 : onStop();
-      driverControls.stop();
-    }
-  };
-}
-
-// ../../node_modules/popmotion/dist/es/utils/velocity-per-second.mjs
-function velocityPerSecond(velocity, frameDuration) {
-  return frameDuration ? velocity * (1e3 / frameDuration) : 0;
-}
-
-// ../../node_modules/popmotion/dist/es/animations/inertia.mjs
-function inertia({ from = 0, velocity = 0, min, max, power = 0.8, timeConstant = 750, bounceStiffness = 500, bounceDamping = 10, restDelta = 1, modifyTarget, driver, onUpdate, onComplete, onStop }) {
-  let currentAnimation;
-  function isOutOfBounds(v) {
-    return min !== void 0 && v < min || max !== void 0 && v > max;
-  }
-  function boundaryNearest(v) {
-    if (min === void 0)
-      return max;
-    if (max === void 0)
-      return min;
-    return Math.abs(min - v) < Math.abs(max - v) ? min : max;
-  }
-  function startAnimation2(options) {
-    currentAnimation === null || currentAnimation === void 0 ? void 0 : currentAnimation.stop();
-    currentAnimation = animate(Object.assign(Object.assign({}, options), {
-      driver,
-      onUpdate: (v) => {
-        var _a;
-        onUpdate === null || onUpdate === void 0 ? void 0 : onUpdate(v);
-        (_a = options.onUpdate) === null || _a === void 0 ? void 0 : _a.call(options, v);
-      },
-      onComplete,
-      onStop
-    }));
-  }
-  function startSpring(options) {
-    startAnimation2(Object.assign({ type: "spring", stiffness: bounceStiffness, damping: bounceDamping, restDelta }, options));
-  }
-  if (isOutOfBounds(from)) {
-    startSpring({ from, velocity, to: boundaryNearest(from) });
-  } else {
-    let target = power * velocity + from;
-    if (typeof modifyTarget !== "undefined")
-      target = modifyTarget(target);
-    const boundary = boundaryNearest(target);
-    const heading = boundary === min ? -1 : 1;
-    let prev;
-    let current;
-    const checkBoundary = (v) => {
-      prev = current;
-      current = v;
-      velocity = velocityPerSecond(v - prev, getFrameData().delta);
-      if (heading === 1 && v > boundary || heading === -1 && v < boundary) {
-        startSpring({ from: v, to: boundary, velocity });
-      }
-    };
-    startAnimation2({
-      type: "decay",
-      from,
-      velocity,
-      timeConstant,
-      power,
-      restDelta,
-      modifyTarget,
-      onUpdate: isOutOfBounds(target) ? checkBoundary : void 0
-    });
-  }
-  return {
-    stop: () => currentAnimation === null || currentAnimation === void 0 ? void 0 : currentAnimation.stop()
-  };
-}
-
-// ../../node_modules/popmotion/dist/es/utils/is-point.mjs
-var isPoint = (point2) => point2.hasOwnProperty("x") && point2.hasOwnProperty("y");
-
-// ../../node_modules/popmotion/dist/es/utils/is-point-3d.mjs
-var isPoint3D = (point2) => isPoint(point2) && point2.hasOwnProperty("z");
-
-// ../../node_modules/popmotion/dist/es/utils/distance.mjs
-var distance1D = (a2, b2) => Math.abs(a2 - b2);
-function distance(a2, b2) {
-  if (isNum(a2) && isNum(b2)) {
-    return distance1D(a2, b2);
-  } else if (isPoint(a2) && isPoint(b2)) {
-    const xDelta = distance1D(a2.x, b2.x);
-    const yDelta = distance1D(a2.y, b2.y);
-    const zDelta = isPoint3D(a2) && isPoint3D(b2) ? distance1D(a2.z, b2.z) : 0;
-    return Math.sqrt(Math.pow(xDelta, 2) + Math.pow(yDelta, 2) + Math.pow(zDelta, 2));
-  }
-}
-
-// ../../node_modules/popmotion/dist/es/easing/cubic-bezier.mjs
-var a = (a1, a2) => 1 - 3 * a2 + 3 * a1;
-var b = (a1, a2) => 3 * a2 - 6 * a1;
-var c2 = (a1) => 3 * a1;
-var calcBezier = (t, a1, a2) => ((a(a1, a2) * t + b(a1, a2)) * t + c2(a1)) * t;
-var getSlope = (t, a1, a2) => 3 * a(a1, a2) * t * t + 2 * b(a1, a2) * t + c2(a1);
-var subdivisionPrecision = 1e-7;
-var subdivisionMaxIterations = 10;
-function binarySubdivide(aX, aA, aB, mX1, mX2) {
-  let currentX;
-  let currentT;
-  let i2 = 0;
-  do {
-    currentT = aA + (aB - aA) / 2;
-    currentX = calcBezier(currentT, mX1, mX2) - aX;
-    if (currentX > 0) {
-      aB = currentT;
-    } else {
-      aA = currentT;
-    }
-  } while (Math.abs(currentX) > subdivisionPrecision && ++i2 < subdivisionMaxIterations);
-  return currentT;
-}
-var newtonIterations = 8;
-var newtonMinSlope = 1e-3;
-function newtonRaphsonIterate(aX, aGuessT, mX1, mX2) {
-  for (let i2 = 0; i2 < newtonIterations; ++i2) {
-    const currentSlope = getSlope(aGuessT, mX1, mX2);
-    if (currentSlope === 0) {
-      return aGuessT;
-    }
-    const currentX = calcBezier(aGuessT, mX1, mX2) - aX;
-    aGuessT -= currentX / currentSlope;
-  }
-  return aGuessT;
-}
-var kSplineTableSize = 11;
-var kSampleStepSize = 1 / (kSplineTableSize - 1);
-function cubicBezier(mX1, mY1, mX2, mY2) {
-  if (mX1 === mY1 && mX2 === mY2)
-    return linear;
-  const sampleValues = new Float32Array(kSplineTableSize);
-  for (let i2 = 0; i2 < kSplineTableSize; ++i2) {
-    sampleValues[i2] = calcBezier(i2 * kSampleStepSize, mX1, mX2);
-  }
-  function getTForX(aX) {
-    let intervalStart = 0;
-    let currentSample = 1;
-    const lastSample = kSplineTableSize - 1;
-    for (; currentSample !== lastSample && sampleValues[currentSample] <= aX; ++currentSample) {
-      intervalStart += kSampleStepSize;
-    }
-    --currentSample;
-    const dist = (aX - sampleValues[currentSample]) / (sampleValues[currentSample + 1] - sampleValues[currentSample]);
-    const guessForT = intervalStart + dist * kSampleStepSize;
-    const initialSlope = getSlope(guessForT, mX1, mX2);
-    if (initialSlope >= newtonMinSlope) {
-      return newtonRaphsonIterate(aX, guessForT, mX1, mX2);
-    } else if (initialSlope === 0) {
-      return guessForT;
-    } else {
-      return binarySubdivide(aX, intervalStart, intervalStart + kSampleStepSize, mX1, mX2);
-    }
-  }
-  return (t) => t === 0 || t === 1 ? t : calcBezier(getTForX(t), mY1, mY2);
-}
 
 // ../../node_modules/framer-motion/dist/es/gestures/use-tap-gesture.mjs
 function useTapGesture({ onTap, onTapStart, onTapCancel, whileTap, visualElement }) {
@@ -3164,9 +2261,9 @@ function usePresence() {
   if (context === null)
     return [true, null];
   const { isPresent, onExitComplete, register } = context;
-  const id2 = useId();
-  useEffect6(() => register(id2), []);
-  const safeToRemove = () => onExitComplete && onExitComplete(id2);
+  const id3 = useId();
+  useEffect6(() => register(id3), []);
+  const safeToRemove = () => onExitComplete && onExitComplete(id3);
   return !isPresent && onExitComplete ? [false, safeToRemove] : [true];
 }
 
@@ -3187,9 +2284,85 @@ function shallowCompare(next, prev) {
 // ../../node_modules/framer-motion/dist/es/utils/time-conversion.mjs
 var secondsToMilliseconds = (seconds) => seconds * 1e3;
 
+// ../../node_modules/hey-listen/dist/hey-listen.es.js
+var warning = function() {
+};
+var invariant = function() {
+};
+if (process.env.NODE_ENV !== "production") {
+  warning = function(check, message) {
+    if (!check && typeof console !== "undefined") {
+      console.warn(message);
+    }
+  };
+  invariant = function(check, message) {
+    if (!check) {
+      throw new Error(message);
+    }
+  };
+}
+
+// ../../node_modules/framer-motion/dist/es/utils/noop.mjs
+var noop = (any) => any;
+
+// ../../node_modules/framer-motion/dist/es/easing/cubic-bezier.mjs
+var calcBezier = (t, a1, a2) => (((1 - 3 * a2 + 3 * a1) * t + (3 * a2 - 6 * a1)) * t + 3 * a1) * t;
+var subdivisionPrecision = 1e-7;
+var subdivisionMaxIterations = 12;
+function binarySubdivide(x, lowerBound, upperBound, mX1, mX2) {
+  let currentX;
+  let currentT;
+  let i2 = 0;
+  do {
+    currentT = lowerBound + (upperBound - lowerBound) / 2;
+    currentX = calcBezier(currentT, mX1, mX2) - x;
+    if (currentX > 0) {
+      upperBound = currentT;
+    } else {
+      lowerBound = currentT;
+    }
+  } while (Math.abs(currentX) > subdivisionPrecision && ++i2 < subdivisionMaxIterations);
+  return currentT;
+}
+function cubicBezier(mX1, mY1, mX2, mY2) {
+  if (mX1 === mY1 && mX2 === mY2)
+    return noop;
+  const getTForX = (aX) => binarySubdivide(aX, 0, 1, mX1, mX2);
+  return (t) => t === 0 || t === 1 ? t : calcBezier(getTForX(t), mY1, mY2);
+}
+
+// ../../node_modules/framer-motion/dist/es/easing/modifiers/mirror.mjs
+var mirrorEasing = (easing) => (p2) => p2 <= 0.5 ? easing(2 * p2) / 2 : (2 - easing(2 * (1 - p2))) / 2;
+
+// ../../node_modules/framer-motion/dist/es/easing/modifiers/reverse.mjs
+var reverseEasing = (easing) => (p2) => 1 - easing(1 - p2);
+
+// ../../node_modules/framer-motion/dist/es/easing/ease.mjs
+var easeIn = (p2) => p2 * p2;
+var easeOut = reverseEasing(easeIn);
+var easeInOut = mirrorEasing(easeIn);
+
+// ../../node_modules/framer-motion/dist/es/easing/circ.mjs
+var circIn = (p2) => 1 - Math.sin(Math.acos(p2));
+var circOut = reverseEasing(circIn);
+var circInOut = mirrorEasing(circOut);
+
+// ../../node_modules/framer-motion/dist/es/easing/back.mjs
+var createBackIn = (power = 1.525) => (p2) => p2 * p2 * ((power + 1) * p2 - power);
+var backIn = createBackIn();
+var backOut = reverseEasing(backIn);
+var backInOut = mirrorEasing(backIn);
+
+// ../../node_modules/framer-motion/dist/es/easing/anticipate.mjs
+var createAnticipate = (power) => {
+  const backEasing = createBackIn(power);
+  return (p2) => (p2 *= 2) < 1 ? 0.5 * backEasing(p2) : 0.5 * (2 - Math.pow(2, -10 * (p2 - 1)));
+};
+var anticipate = createAnticipate();
+
 // ../../node_modules/framer-motion/dist/es/animation/utils/easing.mjs
 var easingLookup = {
-  linear,
+  linear: noop,
   easeIn,
   easeInOut,
   easeOut,
@@ -3199,10 +2372,7 @@ var easingLookup = {
   backIn,
   backInOut,
   backOut,
-  anticipate,
-  bounceIn,
-  bounceInOut,
-  bounceOut
+  anticipate
 };
 var easingDefinitionToFunction = (definition) => {
   if (Array.isArray(definition)) {
@@ -3249,7 +2419,7 @@ var linearTween = () => ({
   ease: "linear",
   duration: 0.3
 });
-var keyframes2 = (values) => ({
+var keyframes = (values) => ({
   type: "keyframes",
   duration: 0.8,
   values
@@ -3273,7 +2443,7 @@ var defaultTransitions = {
 var getDefaultTransition = (valueKey, to) => {
   let transitionFactory;
   if (isKeyframesTarget(to)) {
-    transitionFactory = keyframes2;
+    transitionFactory = keyframes;
   } else {
     transitionFactory = defaultTransitions[valueKey] || defaultTransitions.default;
   }
@@ -3311,6 +2481,126 @@ var instantAnimationState = {
   current: false
 };
 
+// ../../node_modules/framesync/dist/es/on-next-frame.mjs
+var defaultTimestep = 1 / 60 * 1e3;
+var getCurrentTime = typeof performance !== "undefined" ? () => performance.now() : () => Date.now();
+var onNextFrame = typeof window !== "undefined" ? (callback) => window.requestAnimationFrame(callback) : (callback) => setTimeout(() => callback(getCurrentTime()), defaultTimestep);
+
+// ../../node_modules/framesync/dist/es/create-render-step.mjs
+function createRenderStep(runNextFrame2) {
+  let toRun = [];
+  let toRunNextFrame = [];
+  let numToRun = 0;
+  let isProcessing2 = false;
+  let flushNextFrame = false;
+  const toKeepAlive = /* @__PURE__ */ new WeakSet();
+  const step = {
+    schedule: (callback, keepAlive = false, immediate = false) => {
+      const addToCurrentFrame = immediate && isProcessing2;
+      const buffer = addToCurrentFrame ? toRun : toRunNextFrame;
+      if (keepAlive)
+        toKeepAlive.add(callback);
+      if (buffer.indexOf(callback) === -1) {
+        buffer.push(callback);
+        if (addToCurrentFrame && isProcessing2)
+          numToRun = toRun.length;
+      }
+      return callback;
+    },
+    cancel: (callback) => {
+      const index2 = toRunNextFrame.indexOf(callback);
+      if (index2 !== -1)
+        toRunNextFrame.splice(index2, 1);
+      toKeepAlive.delete(callback);
+    },
+    process: (frameData) => {
+      if (isProcessing2) {
+        flushNextFrame = true;
+        return;
+      }
+      isProcessing2 = true;
+      [toRun, toRunNextFrame] = [toRunNextFrame, toRun];
+      toRunNextFrame.length = 0;
+      numToRun = toRun.length;
+      if (numToRun) {
+        for (let i2 = 0; i2 < numToRun; i2++) {
+          const callback = toRun[i2];
+          callback(frameData);
+          if (toKeepAlive.has(callback)) {
+            step.schedule(callback);
+            runNextFrame2();
+          }
+        }
+      }
+      isProcessing2 = false;
+      if (flushNextFrame) {
+        flushNextFrame = false;
+        step.process(frameData);
+      }
+    }
+  };
+  return step;
+}
+
+// ../../node_modules/framesync/dist/es/index.mjs
+var maxElapsed = 40;
+var useDefaultElapsed = true;
+var runNextFrame = false;
+var isProcessing = false;
+var frame = {
+  delta: 0,
+  timestamp: 0
+};
+var stepsOrder = [
+  "read",
+  "update",
+  "preRender",
+  "render",
+  "postRender"
+];
+var steps = stepsOrder.reduce((acc, key) => {
+  acc[key] = createRenderStep(() => runNextFrame = true);
+  return acc;
+}, {});
+var sync = stepsOrder.reduce((acc, key) => {
+  const step = steps[key];
+  acc[key] = (process2, keepAlive = false, immediate = false) => {
+    if (!runNextFrame)
+      startLoop();
+    return step.schedule(process2, keepAlive, immediate);
+  };
+  return acc;
+}, {});
+var cancelSync = stepsOrder.reduce((acc, key) => {
+  acc[key] = steps[key].cancel;
+  return acc;
+}, {});
+var flushSync = stepsOrder.reduce((acc, key) => {
+  acc[key] = () => steps[key].process(frame);
+  return acc;
+}, {});
+var processStep = (stepId) => steps[stepId].process(frame);
+var processFrame = (timestamp) => {
+  runNextFrame = false;
+  frame.delta = useDefaultElapsed ? defaultTimestep : Math.max(Math.min(timestamp - frame.timestamp, maxElapsed), 1);
+  frame.timestamp = timestamp;
+  isProcessing = true;
+  stepsOrder.forEach(processStep);
+  isProcessing = false;
+  if (runNextFrame) {
+    useDefaultElapsed = false;
+    onNextFrame(processFrame);
+  }
+};
+var startLoop = () => {
+  runNextFrame = true;
+  useDefaultElapsed = true;
+  if (!isProcessing)
+    onNextFrame(processFrame);
+};
+var getFrameData = () => frame;
+var es_default = sync;
+
 // ../../node_modules/framer-motion/dist/es/utils/delay.mjs
 function delay(callback, timeout) {
   const start = performance.now();
@@ -3323,6 +2613,583 @@ function delay(callback, timeout) {
   };
   es_default.read(checkElapsed, true);
   return () => cancelSync.read(checkElapsed);
+}
+
+// ../../node_modules/framer-motion/dist/es/utils/clamp.mjs
+var clamp2 = (min, max, v) => Math.min(Math.max(v, min), max);
+
+// ../../node_modules/framer-motion/dist/es/utils/mix.mjs
+var mix = (from, to, progress3) => -progress3 * from + progress3 * to + from;
+
+// ../../node_modules/framer-motion/dist/es/utils/hsla-to-rgba.mjs
+function hueToRgb(p2, q, t) {
+  if (t < 0)
+    t += 1;
+  if (t > 1)
+    t -= 1;
+  if (t < 1 / 6)
+    return p2 + (q - p2) * 6 * t;
+  if (t < 1 / 2)
+    return q;
+  if (t < 2 / 3)
+    return p2 + (q - p2) * (2 / 3 - t) * 6;
+  return p2;
+}
+function hslaToRgba({ hue, saturation, lightness, alpha: alpha2 }) {
+  hue /= 360;
+  saturation /= 100;
+  lightness /= 100;
+  let red = 0;
+  let green = 0;
+  let blue = 0;
+  if (!saturation) {
+    red = green = blue = lightness;
+  } else {
+    const q = lightness < 0.5 ? lightness * (1 + saturation) : lightness + saturation - lightness * saturation;
+    const p2 = 2 * lightness - q;
+    red = hueToRgb(p2, q, hue + 1 / 3);
+    green = hueToRgb(p2, q, hue);
+    blue = hueToRgb(p2, q, hue - 1 / 3);
+  }
+  return {
+    red: Math.round(red * 255),
+    green: Math.round(green * 255),
+    blue: Math.round(blue * 255),
+    alpha: alpha2
+  };
+}
+
+// ../../node_modules/framer-motion/dist/es/utils/mix-color.mjs
+var mixLinearColor = (from, to, v) => {
+  const fromExpo = from * from;
+  return Math.sqrt(Math.max(0, v * (to * to - fromExpo) + fromExpo));
+};
+var colorTypes = [hex, rgba, hsla];
+var getColorType = (v) => colorTypes.find((type) => type.test(v));
+function asRGBA(color2) {
+  const type = getColorType(color2);
+  invariant(Boolean(type), `'${color2}' is not an animatable color. Use the equivalent color code instead.`);
+  let model = type.parse(color2);
+  if (type === hsla) {
+    model = hslaToRgba(model);
+  }
+  return model;
+}
+var mixColor = (from, to) => {
+  const fromRGBA = asRGBA(from);
+  const toRGBA = asRGBA(to);
+  const blended = __spreadValues({}, fromRGBA);
+  return (v) => {
+    blended.red = mixLinearColor(fromRGBA.red, toRGBA.red, v);
+    blended.green = mixLinearColor(fromRGBA.green, toRGBA.green, v);
+    blended.blue = mixLinearColor(fromRGBA.blue, toRGBA.blue, v);
+    blended.alpha = mix(fromRGBA.alpha, toRGBA.alpha, v);
+    return rgba.transform(blended);
+  };
+};
+
+// ../../node_modules/framer-motion/dist/es/utils/mix-complex.mjs
+function getMixer(origin, target) {
+  if (typeof origin === "number") {
+    return (v) => mix(origin, target, v);
+  } else if (color.test(origin)) {
+    return mixColor(origin, target);
+  } else {
+    return mixComplex(origin, target);
+  }
+}
+var mixArray = (from, to) => {
+  const output = [...from];
+  const numValues = output.length;
+  const blendValue = from.map((fromThis, i2) => getMixer(fromThis, to[i2]));
+  return (v) => {
+    for (let i2 = 0; i2 < numValues; i2++) {
+      output[i2] = blendValue[i2](v);
+    }
+    return output;
+  };
+};
+var mixObject = (origin, target) => {
+  const output = __spreadValues(__spreadValues({}, origin), target);
+  const blendValue = {};
+  for (const key in output) {
+    if (origin[key] !== void 0 && target[key] !== void 0) {
+      blendValue[key] = getMixer(origin[key], target[key]);
+    }
+  }
+  return (v) => {
+    for (const key in blendValue) {
+      output[key] = blendValue[key](v);
+    }
+    return output;
+  };
+};
+function analyse2(value) {
+  const parsed = complex.parse(value);
+  const numValues = parsed.length;
+  let numNumbers = 0;
+  let numColors = 0;
+  for (let i2 = 0; i2 < numValues; i2++) {
+    if (numNumbers || typeof parsed[i2] === "number") {
+      numNumbers++;
+    } else {
+      numColors++;
+    }
+  }
+  return { parsed, numNumbers, numColors };
+}
+var mixComplex = (origin, target) => {
+  const template = complex.createTransformer(target);
+  const originStats = analyse2(origin);
+  const targetStats = analyse2(target);
+  const canInterpolate = originStats.numColors === targetStats.numColors && originStats.numNumbers >= targetStats.numNumbers;
+  if (canInterpolate) {
+    return pipe(mixArray(originStats.parsed, targetStats.parsed), template);
+  } else {
+    warning(true, `Complex values '${origin}' and '${target}' too different to mix. Ensure all colors are of the same type, and that each contains the same quantity of number and color values. Falling back to instant transition.`);
+    return (p2) => `${p2 > 0 ? target : origin}`;
+  }
+};
+
+// ../../node_modules/framer-motion/dist/es/utils/progress.mjs
+var progress = (from, to, value) => {
+  const toFromDifference = to - from;
+  return toFromDifference === 0 ? 1 : (value - from) / toFromDifference;
+};
+
+// ../../node_modules/framer-motion/dist/es/utils/interpolate.mjs
+var mixNumber = (from, to) => (p2) => mix(from, to, p2);
+function detectMixerFactory(v) {
+  if (typeof v === "number") {
+    return mixNumber;
+  } else if (typeof v === "string") {
+    if (color.test(v)) {
+      return mixColor;
+    } else {
+      return mixComplex;
+    }
+  } else if (Array.isArray(v)) {
+    return mixArray;
+  } else if (typeof v === "object") {
+    return mixObject;
+  }
+  return mixNumber;
+}
+function createMixers(output, ease, customMixer) {
+  const mixers = [];
+  const mixerFactory = customMixer || detectMixerFactory(output[0]);
+  const numMixers = output.length - 1;
+  for (let i2 = 0; i2 < numMixers; i2++) {
+    let mixer = mixerFactory(output[i2], output[i2 + 1]);
+    if (ease) {
+      const easingFunction = Array.isArray(ease) ? ease[i2] : ease;
+      mixer = pipe(easingFunction, mixer);
+    }
+    mixers.push(mixer);
+  }
+  return mixers;
+}
+function interpolate(input, output, { clamp: isClamp = true, ease, mixer } = {}) {
+  const inputLength = input.length;
+  invariant(inputLength === output.length, "Both input and output ranges must be the same length");
+  invariant(!ease || !Array.isArray(ease) || ease.length === inputLength - 1, "Array of easing functions must be of length `input.length - 1`, as it applies to the transitions **between** the defined values.");
+  if (input[0] > input[inputLength - 1]) {
+    input = [...input].reverse();
+    output = [...output].reverse();
+  }
+  const mixers = createMixers(output, ease, mixer);
+  const numMixers = mixers.length;
+  const interpolator = (v) => {
+    let i2 = 0;
+    if (numMixers > 1) {
+      for (; i2 < input.length - 2; i2++) {
+        if (v < input[i2 + 1])
+          break;
+      }
+    }
+    const progressInRange = progress(input[i2], input[i2 + 1], v);
+    return mixers[i2](progressInRange);
+  };
+  return isClamp ? (v) => interpolator(clamp2(input[0], input[inputLength - 1], v)) : interpolator;
+}
+
+// ../../node_modules/framer-motion/dist/es/animation/legacy-popmotion/keyframes.mjs
+function defaultEasing(values, easing) {
+  return values.map(() => easing || easeInOut).splice(0, values.length - 1);
+}
+function defaultOffset(values) {
+  const numValues = values.length;
+  return values.map((_value, i2) => i2 !== 0 ? i2 / (numValues - 1) : 0);
+}
+function convertOffsetToTimes(offset, duration) {
+  return offset.map((o) => o * duration);
+}
+function keyframes2({ from = 0, to = 1, ease, offset, duration = 300 }) {
+  const state = { done: false, value: from };
+  const values = Array.isArray(to) ? to : [from, to];
+  const times = convertOffsetToTimes(
+    offset && offset.length === values.length ? offset : defaultOffset(values),
+    duration
+  );
+  function createInterpolator() {
+    return interpolate(times, values, {
+      ease: Array.isArray(ease) ? ease : defaultEasing(values, ease)
+    });
+  }
+  let interpolator = createInterpolator();
+  return {
+    next: (t) => {
+      state.value = interpolator(t);
+      state.done = t >= duration;
+      return state;
+    },
+    flipTarget: () => {
+      values.reverse();
+      interpolator = createInterpolator();
+    }
+  };
+}
+
+// ../../node_modules/framer-motion/dist/es/animation/legacy-popmotion/find-spring.mjs
+var safeMin = 1e-3;
+var minDuration = 0.01;
+var maxDuration = 10;
+var minDamping = 0.05;
+var maxDamping = 1;
+function findSpring({ duration = 800, bounce = 0.25, velocity = 0, mass = 1 }) {
+  let envelope;
+  let derivative;
+  warning(duration <= maxDuration * 1e3, "Spring duration must be 10 seconds or less");
+  let dampingRatio = 1 - bounce;
+  dampingRatio = clamp2(minDamping, maxDamping, dampingRatio);
+  duration = clamp2(minDuration, maxDuration, duration / 1e3);
+  if (dampingRatio < 1) {
+    envelope = (undampedFreq2) => {
+      const exponentialDecay = undampedFreq2 * dampingRatio;
+      const delta = exponentialDecay * duration;
+      const a = exponentialDecay - velocity;
+      const b = calcAngularFreq(undampedFreq2, dampingRatio);
+      const c2 = Math.exp(-delta);
+      return safeMin - a / b * c2;
+    };
+    derivative = (undampedFreq2) => {
+      const exponentialDecay = undampedFreq2 * dampingRatio;
+      const delta = exponentialDecay * duration;
+      const d2 = delta * velocity + velocity;
+      const e = Math.pow(dampingRatio, 2) * Math.pow(undampedFreq2, 2) * duration;
+      const f2 = Math.exp(-delta);
+      const g2 = calcAngularFreq(Math.pow(undampedFreq2, 2), dampingRatio);
+      const factor = -envelope(undampedFreq2) + safeMin > 0 ? -1 : 1;
+      return factor * ((d2 - e) * f2) / g2;
+    };
+  } else {
+    envelope = (undampedFreq2) => {
+      const a = Math.exp(-undampedFreq2 * duration);
+      const b = (undampedFreq2 - velocity) * duration + 1;
+      return -safeMin + a * b;
+    };
+    derivative = (undampedFreq2) => {
+      const a = Math.exp(-undampedFreq2 * duration);
+      const b = (velocity - undampedFreq2) * (duration * duration);
+      return a * b;
+    };
+  }
+  const initialGuess = 5 / duration;
+  const undampedFreq = approximateRoot(envelope, derivative, initialGuess);
+  duration = duration * 1e3;
+  if (isNaN(undampedFreq)) {
+    return {
+      stiffness: 100,
+      damping: 10,
+      duration
+    };
+  } else {
+    const stiffness = Math.pow(undampedFreq, 2) * mass;
+    return {
+      stiffness,
+      damping: dampingRatio * 2 * Math.sqrt(mass * stiffness),
+      duration
+    };
+  }
+}
+var rootIterations = 12;
+function approximateRoot(envelope, derivative, initialGuess) {
+  let result = initialGuess;
+  for (let i2 = 1; i2 < rootIterations; i2++) {
+    result = result - envelope(result) / derivative(result);
+  }
+  return result;
+}
+function calcAngularFreq(undampedFreq, dampingRatio) {
+  return undampedFreq * Math.sqrt(1 - dampingRatio * dampingRatio);
+}
+
+// ../../node_modules/framer-motion/dist/es/animation/legacy-popmotion/spring.mjs
+var durationKeys = ["duration", "bounce"];
+var physicsKeys = ["stiffness", "damping", "mass"];
+function isSpringType(options, keys2) {
+  return keys2.some((key) => options[key] !== void 0);
+}
+function getSpringOptions(options) {
+  let springOptions = __spreadValues({
+    velocity: 0,
+    stiffness: 100,
+    damping: 10,
+    mass: 1,
+    isResolvedFromDuration: false
+  }, options);
+  if (!isSpringType(options, physicsKeys) && isSpringType(options, durationKeys)) {
+    const derived = findSpring(options);
+    springOptions = __spreadProps(__spreadValues(__spreadValues({}, springOptions), derived), {
+      velocity: 0,
+      mass: 1
+    });
+    springOptions.isResolvedFromDuration = true;
+  }
+  return springOptions;
+}
+function spring(_a) {
+  var _b = _a, { from = 0, to = 1, restSpeed = 2, restDelta = 0.01 } = _b, options = __objRest(_b, ["from", "to", "restSpeed", "restDelta"]);
+  const state = { done: false, value: from };
+  let { stiffness, damping, mass, velocity, duration, isResolvedFromDuration } = getSpringOptions(options);
+  let resolveSpring = zero;
+  let resolveVelocity = zero;
+  function createSpring() {
+    const initialVelocity = velocity ? -(velocity / 1e3) : 0;
+    const initialDelta = to - from;
+    const dampingRatio = damping / (2 * Math.sqrt(stiffness * mass));
+    const undampedAngularFreq = Math.sqrt(stiffness / mass) / 1e3;
+    if (restDelta === void 0) {
+      restDelta = Math.min(Math.abs(to - from) / 100, 0.4);
+    }
+    if (dampingRatio < 1) {
+      const angularFreq = calcAngularFreq(undampedAngularFreq, dampingRatio);
+      resolveSpring = (t) => {
+        const envelope = Math.exp(-dampingRatio * undampedAngularFreq * t);
+        return to - envelope * ((initialVelocity + dampingRatio * undampedAngularFreq * initialDelta) / angularFreq * Math.sin(angularFreq * t) + initialDelta * Math.cos(angularFreq * t));
+      };
+      resolveVelocity = (t) => {
+        const envelope = Math.exp(-dampingRatio * undampedAngularFreq * t);
+        return dampingRatio * undampedAngularFreq * envelope * (Math.sin(angularFreq * t) * (initialVelocity + dampingRatio * undampedAngularFreq * initialDelta) / angularFreq + initialDelta * Math.cos(angularFreq * t)) - envelope * (Math.cos(angularFreq * t) * (initialVelocity + dampingRatio * undampedAngularFreq * initialDelta) - angularFreq * initialDelta * Math.sin(angularFreq * t));
+      };
+    } else if (dampingRatio === 1) {
+      resolveSpring = (t) => to - Math.exp(-undampedAngularFreq * t) * (initialDelta + (initialVelocity + undampedAngularFreq * initialDelta) * t);
+    } else {
+      const dampedAngularFreq = undampedAngularFreq * Math.sqrt(dampingRatio * dampingRatio - 1);
+      resolveSpring = (t) => {
+        const envelope = Math.exp(-dampingRatio * undampedAngularFreq * t);
+        const freqForT = Math.min(dampedAngularFreq * t, 300);
+        return to - envelope * ((initialVelocity + dampingRatio * undampedAngularFreq * initialDelta) * Math.sinh(freqForT) + dampedAngularFreq * initialDelta * Math.cosh(freqForT)) / dampedAngularFreq;
+      };
+    }
+  }
+  createSpring();
+  return {
+    next: (t) => {
+      const current = resolveSpring(t);
+      if (!isResolvedFromDuration) {
+        const currentVelocity = resolveVelocity(t) * 1e3;
+        const isBelowVelocityThreshold = Math.abs(currentVelocity) <= restSpeed;
+        const isBelowDisplacementThreshold = Math.abs(to - current) <= restDelta;
+        state.done = isBelowVelocityThreshold && isBelowDisplacementThreshold;
+      } else {
+        state.done = t >= duration;
+      }
+      state.value = state.done ? to : current;
+      return state;
+    },
+    flipTarget: () => {
+      velocity = -velocity;
+      [from, to] = [to, from];
+      createSpring();
+    }
+  };
+}
+spring.needsInterpolation = (a, b) => typeof a === "string" || typeof b === "string";
+var zero = (_t) => 0;
+
+// ../../node_modules/framer-motion/dist/es/animation/legacy-popmotion/decay.mjs
+function decay({ velocity = 0, from = 0, power = 0.8, timeConstant = 350, restDelta = 0.5, modifyTarget }) {
+  const state = { done: false, value: from };
+  let amplitude = power * velocity;
+  const ideal = from + amplitude;
+  const target = modifyTarget === void 0 ? ideal : modifyTarget(ideal);
+  if (target !== ideal)
+    amplitude = target - from;
+  return {
+    next: (t) => {
+      const delta = -amplitude * Math.exp(-t / timeConstant);
+      state.done = !(delta > restDelta || delta < -restDelta);
+      state.value = state.done ? target : target + delta;
+      return state;
+    },
+    flipTarget: () => {
+    }
+  };
+}
+
+// ../../node_modules/framer-motion/dist/es/animation/legacy-popmotion/index.mjs
+var types = { decay, keyframes: keyframes2, spring };
+function loopElapsed(elapsed, duration, delay2 = 0) {
+  return elapsed - duration - delay2;
+}
+function reverseElapsed(elapsed, duration = 0, delay2 = 0, isForwardPlayback = true) {
+  return isForwardPlayback ? loopElapsed(duration + -elapsed, duration, delay2) : duration - (elapsed - duration) + delay2;
+}
+function hasRepeatDelayElapsed(elapsed, duration, delay2, isForwardPlayback) {
+  return isForwardPlayback ? elapsed >= duration + delay2 : elapsed <= -delay2;
+}
+var framesync = (update) => {
+  const passTimestamp = ({ delta }) => update(delta);
+  return {
+    start: () => es_default.update(passTimestamp, true),
+    stop: () => cancelSync.update(passTimestamp)
+  };
+};
+function animate(_a) {
+  var _b = _a, { from, autoplay = true, driver = framesync, elapsed = 0, repeat: repeatMax = 0, repeatType = "loop", repeatDelay = 0, onPlay, onStop, onComplete, onRepeat, onUpdate, type = "keyframes" } = _b, options = __objRest(_b, ["from", "autoplay", "driver", "elapsed", "repeat", "repeatType", "repeatDelay", "onPlay", "onStop", "onComplete", "onRepeat", "onUpdate", "type"]);
+  var _a2, _b2;
+  let { to } = options;
+  let driverControls;
+  let repeatCount = 0;
+  let computedDuration = options.duration;
+  let latest;
+  let isComplete = false;
+  let isForwardPlayback = true;
+  let interpolateFromNumber;
+  const animator = types[Array.isArray(to) ? "keyframes" : type];
+  if ((_b2 = (_a2 = animator).needsInterpolation) === null || _b2 === void 0 ? void 0 : _b2.call(_a2, from, to)) {
+    interpolateFromNumber = interpolate([0, 100], [from, to], {
+      clamp: false
+    });
+    from = 0;
+    to = 100;
+  }
+  const animation = animator(__spreadProps(__spreadValues({}, options), { from, to }));
+  function repeat() {
+    repeatCount++;
+    if (repeatType === "reverse") {
+      isForwardPlayback = repeatCount % 2 === 0;
+      elapsed = reverseElapsed(elapsed, computedDuration, repeatDelay, isForwardPlayback);
+    } else {
+      elapsed = loopElapsed(elapsed, computedDuration, repeatDelay);
+      if (repeatType === "mirror")
+        animation.flipTarget();
+    }
+    isComplete = false;
+    onRepeat && onRepeat();
+  }
+  function complete() {
+    driverControls.stop();
+    onComplete && onComplete();
+  }
+  function update(delta) {
+    if (!isForwardPlayback)
+      delta = -delta;
+    elapsed += delta;
+    if (!isComplete) {
+      const state = animation.next(Math.max(0, elapsed));
+      latest = state.value;
+      if (interpolateFromNumber)
+        latest = interpolateFromNumber(latest);
+      isComplete = isForwardPlayback ? state.done : elapsed <= 0;
+    }
+    onUpdate === null || onUpdate === void 0 ? void 0 : onUpdate(latest);
+    if (isComplete) {
+      if (repeatCount === 0)
+        computedDuration !== null && computedDuration !== void 0 ? computedDuration : computedDuration = elapsed;
+      if (repeatCount < repeatMax) {
+        hasRepeatDelayElapsed(elapsed, computedDuration, repeatDelay, isForwardPlayback) && repeat();
+      } else {
+        complete();
+      }
+    }
+  }
+  function play() {
+    onPlay === null || onPlay === void 0 ? void 0 : onPlay();
+    driverControls = driver(update);
+    driverControls.start();
+  }
+  autoplay && play();
+  return {
+    stop: () => {
+      onStop === null || onStop === void 0 ? void 0 : onStop();
+      driverControls.stop();
+    }
+  };
+}
+
+// ../../node_modules/framer-motion/dist/es/utils/velocity-per-second.mjs
+function velocityPerSecond(velocity, frameDuration) {
+  return frameDuration ? velocity * (1e3 / frameDuration) : 0;
+}
+
+// ../../node_modules/framer-motion/dist/es/animation/legacy-popmotion/inertia.mjs
+function inertia({ from = 0, velocity = 0, min, max, power = 0.8, timeConstant = 750, bounceStiffness = 500, bounceDamping = 10, restDelta = 1, modifyTarget, driver, onUpdate, onComplete, onStop }) {
+  let currentAnimation;
+  function isOutOfBounds(v) {
+    return min !== void 0 && v < min || max !== void 0 && v > max;
+  }
+  function boundaryNearest(v) {
+    if (min === void 0)
+      return max;
+    if (max === void 0)
+      return min;
+    return Math.abs(min - v) < Math.abs(max - v) ? min : max;
+  }
+  function startAnimation2(options) {
+    currentAnimation === null || currentAnimation === void 0 ? void 0 : currentAnimation.stop();
+    currentAnimation = animate(__spreadProps(__spreadValues({}, options), {
+      driver,
+      onUpdate: (v) => {
+        var _a;
+        onUpdate === null || onUpdate === void 0 ? void 0 : onUpdate(v);
+        (_a = options.onUpdate) === null || _a === void 0 ? void 0 : _a.call(options, v);
+      },
+      onComplete,
+      onStop
+    }));
+  }
+  function startSpring(options) {
+    startAnimation2(__spreadValues({
+      type: "spring",
+      stiffness: bounceStiffness,
+      damping: bounceDamping,
+      restDelta
+    }, options));
+  }
+  if (isOutOfBounds(from)) {
+    startSpring({ from, velocity, to: boundaryNearest(from) });
+  } else {
+    let target = power * velocity + from;
+    if (typeof modifyTarget !== "undefined")
+      target = modifyTarget(target);
+    const boundary = boundaryNearest(target);
+    const heading = boundary === min ? -1 : 1;
+    let prev;
+    let current;
+    const checkBoundary = (v) => {
+      prev = current;
+      current = v;
+      velocity = velocityPerSecond(v - prev, getFrameData().delta);
+      if (heading === 1 && v > boundary || heading === -1 && v < boundary) {
+        startSpring({ from: v, to: boundary, velocity });
+      }
+    };
+    startAnimation2({
+      type: "decay",
+      from,
+      velocity,
+      timeConstant,
+      power,
+      restDelta,
+      modifyTarget,
+      onUpdate: isOutOfBounds(target) ? checkBoundary : void 0
+    });
+  }
+  return {
+    stop: () => currentAnimation === null || currentAnimation === void 0 ? void 0 : currentAnimation.stop()
+  };
 }
 
 // ../../node_modules/framer-motion/dist/es/animation/utils/transitions.mjs
@@ -3483,16 +3350,16 @@ var SubscriptionManager = class {
     addUniqueItem(this.subscriptions, handler);
     return () => removeItem(this.subscriptions, handler);
   }
-  notify(a2, b2, c3) {
+  notify(a, b, c2) {
     const numSubscriptions = this.subscriptions.length;
     if (!numSubscriptions)
       return;
     if (numSubscriptions === 1) {
-      this.subscriptions[0](a2, b2, c3);
+      this.subscriptions[0](a, b, c2);
     } else {
       for (let i2 = 0; i2 < numSubscriptions; i2++) {
         const handler = this.subscriptions[i2];
-        handler && handler(a2, b2, c3);
+        handler && handler(a, b, c2);
       }
     }
   }
@@ -3510,7 +3377,7 @@ var isFloat = (value) => {
 };
 var MotionValue = class {
   constructor(init) {
-    this.version = "7.6.7";
+    this.version = "7.6.18";
     this.timeDelta = 0;
     this.lastUpdated = 0;
     this.updateSubscribers = new SubscriptionManager();
@@ -3784,8 +3651,8 @@ function animateChildren(visualElement, variant, delayChildren = 0, staggerChild
   });
   return Promise.all(animations2);
 }
-function sortByTreeOrder(a2, b2) {
-  return a2.sortNodePosition(b2);
+function sortByTreeOrder(a, b) {
+  return a.sortNodePosition(b);
 }
 function shouldBlockAnimation({ protectedKeys, needsAnimating }, key) {
   const shouldBlock = protectedKeys.hasOwnProperty(key) && needsAnimating[key] !== true;
@@ -3992,6 +3859,14 @@ var animations = {
 // ../../node_modules/framer-motion/dist/es/gestures/drag/use-drag.mjs
 import { useEffect as useEffect8 } from "react";
 
+// ../../node_modules/framer-motion/dist/es/utils/distance.mjs
+var distance = (a, b) => Math.abs(a - b);
+function distance2D(a, b) {
+  const xDelta = distance(a.x, b.x);
+  const yDelta = distance(a.y, b.y);
+  return Math.sqrt(__pow(xDelta, 2) + __pow(yDelta, 2));
+}
+
 // ../../node_modules/framer-motion/dist/es/gestures/PanSession.mjs
 var PanSession = class {
   constructor(event, handlers, { transformPagePoint } = {}) {
@@ -4004,7 +3879,7 @@ var PanSession = class {
         return;
       const info2 = getPanInfo(this.lastMoveEventInfo, this.history);
       const isPanStarted = this.startEvent !== null;
-      const isDistancePastThreshold = distance(info2.offset, { x: 0, y: 0 }) >= 3;
+      const isDistancePastThreshold = distance2D(info2.offset, { x: 0, y: 0 }) >= 3;
       if (!isPanStarted && !isDistancePastThreshold)
         return;
       const { point: point3 } = info2;
@@ -4059,8 +3934,8 @@ var PanSession = class {
 function transformPoint(info, transformPagePoint) {
   return transformPagePoint ? { point: transformPagePoint(info.point) } : info;
 }
-function subtractPoint(a2, b2) {
-  return { x: a2.x - b2.x, y: a2.y - b2.y };
+function subtractPoint(a, b) {
+  return { x: a.x - b.x, y: a.y - b.y };
 }
 function getPanInfo({ point: point2 }, history) {
   return {
@@ -4115,7 +3990,7 @@ function calcLength(axis) {
   return axis.max - axis.min;
 }
 function isNear(value, target = 0, maxDistance = 0.01) {
-  return distance(value, target) < maxDistance;
+  return Math.abs(value - target) <= maxDistance;
 }
 function calcAxisDelta(delta, source, target, origin = 0.5) {
   delta.origin = origin;
@@ -4323,7 +4198,10 @@ function applyTreeDeltas(box, treeScale, treePath, isSharedTransition = false) {
     if (((_b = (_a = node.instance) === null || _a === void 0 ? void 0 : _a.style) === null || _b === void 0 ? void 0 : _b.display) === "contents")
       continue;
     if (isSharedTransition && node.options.layoutScroll && node.scroll && node !== node.root) {
-      transformBox(box, { x: -node.scroll.x, y: -node.scroll.y });
+      transformBox(box, {
+        x: -node.scroll.offset.x,
+        y: -node.scroll.offset.y
+      });
     }
     if (delta) {
       treeScale.x *= delta.x.scale;
@@ -4334,6 +4212,13 @@ function applyTreeDeltas(box, treeScale, treePath, isSharedTransition = false) {
       transformBox(box, node.latestValues);
     }
   }
+  treeScale.x = snapToDefault(treeScale.x);
+  treeScale.y = snapToDefault(treeScale.y);
+}
+function snapToDefault(scale2) {
+  if (Number.isInteger(scale2))
+    return scale2;
+  return scale2 > 1.0000000000001 || scale2 < 0.999999999999 ? scale2 : 1;
 }
 function translateAxis(axis, distance2) {
   axis.min = axis.min + distance2;
@@ -4359,8 +4244,8 @@ function measurePageBox(element, rootProjectionNode2, transformPagePoint) {
   const viewportBox = measureViewportBox(element, transformPagePoint);
   const { scroll: scroll2 } = rootProjectionNode2;
   if (scroll2) {
-    translateAxis(viewportBox.x, scroll2.x);
-    translateAxis(viewportBox.y, scroll2.y);
+    translateAxis(viewportBox.x, scroll2.offset.x);
+    translateAxis(viewportBox.y, scroll2.offset.y);
   }
   return viewportBox;
 }
@@ -4989,7 +4874,7 @@ function updateMotionValuesFromProps(element, next, prev) {
         willChange.add(key);
       }
       if (process.env.NODE_ENV === "development") {
-        warnOnce(nextValue.version === "7.6.7", `Attempting to mix Framer Motion versions ${nextValue.version} with 7.6.7 may not work as expected.`);
+        warnOnce(nextValue.version === "7.6.18", `Attempting to mix Framer Motion versions ${nextValue.version} with 7.6.18 may not work as expected.`);
       }
     } else if (isMotionValue(prevValue)) {
       element.addValue(key, motionValue(nextValue));
@@ -5109,9 +4994,13 @@ var VisualElement = class {
     this.current = null;
   }
   bindToMotionValue(key, value) {
+    const valueIsTransform = transformProps.has(key);
     const removeOnChange = value.onChange((latestValue) => {
       this.latestValues[key] = latestValue;
       this.props.onUpdate && es_default.update(this.notifyUpdate, false, true);
+      if (valueIsTransform && this.projection) {
+        this.projection.isTransformDirty = true;
+      }
     });
     const removeOnRenderRequest = value.onRenderRequest(this.scheduleRender);
     this.valueSubscriptions.set(key, () => {
@@ -5298,8 +5187,8 @@ var numVariantProps = variantProps2.length;
 
 // ../../node_modules/framer-motion/dist/es/render/dom/DOMVisualElement.mjs
 var DOMVisualElement = class extends VisualElement {
-  sortInstanceNodePosition(a2, b2) {
-    return a2.compareDocumentPosition(b2) & 2 ? 1 : -1;
+  sortInstanceNodePosition(a, b) {
+    return a.compareDocumentPosition(b) & 2 ? 1 : -1;
   }
   getBaseTargetFromProps(props, key) {
     var _a;
@@ -5615,7 +5504,7 @@ function getRadius(values, radiusName) {
   return (_a = values[radiusName]) !== null && _a !== void 0 ? _a : values.borderRadius;
 }
 var easeCrossfadeIn = compress(0, 0.5, circOut);
-var easeCrossfadeOut = compress(0.5, 0.95, linear);
+var easeCrossfadeOut = compress(0.5, 0.95, noop);
 function compress(min, max, easing) {
   return (p2) => {
     if (p2 < min)
@@ -5676,14 +5565,11 @@ function isAxisDeltaZero(delta) {
 function isDeltaZero(delta) {
   return isAxisDeltaZero(delta.x) && isAxisDeltaZero(delta.y);
 }
-function boxEquals(a2, b2) {
-  return a2.x.min === b2.x.min && a2.x.max === b2.x.max && a2.y.min === b2.y.min && a2.y.max === b2.y.max;
+function boxEquals(a, b) {
+  return a.x.min === b.x.min && a.x.max === b.x.max && a.y.min === b.y.min && a.y.max === b.y.max;
 }
 function aspectRatio(box) {
   return calcLength(box.x) / calcLength(box.y);
-}
-function isCloseTo(a2, b2, max = 0.1) {
-  return distance(a2, b2) <= max;
 }
 
 // ../../node_modules/framer-motion/dist/es/projection/shared/stack.mjs
@@ -5744,7 +5630,6 @@ var NodeStack = class {
       if (prevLead.snapshot) {
         node.snapshot = prevLead.snapshot;
         node.snapshot.latestValues = prevLead.animationValues || prevLead.latestValues;
-        node.snapshot.isShared = true;
       }
       if ((_a = node.root) === null || _a === void 0 ? void 0 : _a.isUpdating) {
         node.isLayoutDirty = true;
@@ -5775,12 +5660,16 @@ var NodeStack = class {
 };
 
 // ../../node_modules/framer-motion/dist/es/projection/styles/transform.mjs
-var identityProjection = "translate3d(0px, 0px, 0) scale(1, 1) scale(1, 1)";
 function buildProjectionTransform(delta, treeScale, latestTransform) {
+  let transform = "";
   const xTranslate = delta.x.translate / treeScale.x;
   const yTranslate = delta.y.translate / treeScale.y;
-  let transform = `translate3d(${xTranslate}px, ${yTranslate}px, 0) `;
-  transform += `scale(${1 / treeScale.x}, ${1 / treeScale.y}) `;
+  if (xTranslate || yTranslate) {
+    transform = `translate3d(${xTranslate}px, ${yTranslate}px, 0) `;
+  }
+  if (treeScale.x !== 1 || treeScale.y !== 1) {
+    transform += `scale(${1 / treeScale.x}, ${1 / treeScale.y}) `;
+  }
   if (latestTransform) {
     const { rotate, rotateX, rotateY } = latestTransform;
     if (rotate)
@@ -5792,12 +5681,14 @@ function buildProjectionTransform(delta, treeScale, latestTransform) {
   }
   const elementScaleX = delta.x.scale * treeScale.x;
   const elementScaleY = delta.y.scale * treeScale.y;
-  transform += `scale(${elementScaleX}, ${elementScaleY})`;
-  return transform === identityProjection ? "none" : transform;
+  if (elementScaleX !== 1 || elementScaleY !== 1) {
+    transform += `scale(${elementScaleX}, ${elementScaleY})`;
+  }
+  return transform || "none";
 }
 
 // ../../node_modules/framer-motion/dist/es/render/utils/compare-by-depth.mjs
-var compareByDepth = (a2, b2) => a2.depth - b2.depth;
+var compareByDepth = (a, b) => a.depth - b.depth;
 
 // ../../node_modules/framer-motion/dist/es/render/utils/flat-tree.mjs
 var FlatTree = class {
@@ -5823,14 +5714,19 @@ var FlatTree = class {
 // ../../node_modules/framer-motion/dist/es/projection/node/create-projection-node.mjs
 var transformAxes = ["", "X", "Y", "Z"];
 var animationTarget = 1e3;
+var id2 = 0;
 function createProjectionNode({ attachResizeListener, defaultParent, measureScroll, checkIsScrollRoot, resetTransform }) {
   return class ProjectionNode {
     constructor(elementId, latestValues = {}, parent = defaultParent === null || defaultParent === void 0 ? void 0 : defaultParent()) {
+      this.id = id2++;
+      this.animationId = 0;
       this.children = /* @__PURE__ */ new Set();
       this.options = {};
       this.isTreeAnimating = false;
       this.isAnimationBlocked = false;
       this.isLayoutDirty = false;
+      this.isTransformDirty = false;
+      this.isProjectionDirty = false;
       this.updateManuallyBlocked = false;
       this.updateBlockedByResize = false;
       this.isUpdating = false;
@@ -5847,6 +5743,7 @@ function createProjectionNode({ attachResizeListener, defaultParent, measureScro
         }
       };
       this.updateProjection = () => {
+        this.nodes.forEach(propagateDirtyNodes);
         this.nodes.forEach(resolveTargetDelta);
         this.nodes.forEach(calcProjection);
       };
@@ -5880,8 +5777,8 @@ function createProjectionNode({ attachResizeListener, defaultParent, measureScro
     hasListeners(name) {
       return this.eventHandlers.has(name);
     }
-    registerPotentialNode(id2, node) {
-      this.potentialNodes.set(id2, node);
+    registerPotentialNode(elementId, node) {
+      this.potentialNodes.set(elementId, node);
     }
     mount(instance, isLayoutDirty = false) {
       var _a;
@@ -5980,6 +5877,7 @@ function createProjectionNode({ attachResizeListener, defaultParent, measureScro
         return;
       this.isUpdating = true;
       (_a = this.nodes) === null || _a === void 0 ? void 0 : _a.forEach(resetRotation);
+      this.animationId++;
     }
     willUpdate(shouldNotifyListeners = true) {
       var _a, _b, _c;
@@ -5994,7 +5892,7 @@ function createProjectionNode({ attachResizeListener, defaultParent, measureScro
       for (let i2 = 0; i2 < this.path.length; i2++) {
         const node = this.path[i2];
         node.shouldResetTransform = true;
-        node.updateScroll();
+        node.updateScroll("snapshot");
       }
       const { layoutId, layout } = this.options;
       if (layoutId === void 0 && !layout)
@@ -6070,10 +5968,18 @@ function createProjectionNode({ attachResizeListener, defaultParent, measureScro
       this.notifyListeners("measure", this.layout.layoutBox);
       (_a = this.options.visualElement) === null || _a === void 0 ? void 0 : _a.notify("LayoutMeasure", this.layout.layoutBox, prevLayout === null || prevLayout === void 0 ? void 0 : prevLayout.layoutBox);
     }
-    updateScroll() {
-      if (this.options.layoutScroll && this.instance) {
-        this.isScrollRoot = checkIsScrollRoot(this.instance);
-        this.scroll = measureScroll(this.instance);
+    updateScroll(phase = "measure") {
+      let needsMeasurement = Boolean(this.options.layoutScroll && this.instance);
+      if (this.scroll && this.scroll.animationId === this.root.animationId && this.scroll.phase === phase) {
+        needsMeasurement = false;
+      }
+      if (needsMeasurement) {
+        this.scroll = {
+          animationId: this.root.animationId,
+          phase,
+          isRoot: checkIsScrollRoot(this.instance),
+          offset: measureScroll(this.instance)
+        };
       }
     }
     resetTransform() {
@@ -6099,9 +6005,11 @@ function createProjectionNode({ attachResizeListener, defaultParent, measureScro
       }
       roundBox(layoutBox);
       return {
+        animationId: this.root.animationId,
         measuredBox: pageBox,
         layoutBox,
-        latestValues: {}
+        latestValues: {},
+        source: this.id
       };
     }
     measurePageBox() {
@@ -6111,8 +6019,8 @@ function createProjectionNode({ attachResizeListener, defaultParent, measureScro
       const box = visualElement.measureViewportBox();
       const { scroll: scroll2 } = this.root;
       if (scroll2) {
-        translateAxis(box.x, scroll2.x);
-        translateAxis(box.y, scroll2.y);
+        translateAxis(box.x, scroll2.offset.x);
+        translateAxis(box.y, scroll2.offset.y);
       }
       return box;
     }
@@ -6121,18 +6029,18 @@ function createProjectionNode({ attachResizeListener, defaultParent, measureScro
       copyBoxInto(boxWithoutScroll, box);
       for (let i2 = 0; i2 < this.path.length; i2++) {
         const node = this.path[i2];
-        const { scroll: scroll2, options, isScrollRoot } = node;
+        const { scroll: scroll2, options } = node;
         if (node !== this.root && scroll2 && options.layoutScroll) {
-          if (isScrollRoot) {
+          if (scroll2.isRoot) {
             copyBoxInto(boxWithoutScroll, box);
             const { scroll: rootScroll } = this.root;
             if (rootScroll) {
-              translateAxis(boxWithoutScroll.x, -rootScroll.x);
-              translateAxis(boxWithoutScroll.y, -rootScroll.y);
+              translateAxis(boxWithoutScroll.x, -rootScroll.offset.x);
+              translateAxis(boxWithoutScroll.y, -rootScroll.offset.y);
             }
           }
-          translateAxis(boxWithoutScroll.x, scroll2.x);
-          translateAxis(boxWithoutScroll.y, scroll2.y);
+          translateAxis(boxWithoutScroll.x, scroll2.offset.x);
+          translateAxis(boxWithoutScroll.y, scroll2.offset.y);
         }
       }
       return boxWithoutScroll;
@@ -6144,8 +6052,8 @@ function createProjectionNode({ attachResizeListener, defaultParent, measureScro
         const node = this.path[i2];
         if (!transformOnly && node.options.layoutScroll && node.scroll && node !== node.root) {
           transformBox(withTransforms, {
-            x: -node.scroll.x,
-            y: -node.scroll.y
+            x: -node.scroll.offset.x,
+            y: -node.scroll.offset.y
           });
         }
         if (!hasTransform(node.latestValues))
@@ -6180,6 +6088,7 @@ function createProjectionNode({ attachResizeListener, defaultParent, measureScro
     }
     setTargetDelta(delta) {
       this.targetDelta = delta;
+      this.isProjectionDirty = true;
       this.root.scheduleUpdateProjection();
     }
     setOptions(options) {
@@ -6198,6 +6107,11 @@ function createProjectionNode({ attachResizeListener, defaultParent, measureScro
     }
     resolveTargetDelta() {
       var _a;
+      const lead = this.getLead();
+      this.isProjectionDirty || (this.isProjectionDirty = lead.isProjectionDirty);
+      this.isTransformDirty || (this.isTransformDirty = lead.isTransformDirty);
+      if (!this.isProjectionDirty && !this.attemptToResolveRelativeTarget)
+        return;
       const { layout, layoutId } = this.options;
       if (!this.layout || !(layout || layoutId))
         return;
@@ -6256,6 +6170,17 @@ function createProjectionNode({ attachResizeListener, defaultParent, measureScro
     }
     calcProjection() {
       var _a;
+      const { isProjectionDirty, isTransformDirty } = this;
+      this.isProjectionDirty = this.isTransformDirty = false;
+      const lead = this.getLead();
+      const isShared = Boolean(this.resumingFrom) || this !== lead;
+      let canSkip = true;
+      if (isProjectionDirty)
+        canSkip = false;
+      if (isShared && isTransformDirty)
+        canSkip = false;
+      if (canSkip)
+        return;
       const { layout, layoutId } = this.options;
       this.isTreeAnimating = Boolean(((_a = this.parent) === null || _a === void 0 ? void 0 : _a.isTreeAnimating) || this.currentAnimation || this.pendingAnimation);
       if (!this.isTreeAnimating) {
@@ -6263,9 +6188,8 @@ function createProjectionNode({ attachResizeListener, defaultParent, measureScro
       }
       if (!this.layout || !(layout || layoutId))
         return;
-      const lead = this.getLead();
       copyBoxInto(this.layoutCorrected, this.layout.layoutBox);
-      applyTreeDeltas(this.layoutCorrected, this.treeScale, this.path, Boolean(this.resumingFrom) || this !== lead);
+      applyTreeDeltas(this.layoutCorrected, this.treeScale, this.path, isShared);
       const { target } = lead;
       if (!target)
         return;
@@ -6299,7 +6223,7 @@ function createProjectionNode({ attachResizeListener, defaultParent, measureScro
       }
     }
     setAnimationOrigin(delta, hasOnlyRelativeTargetChanged = false) {
-      var _a;
+      var _a, _b;
       const snapshot = this.snapshot;
       const snapshotLatestValues = (snapshot === null || snapshot === void 0 ? void 0 : snapshot.latestValues) || {};
       const mixedValues = __spreadValues({}, this.latestValues);
@@ -6307,8 +6231,8 @@ function createProjectionNode({ attachResizeListener, defaultParent, measureScro
       this.relativeTarget = this.relativeTargetOrigin = void 0;
       this.attemptToResolveRelativeTarget = !hasOnlyRelativeTargetChanged;
       const relativeLayout = createBox();
-      const isSharedLayoutAnimation = snapshot === null || snapshot === void 0 ? void 0 : snapshot.isShared;
-      const isOnlyMember = (((_a = this.getStack()) === null || _a === void 0 ? void 0 : _a.members.length) || 0) <= 1;
+      const isSharedLayoutAnimation = (snapshot === null || snapshot === void 0 ? void 0 : snapshot.source) !== ((_a = this.layout) === null || _a === void 0 ? void 0 : _a.source);
+      const isOnlyMember = (((_b = this.getStack()) === null || _b === void 0 ? void 0 : _b.members.length) || 0) <= 1;
       const shouldCrossfadeOpacity = Boolean(isSharedLayoutAnimation && !isOnlyMember && this.options.crossfade === true && !this.path.some(hasOpacityCrossfade));
       this.animationProgress = 0;
       this.mixTargetDelta = (latest) => {
@@ -6453,19 +6377,20 @@ function createProjectionNode({ attachResizeListener, defaultParent, measureScro
       if (!visualElement)
         return;
       let hasRotate = false;
-      const resetValues = {};
-      for (let i2 = 0; i2 < transformAxes.length; i2++) {
-        const axis = transformAxes[i2];
-        const key = "rotate" + axis;
-        if (!visualElement.getStaticValue(key)) {
-          continue;
-        }
+      const { latestValues } = visualElement;
+      if (latestValues.rotate || latestValues.rotateX || latestValues.rotateY || latestValues.rotateZ) {
         hasRotate = true;
-        resetValues[key] = visualElement.getStaticValue(key);
-        visualElement.setStaticValue(key, 0);
       }
       if (!hasRotate)
         return;
+      const resetValues = {};
+      for (let i2 = 0; i2 < transformAxes.length; i2++) {
+        const key = "rotate" + transformAxes[i2];
+        if (latestValues[key]) {
+          resetValues[key] = latestValues[key];
+          visualElement.setStaticValue(key, 0);
+        }
+      }
       visualElement === null || visualElement === void 0 ? void 0 : visualElement.render();
       for (const key in resetValues) {
         visualElement.setStaticValue(key, resetValues[key]);
@@ -6557,16 +6482,17 @@ function notifyLayoutUpdate(node) {
   if (node.isLead() && node.layout && snapshot && node.hasListeners("didUpdate")) {
     const { layoutBox: layout, measuredBox: measuredLayout } = node.layout;
     const { animationType } = node.options;
+    const isShared = snapshot.source !== node.layout.source;
     if (animationType === "size") {
       eachAxis((axis) => {
-        const axisSnapshot = snapshot.isShared ? snapshot.measuredBox[axis] : snapshot.layoutBox[axis];
+        const axisSnapshot = isShared ? snapshot.measuredBox[axis] : snapshot.layoutBox[axis];
         const length = calcLength(axisSnapshot);
         axisSnapshot.min = layout[axis].min;
         axisSnapshot.max = axisSnapshot.min + length;
       });
     } else if (shouldAnimatePositionOnly(animationType, snapshot.layoutBox, layout)) {
       eachAxis((axis) => {
-        const axisSnapshot = snapshot.isShared ? snapshot.measuredBox[axis] : snapshot.layoutBox[axis];
+        const axisSnapshot = isShared ? snapshot.measuredBox[axis] : snapshot.layoutBox[axis];
         const length = calcLength(layout[axis]);
         axisSnapshot.max = axisSnapshot.min + length;
       });
@@ -6574,7 +6500,7 @@ function notifyLayoutUpdate(node) {
     const layoutDelta = createDelta();
     calcBoxDelta(layoutDelta, layout, snapshot.layoutBox);
     const visualDelta = createDelta();
-    if (snapshot.isShared) {
+    if (isShared) {
       calcBoxDelta(visualDelta, node.applyTransform(measuredLayout, true), snapshot.measuredBox);
     } else {
       calcBoxDelta(visualDelta, layout, snapshot.layoutBox);
@@ -6608,6 +6534,10 @@ function notifyLayoutUpdate(node) {
     (_c = (_b = node.options).onExitComplete) === null || _c === void 0 ? void 0 : _c.call(_b);
   }
   node.options.transition = void 0;
+}
+function propagateDirtyNodes(node) {
+  node.isProjectionDirty || (node.isProjectionDirty = Boolean(node.parent && node.parent.isProjectionDirty));
+  node.isTransformDirty || (node.isTransformDirty = Boolean(node.parent && node.parent.isTransformDirty));
 }
 function clearSnapshot(node) {
   node.clearSnapshot();
@@ -6659,7 +6589,7 @@ var defaultLayoutTransition = {
   duration: 0.45,
   ease: [0.4, 0, 0.1, 1]
 };
-function mountNodeEarly(node, id2) {
+function mountNodeEarly(node, elementId) {
   let searchNode = node.root;
   for (let i2 = node.path.length - 1; i2 >= 0; i2--) {
     if (Boolean(node.path[i2].instance)) {
@@ -6668,7 +6598,7 @@ function mountNodeEarly(node, id2) {
     }
   }
   const searchElement = searchNode && searchNode !== node.root ? searchNode.instance : document;
-  const element = searchElement.querySelector(`[data-projection-id="${id2}"]`);
+  const element = searchElement.querySelector(`[data-projection-id="${elementId}"]`);
   if (element)
     node.mount(element, true);
 }
@@ -6681,7 +6611,7 @@ function roundBox(box) {
   roundAxis(box.y);
 }
 function shouldAnimatePositionOnly(animationType, snapshot, layout) {
-  return animationType === "position" || animationType === "preserve-aspect" && !isCloseTo(aspectRatio(snapshot), aspectRatio(layout), 0.2);
+  return animationType === "position" || animationType === "preserve-aspect" && !isNear(aspectRatio(snapshot), aspectRatio(layout), 0.2);
 }
 
 // ../../node_modules/framer-motion/dist/es/projection/node/DocumentProjectionNode.mjs
@@ -6810,6 +6740,36 @@ function resolveElements(elements, selectorCache) {
   return Array.from(elements || []);
 }
 
+// ../../node_modules/tslib/modules/index.js
+var import_tslib = __toESM(require_tslib(), 1);
+var {
+  __extends,
+  __assign,
+  __rest,
+  __decorate,
+  __param,
+  __metadata,
+  __awaiter,
+  __generator,
+  __exportStar,
+  __createBinding,
+  __values,
+  __read,
+  __spread,
+  __spreadArrays,
+  __spreadArray,
+  __await,
+  __asyncGenerator,
+  __asyncDelegator,
+  __asyncValues,
+  __makeTemplateObject,
+  __importStar,
+  __importDefault,
+  __classPrivateFieldGet,
+  __classPrivateFieldSet,
+  __classPrivateFieldIn
+} = import_tslib.default;
+
 // ../../node_modules/@motionone/dom/dist/gestures/resize/handle-element.es.js
 var resizeHandlers = /* @__PURE__ */ new WeakMap();
 var observer;
@@ -6901,8 +6861,8 @@ function resizeWindow(callback) {
 }
 
 // ../../node_modules/@motionone/dom/dist/gestures/resize/index.es.js
-function resize(a2, b2) {
-  return isFunction(a2) ? resizeWindow(a2) : resizeElement(a2, b2);
+function resize(a, b) {
+  return isFunction(a) ? resizeWindow(a) : resizeElement(a, b);
 }
 
 // ../../node_modules/@motionone/dom/dist/gestures/scroll/info.es.js
