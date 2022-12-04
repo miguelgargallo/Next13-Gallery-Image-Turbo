@@ -6,17 +6,17 @@ $ tsup src/index.tsx --format esm,cjs --dts --external react && tailwindcss -i .
 [34mCLI[39m Target: es6
 [34mESM[39m Build start
 [34mCJS[39m Build start
-[32mCJS[39m [1mdist\index.js  [22m[32m293.50 KB[39m
-[32mCJS[39m [1mdist\index.css [22m[32m2.48 KB[39m
-[32mCJS[39m ⚡️ Build success in 212ms
+[34mDTS[39m Build start
 [32mESM[39m [1mdist\index.mjs [22m[32m290.66 KB[39m
 [32mESM[39m [1mdist\index.css [22m[32m2.48 KB[39m
-[32mESM[39m ⚡️ Build success in 213ms
-[34mDTS[39m Build start
-[32mDTS[39m ⚡️ Build success in 1782ms
+[32mESM[39m ⚡️ Build success in 772ms
+[32mCJS[39m [1mdist\index.js  [22m[32m293.50 KB[39m
+[32mCJS[39m [1mdist\index.css [22m[32m2.48 KB[39m
+[32mCJS[39m ⚡️ Build success in 773ms
+[32mDTS[39m ⚡️ Build success in 2197ms
 [32mDTS[39m [1mdist\index.d.ts [22m[32m495.00 B[39m
 
 Rebuilding...
 
-Done in 310ms.
-Done in 3.66s.
+Done in 287ms.
+Done in 8.62s.
