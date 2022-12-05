@@ -27,7 +27,7 @@ export const Menu = () => {
           className="m-2 hidden rounded-full py-3 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block"
           style={generateJSXMeshGradient(ELEMENTS)}
         >
-          <a href="/black-holes" target="_blank" rel="noopener noreferrer">
+          <a href="/black-holes">
             Discover Black Holes
           </a>
         </button>
