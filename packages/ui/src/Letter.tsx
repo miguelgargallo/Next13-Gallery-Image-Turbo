@@ -96,6 +96,13 @@ export const Letter = () => {
         transition={{ delay: 2.0 }}
       >
         CEO of Pylar
+      </motion.p>
+      <motion.p
+        className="m-2 p-2"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 2.2 }}
+      >
         Miguel Gargallo
       </motion.p>
     </div>

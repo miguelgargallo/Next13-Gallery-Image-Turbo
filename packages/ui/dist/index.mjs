@@ -7750,7 +7750,14 @@ var Letter = () => {
         initial: { opacity: 0 },
         animate: { opacity: 1 },
         transition: { delay: 2 },
-        children: "CEO of Pylar Miguel Gargallo"
+        children: "CEO of Pylar"
+      }),
+      /* @__PURE__ */ jsx12(motion.p, {
+        className: "m-2 p-2",
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 2.2 },
+        children: "Miguel Gargallo"
       })
     ]
   });
