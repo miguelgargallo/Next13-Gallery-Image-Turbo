@@ -4,6 +4,8 @@ import { Menu } from "ui";
 import { TitlePylar } from "ui";
 import { Footer } from "ui";
 import { motion } from "framer-motion";
+import { generateJSXMeshGradient } from "meshgrad";
+const ELEMENTS = 12;
 
 export default function Home() {
   console.log("✅ Pylar AI");
@@ -22,7 +24,25 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ delay: 1.5, duration: 1 }}
           >
-            <div className="flex flex-col items-center justify-center">
+            <div className="m-3 flex flex-col items-center justify-center">
+              <h2 className="py-4 text-center text-2xl font-bold text-white">
+                Discover Black Holes through Pylar&trade; AI prompts on
+                StableDiffusion
+              </h2>
+              <button
+                className="m-2 rounded-full py-3 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block"
+                style={generateJSXMeshGradient(ELEMENTS)}
+              >
+                <a
+                  href="/black-holes"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Discover Black Holes
+                </a>
+              </button>
+            </div>
+            <div className="flex flex-col items-center justify-center py-8">
               <p className="text-center text-2xl font-bold text-white">
                 Stable Diffusion 1.4, vs 1.5 vs 2.0 + Pylar&trade; AI prompts
               </p>

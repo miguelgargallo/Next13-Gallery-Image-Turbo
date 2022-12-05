@@ -1,5 +1,5 @@
 import { generateJSXMeshGradient } from "meshgrad";
-const ELEMENTS = 8;
+const ELEMENTS = 1;
 
 export const Version = () => {
   return (
@@ -12,7 +12,7 @@ export const Version = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        v1.0.1
+        v1.0.2
       </a>
     </button>
   );

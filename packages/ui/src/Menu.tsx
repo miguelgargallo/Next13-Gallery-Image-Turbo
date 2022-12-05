@@ -2,6 +2,8 @@ import { Version } from "./Version";
 import { MenuLogo } from "./MenuLogo";
 import { motion, useScroll } from "framer-motion";
 import "./styles.css";
+import { generateJSXMeshGradient } from "meshgrad";
+const ELEMENTS = 12;
 
 {
   // show hour and minute locale
@@ -21,14 +23,19 @@ export const Menu = () => {
       />
       <div className="flex flex-row items-center justify-between bg-gradient-to-r from-black to-gray-800">
         <MenuLogo />{" "}
-        <button className="rounded-xl py-2 px-4 font-bold text-white">
-          <a href="/">Our Works</a>
+        <button
+          className="m-2 hidden rounded-full py-3 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block"
+          style={generateJSXMeshGradient(ELEMENTS)}
+        >
+          <a href="/black-holes" target="_blank" rel="noopener noreferrer">
+            Discover Black Holes
+          </a>
         </button>
         <button className="rounded-xl py-2 px-4 font-bold text-white">
           <a href="/what-is-pylar">What is Pylar</a>
         </button>
         <button className="hidden rounded-xl py-2 px-4 font-bold text-white sm:block">
-        <a href="https://pencil.li">Pencil Domains&trade;</a>
+          <a href="https://pencil.li">Pencil Domains&trade;</a>
         </button>
         <button className="hidden rounded-xl py-2 px-4 font-bold text-white sm:block">
           <a href="/pylar-license">The License</a>
@@ -57,26 +64,3 @@ export const Menu = () => {
     </div>
   );
 };
-
-/* 
-<button className="hidden rounded-xl px-8 font-bold text-white sm:block">
-<a href="/">
-  {new Date().toLocaleTimeString("en-US", {
-    hour: "numeric",
-    minute: "numeric",
-  })}
-</a>
-</button>ç
-*/
-
-/*
-<button className="hidden rounded-xl py-2 px-4 font-bold text-white sm:block">
-<a
-  href="https://newsroom.pencil.domains/"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  Newsroom
-</a>
-</button>
-*/

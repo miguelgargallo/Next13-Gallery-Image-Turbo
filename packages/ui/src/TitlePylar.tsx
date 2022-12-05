@@ -3,22 +3,17 @@ import { motion } from "framer-motion";
 export const TitlePylar = () => {
   return (
     <div>
-
-
-      <h1 className="py-8 text-center text-5xl font-bold text-white">
-      <motion.span
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.5, duration: 1.5 }}
-        >
-                <a href="https://pylar.org" className="justify-center flex m-4 py-8">
+      <div className="flex flex-col items-center justify-center text-center">
+      <a href="https://pylar.org" className="m-2">
         <picture>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="300" /* 150 x 2 = 300 */
             height="50" /* 25 x 2 = 50 */
-            viewBox="0 0 2344 678"
+            viewBox="0 0 3060 678"
+            className="w-48 h-12 m-6"
           >
+            <defs></defs>
             <g
               fill="#000000"
               fill-rule="evenodd"
@@ -59,7 +54,6 @@ export const TitlePylar = () => {
                   Pylar&trade; AI
                 </tspan>
               </text>
-              
               <text
                 fill="#ffffff"
                 font-family="Roboto, sans-serif"
@@ -81,11 +75,27 @@ export const TitlePylar = () => {
           </svg>
         </picture>
       </a>
-      </motion.span>
-     
+    </div>
+
+      <h1 className="text-center text-5xl font-bold text-white">
+        <motion.span
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.5, duration: 1.5 }}
+        >
+          <a href="https://pylar.org" className="flex justify-center">
+            <picture></picture>
+          </a>
+        </motion.span>
       </h1>
+    </div>
+  );
+};
+
+/*
+
       <motion.h2
-        className="py-8 text-center text-4xl font-bold text-white"
+        className="text-center text-4xl font-bold text-white"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.4, duration: 1.5 }}
@@ -99,66 +109,5 @@ export const TitlePylar = () => {
         <span className="text-blue-500">A</span>rtificial{" "}
         <span className="text-blue-500">I</span>ntelligence{" "}
       </motion.h2>
-    </div>
-  );
-};
 
-
-/*
- <motion.span
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.5, duration: 1.5 }}
-        >
-          P
-        </motion.span>
-        <motion.span
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.6, duration: 1.5 }}
-        >
-          y
-        </motion.span>
-        <motion.span
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.7, duration: 1.5 }}
-        >
-          l
-        </motion.span>
-        <motion.span
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.8, duration: 1.5 }}
-        >
-          a
-        </motion.span>
-        <motion.span
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.9, duration: 1.5 }}
-        >
-          r&trade;
-        </motion.span>
-        <motion.span
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1, duration: 1.5 }}
-        >
-          &nbsp;
-        </motion.span>
-        <motion.span
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1.1, duration: 1.5 }}
-        >
-          A
-        </motion.span>
-        <motion.span
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1.2, duration: 1.5 }}
-        >
-          I
-        </motion.span>
 */
