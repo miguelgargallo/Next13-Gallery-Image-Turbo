@@ -7120,7 +7120,7 @@ var PencilLogo = () => {
           xmlns: "http://www.w3.org/2000/svg",
           width: "150",
           height: "25",
-          viewBox: "0 0 3060 678",
+          viewBox: "0 0 3000 678",
           className: "m-3 h-6 w-24",
           children: /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("g", {
             fill: "#be0aff",
@@ -7288,7 +7288,7 @@ var SuperdataLogo = () => {
           xmlns: "http://www.w3.org/2000/svg",
           width: "150",
           height: "25",
-          viewBox: "0 0 3060 678",
+          viewBox: "0 0 3500 678",
           className: "m-3 h-6 w-24",
           children: /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("g", {
             fill: "#ffffff",
