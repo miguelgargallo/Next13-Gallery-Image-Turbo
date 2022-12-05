@@ -22,3 +22,5 @@ export * from "./BlogPylar/post12032022";
 export * from "./Contact";
 /* Investors Pylar */
 export * from "./Letter";
+/* Texts */
+export * from "./Salestext";

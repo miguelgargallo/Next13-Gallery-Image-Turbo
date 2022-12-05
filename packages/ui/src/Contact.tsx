@@ -69,7 +69,7 @@ export const Contact = () => {
               </span>
             </a>
           </motion.button>
-          <motion.button
+         {/*  <motion.button
             className="pylarButtonDiscordStyle"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -119,7 +119,7 @@ export const Contact = () => {
                 &rarr;
               </span>
             </a>
-          </motion.button>
+          </motion.button> */}
         </div>
       </div>
     </div>

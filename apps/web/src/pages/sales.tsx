@@ -1,10 +1,11 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import Head from "next/head";
-import { Menu } from "ui";
+import { Menu, Salstext } from "ui";
 import { TitlePylar } from "ui";
 import { Footer } from "ui";
 import { motion } from "framer-motion";
 import { Contact } from "ui";
+import { Salestext } from "ui";
 
 export default function Home() {
   console.log("✅ Pylar AI");
@@ -17,7 +18,9 @@ export default function Home() {
       <Menu />
       <main>
         <TitlePylar />
+        <Contact />
         <div className="pylarDiv">
+          <Salestext />
           <motion.img
             className="pylarDimension"
             src="https://raw.githubusercontent.com/miguelgargallo/Next13-Gallery-Image-Turbo/main/Data.pylar/Images/Pylar-v1.0/A_photography_of_the_earth__from_the_moon_on_a_fis_AAAGOLpA_RealESRGAN_x4plus.jpeg"
@@ -42,8 +45,8 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ delay: 1.6 }}
           />
+          <Contact />
         </div>
-        <Contact />
       </main>
       <Footer />
     </div>

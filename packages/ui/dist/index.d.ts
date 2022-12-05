@@ -22,4 +22,6 @@ declare const Contact: () => JSX.Element;
 
 declare const Letter: () => JSX.Element;
 
-export { Button, Contact, Footer, Letter, ListPylar, Menu, MenuLogo, Scrollable, TitlePylar, Version, blog, post12032022 };
+declare const Salestext: () => JSX.Element;
+
+export { Button, Contact, Footer, Letter, ListPylar, Menu, MenuLogo, Salestext, Scrollable, TitlePylar, Version, blog, post12032022 };

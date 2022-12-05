@@ -7600,82 +7600,26 @@ var Contact = () => {
               ]
             })
           }),
-          /* @__PURE__ */ jsxs7("div", {
+          /* @__PURE__ */ jsx11("div", {
             className: "pylarDiv",
-            children: [
-              /* @__PURE__ */ jsx11(motion.button, {
-                className: "pylarButtonTelegramStyle",
-                initial: { opacity: 0 },
-                animate: { opacity: 1 },
-                transition: { delay: 1.4 },
-                children: /* @__PURE__ */ jsxs7("a", {
-                  href: "https://telegram.me/pencildomains",
-                  target: "_blank",
-                  rel: "noreferrer",
-                  children: [
-                    "Telegram Now",
-                    /* @__PURE__ */ jsx11("span", {
-                      className: "ml-2 bg-gradient-to-r from-white to-white bg-clip-text text-transparent",
-                      children: "\u2192"
-                    })
-                  ]
-                })
-              }),
-              /* @__PURE__ */ jsx11(motion.button, {
-                className: "pylarButtonDiscordStyle",
-                initial: { opacity: 0 },
-                animate: { opacity: 1 },
-                transition: { delay: 1.6 },
-                children: /* @__PURE__ */ jsxs7("a", {
-                  href: "https://discord.gg/eZQHJuX7Yx",
-                  target: "_blank",
-                  rel: "noreferrer",
-                  children: [
-                    "Discord Now",
-                    /* @__PURE__ */ jsx11("span", {
-                      className: "ml-2 bg-gradient-to-r from-white to-white bg-clip-text text-transparent",
-                      children: "\u2192"
-                    })
-                  ]
-                })
-              }),
-              /* @__PURE__ */ jsx11(motion.button, {
-                className: "pylarButtonInstagramStyle",
-                initial: { opacity: 0 },
-                animate: { opacity: 1 },
-                transition: { delay: 1.6 },
-                children: /* @__PURE__ */ jsxs7("a", {
-                  href: "https://instagram.com/miguelgargallo.es",
-                  target: "_blank",
-                  rel: "noreferrer",
-                  children: [
-                    "Instagram MD",
-                    /* @__PURE__ */ jsx11("span", {
-                      className: "ml-2 bg-gradient-to-r from-white to-white bg-clip-text text-transparent",
-                      children: "\u2192"
-                    })
-                  ]
-                })
-              }),
-              /* @__PURE__ */ jsx11(motion.button, {
-                className: "pylarButtonRedditStyle",
-                initial: { opacity: 0 },
-                animate: { opacity: 1 },
-                transition: { delay: 1.6 },
-                children: /* @__PURE__ */ jsxs7("a", {
-                  href: "https://www.reddit.com/r/pencildomains/",
-                  target: "_blank",
-                  rel: "noreferrer",
-                  children: [
-                    "Reddit Here",
-                    /* @__PURE__ */ jsx11("span", {
-                      className: "ml-2 bg-gradient-to-r from-white to-white bg-clip-text text-transparent",
-                      children: "\u2192"
-                    })
-                  ]
-                })
+            children: /* @__PURE__ */ jsx11(motion.button, {
+              className: "pylarButtonTelegramStyle",
+              initial: { opacity: 0 },
+              animate: { opacity: 1 },
+              transition: { delay: 1.4 },
+              children: /* @__PURE__ */ jsxs7("a", {
+                href: "https://telegram.me/pencildomains",
+                target: "_blank",
+                rel: "noreferrer",
+                children: [
+                  "Telegram Now",
+                  /* @__PURE__ */ jsx11("span", {
+                    className: "ml-2 bg-gradient-to-r from-white to-white bg-clip-text text-transparent",
+                    children: "\u2192"
+                  })
+                ]
               })
-            ]
+            })
           })
         ]
       })
@@ -7762,6 +7706,58 @@ var Letter = () => {
     ]
   });
 };
+
+// src/Salestext.tsx
+import { jsx as jsx13, jsxs as jsxs9 } from "react/jsx-runtime";
+var Salestext = () => {
+  return /* @__PURE__ */ jsxs9("div", {
+    className: "text-jusitfy items-center p-16 text-white",
+    children: [
+      /* @__PURE__ */ jsx13(motion.p, {
+        className: "m-2 p-2",
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 1 },
+        children: "Are you looking for a reliable and effective way to generate high-quality generative images and other data? Look no further than Pylar, the leading research organization in the field of AI technology."
+      }),
+      /* @__PURE__ */ jsx13(motion.p, {
+        className: "m-2 p-2",
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 1 },
+        children: "Our state-of-the-art AI technology, powered by stable diffusion algorithms and private models, is capable of producing highly realistic and customizable results. Our prompt-based AI service allows users to provide specific input data and generate customized results, ensuring that they meet their specific needs and requirements."
+      }),
+      /* @__PURE__ */ jsx13(motion.p, {
+        className: "m-2 p-2",
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 1.2 },
+        children: "Our technology has a wide range of potential applications, including the generation of images for use in research and publications, the creation of realistic simulations for testing and analysis, and the development of new AI-powered tools and technologies."
+      }),
+      /* @__PURE__ */ jsx13(motion.p, {
+        className: "m-2 p-2",
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 1.4 },
+        children: "In addition to our AI technology, we also partner with academic institutions and research organizations to facilitate collaboration and knowledge sharing. Through these partnerships, we are able to stay at the forefront of AI research and development, and provide our customers with access to the latest advances in the field."
+      }),
+      /* @__PURE__ */ jsx13(motion.p, {
+        className: "m-2 p-2",
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 1.6 },
+        children: "Our expertise in AI technology has also led to us receiving recognition and awards from industry organizations and academic institutions. This recognition highlights the high quality of our work and our contributions to the field of AI."
+      }),
+      /* @__PURE__ */ jsx13(motion.p, {
+        className: "m-2 p-2",
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 1.8 },
+        children: "Do not miss out on the opportunity to benefit from our cutting-edge AI technology. Contact us today to learn more about our products and services, and to discuss how we can help you achieve your goals."
+      })
+    ]
+  });
+};
 export {
   Button,
   Contact,
@@ -7770,6 +7766,7 @@ export {
   ListPylar,
   Menu,
   MenuLogo,
+  Salestext,
   Scrollable,
   TitlePylar,
   Version,
