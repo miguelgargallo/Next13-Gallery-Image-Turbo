@@ -33,13 +33,7 @@ export default function Home() {
                 className="m-2 rounded-full py-3 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block"
                 style={generateJSXMeshGradient(ELEMENTS)}
               >
-                <a
-                  href="/black-holes"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Discover Black Holes
-                </a>
+                <a href="/black-holes">Discover Black Holes</a>
               </button>
             </div>
             <div className="flex flex-col items-center justify-center py-8">

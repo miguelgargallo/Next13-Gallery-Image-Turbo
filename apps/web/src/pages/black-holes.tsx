@@ -29,7 +29,8 @@ export default function Home() {
                 </a>
               </button>
               <p className="py-8 text-center text-2xl font-bold text-white">
-                Stable Diffusion 1.4, vs 1.5 vs 2.0 + Pylar&trade; AI prompts
+                A trip from the first Pylar&trade; AI Prompt, to the final
+                result.
               </p>
             </div>
           </motion.div>
@@ -147,6 +148,9 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ delay: 4.0 }}
           />
+          <p className="py-8 text-center text-2xl font-bold text-white">
+            2022 © Pylar&trade; AI by Superdatas, All Rights Reserved
+          </p>
         </div>
       </main>
       <Footer />
