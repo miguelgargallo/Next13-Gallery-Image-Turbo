@@ -39,6 +39,9 @@ export const Menu = () => {
           <a href="https://pencil.li">Pencil Domains&trade;</a>
         </button>
         <button className="hidden rounded-xl py-2 px-4 font-bold text-white sm:block">
+          <a href="https://superdata.dev">SuperData&trade;</a>
+        </button>
+        <button className="hidden rounded-xl py-2 px-4 font-bold text-white sm:block">
           <a href="/pylar-license">The License</a>
         </button>
         <button className="hidden rounded-xl py-2 px-4 font-bold text-white sm:block">
