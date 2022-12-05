@@ -20,3 +20,5 @@ export * from "./BlogPylar/blog";
 export * from "./BlogPylar/post12032022";
 /* Sales Pylar */
 export * from "./Contact";
+/* Investors Pylar */
+export * from "./Letter";

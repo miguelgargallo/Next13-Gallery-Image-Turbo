@@ -540,6 +540,7 @@ __export(src_exports, {
   Button: () => Button,
   Contact: () => Contact,
   Footer: () => Footer,
+  Letter: () => Letter,
   ListPylar: () => ListPylar,
   Menu: () => Menu,
   MenuLogo: () => MenuLogo,
@@ -630,7 +631,7 @@ var Version = () => {
       href: "http://twitter.com/miguelgargallo",
       target: "_blank",
       rel: "noopener noreferrer",
-      children: "v1.0.3"
+      children: "v1.0.4"
     })
   });
 };
@@ -7243,6 +7244,13 @@ var Menu = () => {
               children: "The License"
             })
           }),
+          /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
+            className: "hidden rounded-xl py-2 px-4 font-bold text-white sm:block",
+            children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
+              href: "/inverstors",
+              children: "Investors Relations"
+            })
+          }),
           /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", {
             className: "hidden py-2 px-4 font-bold text-white md:block",
             style: {
@@ -7555,7 +7563,7 @@ var Contact = () => {
     className: "pylarDiv",
     children: [
       /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(motion.button, {
-        className: "pylarButton",
+        className: "pylarButtonEmailStyle",
         initial: { opacity: 0 },
         animate: { opacity: 1 },
         transition: { delay: 1 },
@@ -7566,7 +7574,7 @@ var Contact = () => {
           children: [
             "Mail now",
             /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", {
-              className: "ml-2 bg-gradient-to-r from-brandred to-brandblue bg-clip-text text-transparent",
+              className: "ml-2 bg-gradient-to-r from-white to-white bg-clip-text text-transparent",
               children: "\u2192"
             })
           ]
@@ -7576,7 +7584,25 @@ var Contact = () => {
         className: "pylarDiv",
         children: [
           /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(motion.button, {
-            className: "pylarButton",
+            className: "pylarButtonTwitterStyle",
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 1 },
+            children: /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("a", {
+              href: "https://twitter.com/superdatas",
+              target: "_blank",
+              rel: "noreferrer",
+              children: [
+                "MD Twitter now",
+                /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", {
+                  className: "ml-2 bg-gradient-to-r from-white to-white bg-clip-text text-transparent",
+                  children: "\u2192"
+                })
+              ]
+            })
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(motion.button, {
+            className: "pylarButtonWhatsappStyle",
             initial: { opacity: 0 },
             animate: { opacity: 1 },
             transition: { delay: 1.2 },
@@ -7587,34 +7613,163 @@ var Contact = () => {
               children: [
                 "Whatsapp now",
                 /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", {
-                  className: "ml-2 bg-gradient-to-r from-brandred to-brandblue bg-clip-text text-transparent",
+                  className: "ml-2 bg-gradient-to-r from-white to-white bg-clip-text text-transparent",
                   children: "\u2192"
                 })
               ]
             })
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", {
             className: "pylarDiv",
-            children: /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(motion.button, {
-              className: "pylarButton",
-              initial: { opacity: 0 },
-              animate: { opacity: 1 },
-              transition: { delay: 1.4 },
-              children: /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("a", {
-                href: "https://telegram.me/pencildomains",
-                target: "_blank",
-                rel: "noreferrer",
-                children: [
-                  "Telegram Now",
-                  /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", {
-                    className: "ml-2 bg-gradient-to-r from-brandred to-brandblue bg-clip-text text-transparent",
-                    children: "\u2192"
-                  })
-                ]
+            children: [
+              /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(motion.button, {
+                className: "pylarButtonTelegramStyle",
+                initial: { opacity: 0 },
+                animate: { opacity: 1 },
+                transition: { delay: 1.4 },
+                children: /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("a", {
+                  href: "https://telegram.me/pencildomains",
+                  target: "_blank",
+                  rel: "noreferrer",
+                  children: [
+                    "Telegram Now",
+                    /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", {
+                      className: "ml-2 bg-gradient-to-r from-white to-white bg-clip-text text-transparent",
+                      children: "\u2192"
+                    })
+                  ]
+                })
+              }),
+              /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(motion.button, {
+                className: "pylarButtonDiscordStyle",
+                initial: { opacity: 0 },
+                animate: { opacity: 1 },
+                transition: { delay: 1.6 },
+                children: /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("a", {
+                  href: "https://discord.gg/eZQHJuX7Yx",
+                  target: "_blank",
+                  rel: "noreferrer",
+                  children: [
+                    "Discord Now",
+                    /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", {
+                      className: "ml-2 bg-gradient-to-r from-white to-white bg-clip-text text-transparent",
+                      children: "\u2192"
+                    })
+                  ]
+                })
+              }),
+              /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(motion.button, {
+                className: "pylarButtonInstagramStyle",
+                initial: { opacity: 0 },
+                animate: { opacity: 1 },
+                transition: { delay: 1.6 },
+                children: /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("a", {
+                  href: "https://instagram.com/miguelgargallo.es",
+                  target: "_blank",
+                  rel: "noreferrer",
+                  children: [
+                    "Instagram MD",
+                    /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", {
+                      className: "ml-2 bg-gradient-to-r from-white to-white bg-clip-text text-transparent",
+                      children: "\u2192"
+                    })
+                  ]
+                })
+              }),
+              /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(motion.button, {
+                className: "pylarButtonRedditStyle",
+                initial: { opacity: 0 },
+                animate: { opacity: 1 },
+                transition: { delay: 1.6 },
+                children: /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("a", {
+                  href: "https://www.reddit.com/r/pencildomains/",
+                  target: "_blank",
+                  rel: "noreferrer",
+                  children: [
+                    "Reddit Here",
+                    /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", {
+                      className: "ml-2 bg-gradient-to-r from-white to-white bg-clip-text text-transparent",
+                      children: "\u2192"
+                    })
+                  ]
+                })
               })
-            })
+            ]
           })
         ]
+      })
+    ]
+  });
+};
+
+// src/Letter.tsx
+var import_jsx_runtime12 = require("react/jsx-runtime");
+var Letter = () => {
+  return /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", {
+    className: "text-jusitfy items-center p-16 text-white",
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(motion.p, {
+        className: "m-2 p-2 text-2xl",
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 1 },
+        children: "Dear Investors,"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(motion.p, {
+        className: "m-2 p-2 text-2xl",
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 1 },
+        children: "I am writing to share with you the exciting progress that our organization, Pylar, has made in the field of AI technology. Through the use of stable diffusion algorithms and private models, we are able to generate high-quality generative images and other data, and offer a range of AI-powered solutions to our customers."
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(motion.p, {
+        className: "m-2 p-2",
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 1.2 },
+        children: "Our prompt-based AI service allows users to provide specific input data and generate customized results. This enables our customers to fine-tune the results produced by our AI technology, ensuring that they meet their specific needs and requirements."
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(motion.p, {
+        className: "m-2 p-2",
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 1.4 },
+        children: "We have seen significant interest in our technology from academic institutions and research organizations, who are looking for reliable and effective ways to generate high-quality data for their work. In addition to licensing our technology, we also generate revenue by selling the data produced by our AI, and through partnerships with academic institutions and research organizations."
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(motion.p, {
+        className: "m-2 p-2",
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 1.6 },
+        children: "Our team of researchers and developers are dedicated to pushing the boundaries of what is possible with AI, and to developing innovative solutions that address real-world challenges. We have received recognition and awards from industry organizations and academic institutions for our work in the field, highlighting the high quality of our technology and our contributions to the advancement of AI."
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(motion.p, {
+        className: "m-2 p-2",
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 1.8 },
+        children: "We are committed to continuing our work in AI technology, and to partnering with academic institutions and research organizations to drive innovation in the field. We believe that our technology has significant potential to generate value for our customers, and to support the development of new AI-powered tools and technologies."
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(motion.p, {
+        className: "m-2 p-2",
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 1.8 },
+        children: "We appreciate your support and investment in our organization, and we look forward to sharing further updates on our progress in the future."
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(motion.p, {
+        className: "m-2 p-2",
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 1.8 },
+        children: "Sincerely,"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(motion.p, {
+        className: "m-2 p-2",
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 2 },
+        children: "[CEO of Pylar]"
       })
     ]
   });
@@ -7624,6 +7779,7 @@ var Contact = () => {
   Button,
   Contact,
   Footer,
+  Letter,
   ListPylar,
   Menu,
   MenuLogo,
