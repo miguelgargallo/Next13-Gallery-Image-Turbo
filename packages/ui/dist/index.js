@@ -632,7 +632,7 @@ var Version = () => {
       href: "http://twitter.com/miguelgargallo",
       target: "_blank",
       rel: "noopener noreferrer",
-      children: "v1.0.4"
+      children: "v1.0.5"
     })
   });
 };
@@ -7235,7 +7235,18 @@ var Menu = () => {
             className: "hidden rounded-xl py-2 px-4 font-bold text-white sm:block",
             children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
               href: "https://pencil.li",
+              target: "_blank",
+              rel: "noopener noreferrer",
               children: "Pencil Domains\u2122"
+            })
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
+            className: "hidden rounded-xl py-2 px-4 font-bold text-white sm:block",
+            children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
+              href: "https://superdata.dev",
+              target: "_blank",
+              rel: "noopener noreferrer",
+              children: "SuperData\u2122"
             })
           }),
           /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
