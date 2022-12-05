@@ -14,7 +14,8 @@ export const Menu = () => {
         className="progress-bar"
         style={{ scaleX: scrollYProgress }}
       />
-      <Supermenu />
+
+
       <div className="flex flex-row items-center justify-between bg-gradient-to-r from-black to-gray-800">
         <button className="rounded-xl py-2 px-4 font-bold text-white">
           <a href="/what-is-pylar">What is Pylar</a>
