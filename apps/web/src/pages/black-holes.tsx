@@ -32,10 +32,47 @@ export default function Home() {
                 A trip from the first Pylar&trade; AI Prompt, to the final
                 result.
               </p>
+              <div className="pylarDiv">
+                <motion.p
+                  className="px-2 text-center text-2xl font-bold text-white"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ delay: 1.6 }}
+                >
+                  From this
+                </motion.p>
+                <motion.p
+                  className="px-2 text-center text-2xl font-bold text-white"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ delay: 1.8 }}
+                >
+                  To this
+                </motion.p>
+              </div>
+              <div className="pylarDiv">
+                <motion.img
+                  className="pylarDimension"
+                  src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/120522/00006-350538659-A%20black%20hole.png"
+                  alt="Black Hole by Stable Diffusion 2.0 and Pylar Prompt guidelines"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ delay: 1.2 }}
+                />
+                <motion.img
+                  className="pylarDimension"
+                  src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/120522/00019-991914028-A%20black%20hole.png"
+                  alt="Black Hole by Stable Diffusion 2.0 and Pylar Prompt guidelines"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ delay: 1.4 }}
+                />
+              </div>
             </div>
+            <div className="flex flex-col items-center justify-center"></div>
           </motion.div>
         </div>
-        <div className="pylarDiv">
+        <div className="pylarDiv py-6">
           <motion.img
             className="pylarDimension"
             src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/120522/00006-350538659-A%20black%20hole.png"
