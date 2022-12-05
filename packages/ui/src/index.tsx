@@ -18,4 +18,5 @@ export * from "./Scrollable";
 /* Blog Pylar */
 export * from "./BlogPylar/blog";
 export * from "./BlogPylar/post12032022";
-/* Maths */
+/* Sales Pylar */
+export * from "./Contact";

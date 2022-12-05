@@ -612,7 +612,7 @@ var Version = () => {
       href: "http://twitter.com/miguelgargallo",
       target: "_blank",
       rel: "noopener noreferrer",
-      children: "v1.0.2"
+      children: "v1.0.3"
     })
   });
 };
@@ -7194,8 +7194,6 @@ var Menu = () => {
             style: k(ELEMENTS2),
             children: /* @__PURE__ */ jsx4("a", {
               href: "/black-holes",
-              target: "_blank",
-              rel: "noopener noreferrer",
               children: "Discover Black Holes"
             })
           }),
@@ -7204,6 +7202,13 @@ var Menu = () => {
             children: /* @__PURE__ */ jsx4("a", {
               href: "/what-is-pylar",
               children: "What is Pylar"
+            })
+          }),
+          /* @__PURE__ */ jsx4("button", {
+            className: "rounded-xl py-2 px-4 font-bold text-white",
+            children: /* @__PURE__ */ jsx4("a", {
+              href: "/sales",
+              children: "Contact Sales"
             })
           }),
           /* @__PURE__ */ jsx4("button", {
@@ -7524,8 +7529,64 @@ var post12032022 = () => {
     })
   });
 };
+
+// src/Contact.tsx
+import { jsx as jsx11, jsxs as jsxs7 } from "react/jsx-runtime";
+var Contact = () => {
+  return /* @__PURE__ */ jsxs7("div", {
+    className: "rounded-md ",
+    children: [
+      /* @__PURE__ */ jsx11("a", {
+        href: "mailto:sales@pylar.org",
+        target: "_blank",
+        rel: "noreferrer",
+        children: /* @__PURE__ */ jsxs7("div", {
+          className: "m-5 flex items-center justify-center rounded-md border border-transparent bg-black p-5 px-8 py-3 text-base font-medium text-white no-underline hover:bg-gray-700 dark:bg-white dark:text-black dark:hover:bg-gray-300 md:py-3 md:px-10 md:text-lg md:leading-6",
+          children: [
+            "Mail now",
+            /* @__PURE__ */ jsx11("span", {
+              className: "ml-2 bg-gradient-to-r from-brandred to-brandblue bg-clip-text text-transparent",
+              children: "\u2192"
+            })
+          ]
+        })
+      }),
+      /* @__PURE__ */ jsx11("a", {
+        href: "https://wa.me/+14077067844",
+        target: "_blank",
+        rel: "noreferrer",
+        children: /* @__PURE__ */ jsxs7("div", {
+          className: "m-5 flex items-center justify-center rounded-md border border-transparent bg-black p-5 px-8 py-3 text-base font-medium text-white no-underline hover:bg-gray-700 dark:bg-white dark:text-black dark:hover:bg-gray-300 md:py-3 md:px-10 md:text-lg md:leading-6",
+          children: [
+            "Whatsapp now",
+            /* @__PURE__ */ jsx11("span", {
+              className: "ml-2 bg-gradient-to-r from-brandred to-brandblue bg-clip-text text-transparent",
+              children: "\u2192"
+            })
+          ]
+        })
+      }),
+      /* @__PURE__ */ jsx11("a", {
+        href: "https://telegram.me/pencildomains",
+        target: "_blank",
+        rel: "noreferrer",
+        children: /* @__PURE__ */ jsxs7("div", {
+          className: "m-5 flex items-center justify-center rounded-md border border-transparent bg-black p-5 px-8 py-3 text-base font-medium text-white no-underline hover:bg-gray-700 dark:bg-white dark:text-black dark:hover:bg-gray-300 md:py-3 md:px-10 md:text-lg md:leading-6",
+          children: [
+            "Telegram now",
+            /* @__PURE__ */ jsx11("span", {
+              className: "ml-2 bg-gradient-to-r from-brandred to-brandblue bg-clip-text text-transparent",
+              children: "\u2192"
+            })
+          ]
+        })
+      })
+    ]
+  });
+};
 export {
   Button,
+  Contact,
   Footer,
   ListPylar,
   Menu,

@@ -18,4 +18,6 @@ declare const blog: () => JSX.Element;
 
 declare const post12032022: () => JSX.Element;
 
-export { Button, Footer, ListPylar, Menu, MenuLogo, Scrollable, TitlePylar, Version, blog, post12032022 };
+declare const Contact: () => JSX.Element;
+
+export { Button, Contact, Footer, ListPylar, Menu, MenuLogo, Scrollable, TitlePylar, Version, blog, post12032022 };

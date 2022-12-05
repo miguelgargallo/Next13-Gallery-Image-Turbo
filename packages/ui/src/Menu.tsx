@@ -34,6 +34,9 @@ export const Menu = () => {
         <button className="rounded-xl py-2 px-4 font-bold text-white">
           <a href="/what-is-pylar">What is Pylar</a>
         </button>
+        <button className="rounded-xl py-2 px-4 font-bold text-white">
+          <a href="/sales">Contact Sales</a>
+        </button>
         <button className="hidden rounded-xl py-2 px-4 font-bold text-white sm:block">
           <a href="https://pencil.li">Pencil Domains&trade;</a>
         </button>
