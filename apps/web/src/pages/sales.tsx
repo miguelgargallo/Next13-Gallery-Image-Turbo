@@ -45,8 +45,8 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ delay: 1.6 }}
           />
-          <Contact />
         </div>
+        <Contact />
       </main>
       <Footer />
     </div>
