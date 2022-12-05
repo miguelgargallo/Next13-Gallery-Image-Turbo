@@ -19,14 +19,14 @@ export const Menu = () => {
         <button className="rounded-xl py-2 px-4 font-bold text-white">
           <a href="/what-is-pylar">What is Pylar</a>
         </button>
-        <button className="rounded-xl py-2 px-4 font-bold text-white">
-          <a href="/sales">Contact Sales</a>
-        </button>
         <button
           className="m-2 hidden rounded-full py-3 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block"
           style={generateJSXMeshGradient(ELEMENTS)}
         >
           <a href="/black-holes">Discover Black Holes</a>
+        </button>
+        <button className="rounded-xl py-2 px-4 font-bold text-white">
+          <a href="/sales">Contact Sales</a>
         </button>
         <button className="hidden rounded-xl py-2 px-4 font-bold text-white sm:block">
           <a href="/inverstors">Investors Relations</a>

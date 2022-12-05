@@ -7408,18 +7408,18 @@ var Menu = () => {
             })
           }),
           /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("button", {
-            className: "rounded-xl py-2 px-4 font-bold text-white",
-            children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
-              href: "/sales",
-              children: "Contact Sales"
-            })
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("button", {
             className: "m-2 hidden rounded-full py-3 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block",
             style: k(ELEMENTS3),
             children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
               href: "/black-holes",
               children: "Discover Black Holes"
+            })
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("button", {
+            className: "rounded-xl py-2 px-4 font-bold text-white",
+            children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
+              href: "/sales",
+              children: "Contact Sales"
             })
           }),
           /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("button", {
