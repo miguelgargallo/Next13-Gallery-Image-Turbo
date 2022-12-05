@@ -27,3 +27,4 @@ export * from "./Salestext";
 export * from "./PylarLogo";
 export * from "./SuperdataLogo";
 export * from "./PencilLogo";
+export * from "./MenuLogo";
