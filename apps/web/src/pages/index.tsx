@@ -66,7 +66,7 @@ export default function Home() {
             alt="Earth by Stable Diffusion 2.0 and Pylar Prompt guidelines"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 1.4 }}
+            transition={{ delay: 1.6 }}
           />
         </div>
       </main>

@@ -7534,14 +7534,17 @@ var post12032022 = () => {
 import { jsx as jsx11, jsxs as jsxs7 } from "react/jsx-runtime";
 var Contact = () => {
   return /* @__PURE__ */ jsxs7("div", {
-    className: "rounded-md ",
+    className: "pylarDiv",
     children: [
-      /* @__PURE__ */ jsx11("a", {
-        href: "mailto:sales@pylar.org",
-        target: "_blank",
-        rel: "noreferrer",
-        children: /* @__PURE__ */ jsxs7("div", {
-          className: "m-5 flex items-center justify-center rounded-md border border-transparent bg-black p-5 px-8 py-3 text-base font-medium text-white no-underline hover:bg-gray-700 dark:bg-white dark:text-black dark:hover:bg-gray-300 md:py-3 md:px-10 md:text-lg md:leading-6",
+      /* @__PURE__ */ jsx11(motion.button, {
+        className: "pylarButton",
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 1 },
+        children: /* @__PURE__ */ jsxs7("a", {
+          href: "mailto:sales@pylar.org",
+          target: "_blank",
+          rel: "noreferrer",
           children: [
             "Mail now",
             /* @__PURE__ */ jsx11("span", {
@@ -7551,35 +7554,49 @@ var Contact = () => {
           ]
         })
       }),
-      /* @__PURE__ */ jsx11("a", {
-        href: "https://wa.me/+14077067844",
-        target: "_blank",
-        rel: "noreferrer",
-        children: /* @__PURE__ */ jsxs7("div", {
-          className: "m-5 flex items-center justify-center rounded-md border border-transparent bg-black p-5 px-8 py-3 text-base font-medium text-white no-underline hover:bg-gray-700 dark:bg-white dark:text-black dark:hover:bg-gray-300 md:py-3 md:px-10 md:text-lg md:leading-6",
-          children: [
-            "Whatsapp now",
-            /* @__PURE__ */ jsx11("span", {
-              className: "ml-2 bg-gradient-to-r from-brandred to-brandblue bg-clip-text text-transparent",
-              children: "\u2192"
+      /* @__PURE__ */ jsxs7("div", {
+        className: "pylarDiv",
+        children: [
+          /* @__PURE__ */ jsx11(motion.button, {
+            className: "pylarButton",
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 1.2 },
+            children: /* @__PURE__ */ jsxs7("a", {
+              href: "https://wa.me/+14077067844",
+              target: "_blank",
+              rel: "noreferrer",
+              children: [
+                "Whatsapp now",
+                /* @__PURE__ */ jsx11("span", {
+                  className: "ml-2 bg-gradient-to-r from-brandred to-brandblue bg-clip-text text-transparent",
+                  children: "\u2192"
+                })
+              ]
             })
-          ]
-        })
-      }),
-      /* @__PURE__ */ jsx11("a", {
-        href: "https://telegram.me/pencildomains",
-        target: "_blank",
-        rel: "noreferrer",
-        children: /* @__PURE__ */ jsxs7("div", {
-          className: "m-5 flex items-center justify-center rounded-md border border-transparent bg-black p-5 px-8 py-3 text-base font-medium text-white no-underline hover:bg-gray-700 dark:bg-white dark:text-black dark:hover:bg-gray-300 md:py-3 md:px-10 md:text-lg md:leading-6",
-          children: [
-            "Telegram now",
-            /* @__PURE__ */ jsx11("span", {
-              className: "ml-2 bg-gradient-to-r from-brandred to-brandblue bg-clip-text text-transparent",
-              children: "\u2192"
+          }),
+          /* @__PURE__ */ jsx11("div", {
+            className: "pylarDiv",
+            children: /* @__PURE__ */ jsx11(motion.button, {
+              className: "pylarButton",
+              initial: { opacity: 0 },
+              animate: { opacity: 1 },
+              transition: { delay: 1.4 },
+              children: /* @__PURE__ */ jsxs7("a", {
+                href: "https://telegram.me/pencildomains",
+                target: "_blank",
+                rel: "noreferrer",
+                children: [
+                  "Telegram Now",
+                  /* @__PURE__ */ jsx11("span", {
+                    className: "ml-2 bg-gradient-to-r from-brandred to-brandblue bg-clip-text text-transparent",
+                    children: "\u2192"
+                  })
+                ]
+              })
             })
-          ]
-        })
+          })
+        ]
       })
     ]
   });

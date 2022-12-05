@@ -7552,14 +7552,17 @@ var post12032022 = () => {
 var import_jsx_runtime11 = require("react/jsx-runtime");
 var Contact = () => {
   return /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", {
-    className: "rounded-md ",
+    className: "pylarDiv",
     children: [
-      /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("a", {
-        href: "mailto:sales@pylar.org",
-        target: "_blank",
-        rel: "noreferrer",
-        children: /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", {
-          className: "m-5 flex items-center justify-center rounded-md border border-transparent bg-black p-5 px-8 py-3 text-base font-medium text-white no-underline hover:bg-gray-700 dark:bg-white dark:text-black dark:hover:bg-gray-300 md:py-3 md:px-10 md:text-lg md:leading-6",
+      /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(motion.button, {
+        className: "pylarButton",
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 1 },
+        children: /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("a", {
+          href: "mailto:sales@pylar.org",
+          target: "_blank",
+          rel: "noreferrer",
           children: [
             "Mail now",
             /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", {
@@ -7569,35 +7572,49 @@ var Contact = () => {
           ]
         })
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("a", {
-        href: "https://wa.me/+14077067844",
-        target: "_blank",
-        rel: "noreferrer",
-        children: /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", {
-          className: "m-5 flex items-center justify-center rounded-md border border-transparent bg-black p-5 px-8 py-3 text-base font-medium text-white no-underline hover:bg-gray-700 dark:bg-white dark:text-black dark:hover:bg-gray-300 md:py-3 md:px-10 md:text-lg md:leading-6",
-          children: [
-            "Whatsapp now",
-            /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", {
-              className: "ml-2 bg-gradient-to-r from-brandred to-brandblue bg-clip-text text-transparent",
-              children: "\u2192"
+      /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", {
+        className: "pylarDiv",
+        children: [
+          /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(motion.button, {
+            className: "pylarButton",
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 1.2 },
+            children: /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("a", {
+              href: "https://wa.me/+14077067844",
+              target: "_blank",
+              rel: "noreferrer",
+              children: [
+                "Whatsapp now",
+                /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", {
+                  className: "ml-2 bg-gradient-to-r from-brandred to-brandblue bg-clip-text text-transparent",
+                  children: "\u2192"
+                })
+              ]
             })
-          ]
-        })
-      }),
-      /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("a", {
-        href: "https://telegram.me/pencildomains",
-        target: "_blank",
-        rel: "noreferrer",
-        children: /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", {
-          className: "m-5 flex items-center justify-center rounded-md border border-transparent bg-black p-5 px-8 py-3 text-base font-medium text-white no-underline hover:bg-gray-700 dark:bg-white dark:text-black dark:hover:bg-gray-300 md:py-3 md:px-10 md:text-lg md:leading-6",
-          children: [
-            "Telegram now",
-            /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", {
-              className: "ml-2 bg-gradient-to-r from-brandred to-brandblue bg-clip-text text-transparent",
-              children: "\u2192"
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("div", {
+            className: "pylarDiv",
+            children: /* @__PURE__ */ (0, import_jsx_runtime11.jsx)(motion.button, {
+              className: "pylarButton",
+              initial: { opacity: 0 },
+              animate: { opacity: 1 },
+              transition: { delay: 1.4 },
+              children: /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("a", {
+                href: "https://telegram.me/pencildomains",
+                target: "_blank",
+                rel: "noreferrer",
+                children: [
+                  "Telegram Now",
+                  /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("span", {
+                    className: "ml-2 bg-gradient-to-r from-brandred to-brandblue bg-clip-text text-transparent",
+                    children: "\u2192"
+                  })
+                ]
+              })
             })
-          ]
-        })
+          })
+        ]
       })
     ]
   });
