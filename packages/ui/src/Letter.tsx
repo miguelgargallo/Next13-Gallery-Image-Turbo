@@ -95,7 +95,8 @@ export const Letter = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 2.0 }}
       >
-        [CEO of Pylar]
+        CEO of Pylar
+        Miguel Gargallo
       </motion.p>
     </div>
   );

@@ -7750,7 +7750,7 @@ var Letter = () => {
         initial: { opacity: 0 },
         animate: { opacity: 1 },
         transition: { delay: 2 },
-        children: "[CEO of Pylar]"
+        children: "CEO of Pylar Miguel Gargallo"
       })
     ]
   });
