@@ -19,18 +19,6 @@ export default function Home() {
         <TitlePylar />
         <div>
           <p className="p-16 text-justify text-2xl text-white">
-            Pylar is a research organization that focuses on the development and
-            application of AI technology. The organization uses stable diffusion
-            algorithms and private models to generate generative images and
-            other data. Pylar offers a prompt-based AI service, which allows
-            customers to provide input data and generate customized results
-            using the organization advanced AI technology. Pylar may generate
-            revenue through licensing its technology, selling the data generated
-            by its AI, and partnering with academic institutions and research
-            organizations.
-          </p>
-
-          <p className="p-16 text-justify text-2xl text-white">
             Pylar is a research organization focused on the development and
             application of AI technology. Through the use of stable diffusion
             algorithms and private models, Pylar aims to generate generative
