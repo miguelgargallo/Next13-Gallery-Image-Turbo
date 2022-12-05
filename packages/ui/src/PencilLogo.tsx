@@ -1,7 +1,7 @@
-export { generateJSXMeshGradient } from "meshgrad";
+import { generateJSXMeshGradient } from "meshgrad";
 const ELEMENTS = 12;
 
-export const PebcilLogo = () => {
+export const PencilLogo = () => {
   return (
     <div
       className="m-2 hidden rounded-full text-xs font-bold text-black shadow-md hover:shadow-xl md:block"
@@ -53,7 +53,7 @@ export const PebcilLogo = () => {
                 font-weight="500"
               >
                 <tspan x="993.25" y="697" className="underline">
-                  Pencil Domains&trade;
+                  Pencil&trade;
                 </tspan>
               </text>
               <text

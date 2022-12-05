@@ -29,6 +29,5 @@ declare const PylarLogo: () => JSX.Element;
 declare const SuperdataLogo: () => JSX.Element;
 
 declare const PencilLogo: () => JSX.Element;
-declare const PebcilLogo: () => JSX.Element;
 
-export { Button, Contact, Footer, Letter, ListPylar, Menu, PebcilLogo, PencilLogo, PylarLogo, Salestext, Scrollable, SuperdataLogo, Supermenu, TitlePylar, Version, blog, post12032022 };
+export { Button, Contact, Footer, Letter, ListPylar, Menu, PencilLogo, PylarLogo, Salestext, Scrollable, SuperdataLogo, Supermenu, TitlePylar, Version, blog, post12032022 };
