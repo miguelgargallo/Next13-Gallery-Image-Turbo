@@ -2,7 +2,7 @@ declare const Button: () => JSX.Element;
 
 declare const Menu: () => JSX.Element;
 
-declare const MenuLogo: () => JSX.Element;
+declare const Supermenu: () => JSX.Element;
 
 declare const TitlePylar: () => JSX.Element;
 
@@ -24,4 +24,10 @@ declare const Letter: () => JSX.Element;
 
 declare const Salestext: () => JSX.Element;
 
-export { Button, Contact, Footer, Letter, ListPylar, Menu, MenuLogo, Salestext, Scrollable, TitlePylar, Version, blog, post12032022 };
+declare const PylarLogo: () => JSX.Element;
+
+declare const SuperdataLogo: () => JSX.Element;
+
+declare const PencilLogo: () => JSX.Element;
+
+export { Button, Contact, Footer, Letter, ListPylar, Menu, PencilLogo, PylarLogo, Salestext, Scrollable, SuperdataLogo, Supermenu, TitlePylar, Version, blog, post12032022 };

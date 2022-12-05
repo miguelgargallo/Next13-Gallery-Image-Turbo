@@ -1,4 +1,4 @@
-export const MenuLogo = () => {
+export const PylarLogo = () => {
   return (
     <div className="flex flex-col items-center justify-center text-center">
       <a href="https://pylar.org" className="m-2">
@@ -8,7 +8,7 @@ export const MenuLogo = () => {
             width="150" /* 150 x 2 = 300 */
             height="25" /* 25 x 2 = 50 */
             viewBox="0 0 3060 678"
-            className="w-24 h-6 m-3"
+            className="m-3 h-6 w-24"
           >
             <defs></defs>
             <g
@@ -66,8 +66,7 @@ export const MenuLogo = () => {
                 font-family="Roboto, sans-serif"
                 font-size="75"
                 font-weight="500"
-              >
-              </text>
+              ></text>
             </g>
           </svg>
         </picture>

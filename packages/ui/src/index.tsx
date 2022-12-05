@@ -2,9 +2,8 @@ import * as React from "react";
 // Buttons
 export * from "./Button";
 // Menu
-export * from "./Menu";// Branding
-// Logo
-export * from "./MenuLogo";
+export * from "./Menu";
+export * from "./Supermenu";
 // Title and subtitle
 export * from "./TitlePylar";
 // List
@@ -24,3 +23,7 @@ export * from "./Contact";
 export * from "./Letter";
 /* Texts */
 export * from "./Salestext";
+/* Logos */
+export * from "./PylarLogo";
+export * from "./SuperdataLogo";
+export * from "./PencilLogo";
