@@ -8,7 +8,7 @@ import { generateJSXMeshGradient } from "meshgrad";
 const ELEMENTS = 12;
 
 export default function Home() {
-  console.log("✅ Pylar AI");
+  console.log("✅ Index page by Pylar AI, a Miguel Gargallo Startup");
   return (
     <div className="min-w-screen flex min-h-screen flex-col bg-black">
       <Head>

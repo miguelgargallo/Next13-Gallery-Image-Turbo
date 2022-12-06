@@ -7,7 +7,7 @@ import { Letter } from "ui";
 const ELEMENTS = 12;
 
 export default function Home() {
-  console.log("✅ Pylar AI");
+  console.log("✅ Pagina de Inversores de Pylar AI, una Startup de Miguel Gargallo");
   return (
     <div className="min-w-screen flex min-h-screen flex-col bg-black">
       <Head>

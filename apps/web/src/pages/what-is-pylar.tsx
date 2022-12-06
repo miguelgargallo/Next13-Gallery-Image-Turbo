@@ -6,7 +6,7 @@ import { Footer } from "ui";
 import { motion } from "framer-motion";
 
 export default function Home() {
-  console.log("✅ Pylar AI");
+  console.log("✅ What is Pylar page by Pylar AI, a Miguel Gargallo Startup");
   return (
     <div className="min-w-screen flex min-h-screen flex-col bg-black">
       <Head>

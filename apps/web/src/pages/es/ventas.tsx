@@ -8,7 +8,7 @@ import { Contact } from "ui";
 import { Salestext } from "ui";
 
 export default function Home() {
-  console.log("✅ Pylar AI");
+  console.log("✅ Pagina de Ventas de Pylar AI, una Startup de Miguel Gargallo");
   return (
     <div className="min-w-screen flex min-h-screen flex-col bg-black">
       <Head>
