@@ -2,7 +2,7 @@ import { Version } from "./Version";
 import { motion, useScroll } from "framer-motion";
 import "./styles.css";
 import { generateJSXMeshGradient } from "meshgrad";
-import { PylarLogo } from "./PylarLogo";
+import { Supermenu } from "./Supermenu";
 const ELEMENTS = 12;
 
 export const Menu = () => {
@@ -15,7 +15,6 @@ export const Menu = () => {
         style={{ scaleX: scrollYProgress }}
       />
       <div className="flex flex-row items-center justify-between bg-gradient-to-r from-black to-gray-800">
-        <PylarLogo />
         <button className="rounded-xl py-2 px-4 font-bold text-white">
           <a href="/what-is-pylar">What is Pylar</a>
         </button>
