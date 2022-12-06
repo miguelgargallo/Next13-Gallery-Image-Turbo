@@ -55,8 +55,8 @@ export default function Home() {
           className="text-l m-2 px-4 text-white"
         >
           Uno de los proyectos más emocionantes e innovadores de IA y ML en
-          curso es Pylar. Este proyecto, que significa "Prompt Yielding Lean and
-          Agile Rapidness", se centra en el uso de tecnologías de IA y ML para
+          curso es Pylar. Este proyecto, que significa &quot;Prompt Yielding Lean and
+          Agile Rapidness&quot;, se centra en el uso de tecnologías de IA y ML para
           producir resultados rápidamente y eficientemente que generen
           beneficios o ventajas.
         </motion.p>
