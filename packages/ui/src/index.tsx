@@ -3,6 +3,7 @@ import * as React from "react";
 export * from "./Button";
 // Menu
 export * from "./Menu";
+export * from "./Navbar";
 export * from "./Supermenu";
 // Title and subtitle
 export * from "./TitlePylar";
