@@ -538,6 +538,7 @@ var require_tslib = __commonJS({
 var src_exports = {};
 __export(src_exports, {
   Button: () => Button,
+  Carta: () => Carta,
   Contact: () => Contact,
   Footer: () => Footer,
   Letter: () => Letter,
@@ -7105,149 +7106,76 @@ function useScroll(_a = {}) {
   return values;
 }
 
-// src/Menu.tsx
+// src/PylarLogo.tsx
 var import_jsx_runtime3 = require("react/jsx-runtime");
-var ELEMENTS2 = 12;
-var Menu = () => {
-  const { scrollYProgress } = useScroll();
-  return /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("div", {
-    className: "hidden sm:block",
-    children: [
-      /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(motion.div, {
-        className: "progress-bar",
-        style: { scaleX: scrollYProgress }
-      }),
-      /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("div", {
-        className: "flex flex-row items-center justify-between bg-gradient-to-r from-black to-gray-800",
-        children: [
-          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("button", {
-            className: "rounded-xl py-2 px-4 font-bold text-white",
-            children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
-              href: "/what-is-pylar",
-              children: "What is Pylar"
-            })
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("button", {
-            className: "m-2 hidden rounded-full py-3 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block",
-            style: k(ELEMENTS2),
-            children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
-              href: "/black-holes",
-              children: "Discover Black Holes"
-            })
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("button", {
-            className: "rounded-xl py-2 px-4 font-bold text-white",
-            children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
-              href: "/sales",
-              children: "Contact Sales"
-            })
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("button", {
-            className: "hidden rounded-xl py-2 px-4 font-bold text-white sm:block",
-            children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
-              href: "/inverstors",
-              children: "Investors Relations"
-            })
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("div", {
-            className: "hidden py-2 px-4 font-bold text-white md:block",
-            style: {
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center"
-            },
-            children: [
-              " ",
-              /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("button", {
-                className: "hidden py-2 px-4 font-bold text-white md:block",
-                children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
-                  href: "http://twitter.com/superdatas",
-                  target: "_blank",
-                  rel: "noopener noreferrer",
-                  children: "Twitter"
-                })
-              }),
-              /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(Version, {})
-            ]
-          })
-        ]
-      })
-    ]
-  });
-};
-
-// src/PencilLogo.tsx
-var import_jsx_runtime4 = require("react/jsx-runtime");
-var ELEMENTS3 = 12;
-var PencilLogo = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", {
-    className: "m-2 hidden rounded-full text-xs font-bold text-black shadow-md hover:shadow-xl md:block",
-    style: k(ELEMENTS3),
-    children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
+var PylarLogo = () => {
+  return /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("div", {
+    className: "m-2 hidden rounded-full text-xs font-bold text-white shadow-md hover:shadow-xl md:block",
+    children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
       href: "https://pylar.org",
       className: "",
-      children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("picture", {
-        children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("svg", {
+      children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("picture", {
+        children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("svg", {
           xmlns: "http://www.w3.org/2000/svg",
           width: "150",
           height: "25",
-          viewBox: "0 0 3000 678",
+          viewBox: "0 0 3060 678",
           className: "m-3 h-6 w-24",
-          children: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("g", {
-            fill: "#be0aff",
+          children: /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("g", {
+            fill: "#ffffff",
             "fill-rule": "evenodd",
             transform: "translate(-151 -173)",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("path", {
-                fill: "#be0aff",
+              /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("path", {
+                fill: "#ffffff",
                 d: "M508.516097,232.032195 L783.120976,781.241951 C791.271621,797.543242 784.664217,817.365452 768.362927,825.516097 C763.780698,827.807212 758.727967,829 753.604878,829 L204.395122,829 C186.169725,829 171.395122,814.225397 171.395122,796 C171.395122,790.876912 172.58791,785.824181 174.879024,781.241951 L449.483903,232.032195 C457.634548,215.730904 477.456758,209.123501 493.758049,217.274146 C500.144453,220.467348 505.322895,225.64579 508.516097,232.032195 Z",
                 transform: "matrix(0 -1 -1 0 980 980)"
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("path", {
-                fill: "#147df5",
+              /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("path", {
+                fill: "#000000",
                 d: "M419.705262,277.910524 L658,754.5 L658,754.5 L151,754.5 L389.294738,277.910524 C393.493555,269.51289 403.704997,266.109076 412.102631,270.307893 C415.392597,271.952876 418.060279,274.620559 419.705262,277.910524 Z",
                 transform: "matrix(0 -1 -1 0 905.5 905.5)"
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("path", {
-                fill: "#0aff99",
+              /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("path", {
+                fill: "#ffffff",
                 d: "M356.705262,340.910524 L532,691.5 L532,691.5 L151,691.5 L326.294738,340.910524 C330.493555,332.51289 340.704997,329.109076 349.102631,333.307893 C352.392597,334.952876 355.060279,337.620559 356.705262,340.910524 Z",
                 transform: "matrix(0 -1 -1 0 842.5 842.5)"
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("path", {
-                fill: "#deff0a",
+              /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("path", {
+                fill: "#000000",
                 d: "M293.205262,404.410524 L405,628 L405,628 L151,628 L262.794738,404.410524 C266.993555,396.01289 277.204997,392.609076 285.602631,396.807893 C288.892597,398.452876 291.560279,401.120559 293.205262,404.410524 Z",
                 transform: "matrix(0 -1 -1 0 779 779)"
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("path", {
-                fill: "#ff0000",
+              /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("path", {
+                fill: "#ffffff",
                 d: "M230.599689,469.699379 L278,564.5 L278,564.5 L151,564.5 L198.400311,469.699379 C202.846117,460.807766 213.658232,457.203728 222.549845,461.649534 C226.033338,463.391281 228.857943,466.215886 230.599689,469.699379 Z",
                 transform: "matrix(0 -1 -1 0 715.5 715.5)"
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("text", {
-                fill: "#000000",
+              /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("text", {
+                fill: "#ffffff",
                 "font-family": "Roboto, sans-serif",
                 "font-size": "500",
                 "font-weight": "500",
-                children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("tspan", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("tspan", {
                   x: "993.25",
                   y: "697",
-                  className: "underline",
-                  children: "Pencil\u2122"
+                  className: "",
+                  children: "Pylar\u2122 AI"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("text", {
-                fill: "#000000",
+              /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("text", {
+                fill: "#ffffff",
                 "font-family": "Roboto, sans-serif",
                 "font-size": "100",
                 "font-weight": "500",
-                children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("tspan", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("tspan", {
                   x: "690.95",
                   y: "829",
                   children: "\xA9"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("text", {
-                fill: "#000000",
+              /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("text", {
+                fill: "#ffffff",
                 "font-family": "Roboto, sans-serif",
                 "font-size": "75",
                 "font-weight": "500"
@@ -7260,13 +7188,85 @@ var PencilLogo = () => {
   });
 };
 
-// src/PylarLogo.tsx
+// src/Menu.tsx
+var import_jsx_runtime4 = require("react/jsx-runtime");
+var ELEMENTS2 = 12;
+var Menu = () => {
+  const { scrollYProgress } = useScroll();
+  return /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", {
+    className: "hidden sm:block",
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(motion.div, {
+        className: "progress-bar",
+        style: { scaleX: scrollYProgress }
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", {
+        className: "flex flex-row items-center justify-between bg-gradient-to-r from-black to-gray-800",
+        children: [
+          /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(PylarLogo, {}),
+          /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
+            className: "rounded-xl py-2 px-4 font-bold text-white",
+            children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
+              href: "/what-is-pylar",
+              children: "What is Pylar"
+            })
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
+            className: "m-2 hidden rounded-full py-3 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block",
+            style: k(ELEMENTS2),
+            children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
+              href: "/black-holes",
+              children: "Discover Black Holes"
+            })
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
+            className: "rounded-xl py-2 px-4 font-bold text-white",
+            children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
+              href: "/sales",
+              children: "Contact Sales"
+            })
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
+            className: "hidden rounded-xl py-2 px-4 font-bold text-white sm:block",
+            children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
+              href: "/inverstors",
+              children: "Investors Relations"
+            })
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", {
+            className: "hidden py-2 px-4 font-bold text-white md:block",
+            style: {
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center"
+            },
+            children: [
+              " ",
+              /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
+                className: "hidden py-2 px-4 font-bold text-white md:block",
+                children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
+                  href: "http://twitter.com/superdatas",
+                  target: "_blank",
+                  rel: "noopener noreferrer",
+                  children: "Twitter"
+                })
+              }),
+              /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Version, {})
+            ]
+          })
+        ]
+      })
+    ]
+  });
+};
+
+// src/PencilLogo.tsx
 var import_jsx_runtime5 = require("react/jsx-runtime");
-var ELEMENTS4 = 12;
-var PylarLogo = () => {
+var ELEMENTS3 = 12;
+var PencilLogo = () => {
   return /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", {
     className: "m-2 hidden rounded-full text-xs font-bold text-black shadow-md hover:shadow-xl md:block",
-    style: k(ELEMENTS4),
+    style: k(ELEMENTS3),
     children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
       href: "https://pylar.org",
       className: "",
@@ -7275,35 +7275,35 @@ var PylarLogo = () => {
           xmlns: "http://www.w3.org/2000/svg",
           width: "150",
           height: "25",
-          viewBox: "0 0 3060 678",
+          viewBox: "0 0 3000 678",
           className: "m-3 h-6 w-24",
           children: /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("g", {
-            fill: "#000000",
+            fill: "#be0aff",
             "fill-rule": "evenodd",
             transform: "translate(-151 -173)",
             children: [
               /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("path", {
-                fill: "#ffffff",
+                fill: "#be0aff",
                 d: "M508.516097,232.032195 L783.120976,781.241951 C791.271621,797.543242 784.664217,817.365452 768.362927,825.516097 C763.780698,827.807212 758.727967,829 753.604878,829 L204.395122,829 C186.169725,829 171.395122,814.225397 171.395122,796 C171.395122,790.876912 172.58791,785.824181 174.879024,781.241951 L449.483903,232.032195 C457.634548,215.730904 477.456758,209.123501 493.758049,217.274146 C500.144453,220.467348 505.322895,225.64579 508.516097,232.032195 Z",
                 transform: "matrix(0 -1 -1 0 980 980)"
               }),
               /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("path", {
-                fill: "#000000",
+                fill: "#147df5",
                 d: "M419.705262,277.910524 L658,754.5 L658,754.5 L151,754.5 L389.294738,277.910524 C393.493555,269.51289 403.704997,266.109076 412.102631,270.307893 C415.392597,271.952876 418.060279,274.620559 419.705262,277.910524 Z",
                 transform: "matrix(0 -1 -1 0 905.5 905.5)"
               }),
               /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("path", {
-                fill: "#ffffff",
+                fill: "#0aff99",
                 d: "M356.705262,340.910524 L532,691.5 L532,691.5 L151,691.5 L326.294738,340.910524 C330.493555,332.51289 340.704997,329.109076 349.102631,333.307893 C352.392597,334.952876 355.060279,337.620559 356.705262,340.910524 Z",
                 transform: "matrix(0 -1 -1 0 842.5 842.5)"
               }),
               /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("path", {
-                fill: "#000000",
+                fill: "#deff0a",
                 d: "M293.205262,404.410524 L405,628 L405,628 L151,628 L262.794738,404.410524 C266.993555,396.01289 277.204997,392.609076 285.602631,396.807893 C288.892597,398.452876 291.560279,401.120559 293.205262,404.410524 Z",
                 transform: "matrix(0 -1 -1 0 779 779)"
               }),
               /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("path", {
-                fill: "#ffffff",
+                fill: "#ff0000",
                 d: "M230.599689,469.699379 L278,564.5 L278,564.5 L151,564.5 L198.400311,469.699379 C202.846117,460.807766 213.658232,457.203728 222.549845,461.649534 C226.033338,463.391281 228.857943,466.215886 230.599689,469.699379 Z",
                 transform: "matrix(0 -1 -1 0 715.5 715.5)"
               }),
@@ -7316,7 +7316,7 @@ var PylarLogo = () => {
                   x: "993.25",
                   y: "697",
                   className: "underline",
-                  children: "Pylar\u2122 AI"
+                  children: "Pencil\u2122"
                 })
               }),
               /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("text", {
@@ -7346,11 +7346,11 @@ var PylarLogo = () => {
 
 // src/SuperdataLogo.tsx
 var import_jsx_runtime6 = require("react/jsx-runtime");
-var ELEMENTS5 = 12;
+var ELEMENTS4 = 12;
 var SuperdataLogo = () => {
   return /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("div", {
     className: "m-2 hidden rounded-full text-xs font-bold text-black shadow-md hover:shadow-xl md:block",
-    style: k(ELEMENTS5),
+    style: k(ELEMENTS4),
     children: /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
       href: "https://pylar.org",
       className: "",
@@ -7685,7 +7685,7 @@ var Scrollable = () => {
 
 // src/BlogPylar/blog.tsx
 var import_jsx_runtime12 = require("react/jsx-runtime");
-var ELEMENTS6 = 5;
+var ELEMENTS5 = 5;
 var blog = () => {
   return /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", {
     children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("svg", {
@@ -7696,7 +7696,7 @@ var blog = () => {
       "stroke-width": "0",
       viewBox: "0 0 95 95",
       className: "m-2 rounded-xl py-2 shadow-md hover:shadow-xl",
-      style: k(ELEMENTS6),
+      style: k(ELEMENTS5),
       children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("path", {
         d: "M32.816,12.95,30.349,8.568h4.78a.439.439,0,0,1,.346.2l.931,1.534c.558.92,1.225,2.02,1.607,2.648ZM23.975,39.495a.339.339,0,0,1-.315.207H18.772l7.595-13.635a.731.731,0,0,0-.636-1.087h0L12.787,25l-2.574-4.456H29.076c.011,0,.02,0,.031,0a.677.677,0,0,0,.217-.045l.047-.02a.722.722,0,0,0,.346-.313l3.108-5.745h5.13Zm-6.468-.518-.613-1.009c-.785-1.3-1.791-2.955-1.9-3.137a.385.385,0,0,1,.024-.355l4.457-8.027,5.019-.006ZM8.948,30.444,6.453,26.011,8.968,21.3l2.522,4.367C10.706,27.14,9.483,29.442,8.948,30.444Zm-3.348.69H2.881a.443.443,0,0,1-.343-.2L1.726,29.6C1.147,28.641.409,27.425,0,26.752H5.2l2.466,4.383ZM14.037.208A.338.338,0,0,1,14.351,0h4.91L11.646,13.636c-.006.011-.01.023-.016.035s-.021.046-.03.07-.015.046-.021.069-.011.044-.014.066a.648.648,0,0,0-.008.081c0,.012,0,.023,0,.036s0,.018,0,.027a.591.591,0,0,0,.008.079.538.538,0,0,0,.012.066c.006.023.013.045.021.068s.016.045.025.066.021.041.033.062.023.04.037.059a.644.644,0,0,0,.045.055c.016.017.031.035.048.051s.035.029.053.043a.634.634,0,0,0,.063.045l.023.016c.008,0,.018.006.027.011a.729.729,0,0,0,.119.048c.015,0,.029.01.044.013a.7.7,0,0,0,.164.021h.33l12.619-.017c.334.58.957,1.673,1.489,2.6q.612,1.072,1.01,1.768H8.949c-.008,0-.016,0-.024,0a.725.725,0,0,0-.631.382L5.185,25.29H.059Zm6.479.534.456.75c.8,1.321,1.932,3.185,2.052,3.379A.383.383,0,0,1,23,5.227l-4.457,8.027-5.017.006Zm8.546,8.511,2.5,4.435-2.545,4.7c-.3-.529-.68-1.189-1.034-1.808-.7-1.224-1.208-2.115-1.495-2.613C27.028,12.977,28.462,10.349,29.062,9.253Z",
         id: "Fill-1",
@@ -7708,7 +7708,7 @@ var blog = () => {
 
 // src/BlogPylar/post12032022.tsx
 var import_jsx_runtime13 = require("react/jsx-runtime");
-var ELEMENTS7 = 5;
+var ELEMENTS6 = 5;
 var post12032022 = () => {
   return /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", {
     children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("svg", {
@@ -7719,7 +7719,7 @@ var post12032022 = () => {
       "stroke-width": "0",
       viewBox: "0 0 95 95",
       className: "m-2 rounded-xl py-2 shadow-md hover:shadow-xl",
-      style: k(ELEMENTS7),
+      style: k(ELEMENTS6),
       children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("path", {
         d: "M32.816,12.95,30.349,8.568h4.78a.439.439,0,0,1,.346.2l.931,1.534c.558.92,1.225,2.02,1.607,2.648ZM23.975,39.495a.339.339,0,0,1-.315.207H18.772l7.595-13.635a.731.731,0,0,0-.636-1.087h0L12.787,25l-2.574-4.456H29.076c.011,0,.02,0,.031,0a.677.677,0,0,0,.217-.045l.047-.02a.722.722,0,0,0,.346-.313l3.108-5.745h5.13Zm-6.468-.518-.613-1.009c-.785-1.3-1.791-2.955-1.9-3.137a.385.385,0,0,1,.024-.355l4.457-8.027,5.019-.006ZM8.948,30.444,6.453,26.011,8.968,21.3l2.522,4.367C10.706,27.14,9.483,29.442,8.948,30.444Zm-3.348.69H2.881a.443.443,0,0,1-.343-.2L1.726,29.6C1.147,28.641.409,27.425,0,26.752H5.2l2.466,4.383ZM14.037.208A.338.338,0,0,1,14.351,0h4.91L11.646,13.636c-.006.011-.01.023-.016.035s-.021.046-.03.07-.015.046-.021.069-.011.044-.014.066a.648.648,0,0,0-.008.081c0,.012,0,.023,0,.036s0,.018,0,.027a.591.591,0,0,0,.008.079.538.538,0,0,0,.012.066c.006.023.013.045.021.068s.016.045.025.066.021.041.033.062.023.04.037.059a.644.644,0,0,0,.045.055c.016.017.031.035.048.051s.035.029.053.043a.634.634,0,0,0,.063.045l.023.016c.008,0,.018.006.027.011a.729.729,0,0,0,.119.048c.015,0,.029.01.044.013a.7.7,0,0,0,.164.021h.33l12.619-.017c.334.58.957,1.673,1.489,2.6q.612,1.072,1.01,1.768H8.949c-.008,0-.016,0-.024,0a.725.725,0,0,0-.631.382L5.185,25.29H.059Zm6.479.534.456.75c.8,1.321,1.932,3.185,2.052,3.379A.383.383,0,0,1,23,5.227l-4.457,8.027-5.017.006Zm8.546,8.511,2.5,4.435-2.545,4.7c-.3-.529-.68-1.189-1.034-1.808-.7-1.224-1.208-2.115-1.495-2.613C27.028,12.977,28.462,10.349,29.062,9.253Z",
         id: "Fill-1",
@@ -7950,9 +7950,99 @@ var Salestext = () => {
     ]
   });
 };
+
+// src/Carta.tsx
+var import_jsx_runtime17 = require("react/jsx-runtime");
+var Carta = () => {
+  return /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)("div", {
+    className: "text-jusitfy items-center p-16 text-white",
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(motion.p, {
+        className: "m-2 p-2 text-2xl",
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 1 },
+        children: "Dear Investors,"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(motion.p, {
+        className: "m-2 p-2 text-2xl",
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 1 },
+        children: "Les escribo para compartir con ustedes los emocionantes progresos que nuestra organizaci\xF3n, Pylar, ha realizado en el campo de la tecnolog\xEDa de IA. Mediante el uso de algoritmos de difusi\xF3n estables y modelos privados, somos capaces de generar im\xE1genes generativas de alta calidad y otros datos, as\xED como de ofrecer una serie de soluciones basadas en IA a nuestros clientes."
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(motion.p, {
+        className: "m-2 p-2",
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 1.2 },
+        children: "Nuestro servicio de IA basado en preguntas permite a los usuarios proporcionar datos de entrada espec\xEDficos y generar resultados personalizados. Esto permite a nuestros clientes ajustar los resultados producidos por nuestra tecnolog\xEDa de IA, asegur\xE1ndose de que satisfacen sus necesidades y requisitos espec\xEDficos."
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(motion.p, {
+        className: "m-2 p-2",
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 1.4 },
+        children: "Hemos observado un gran inter\xE9s en nuestra tecnolog\xEDa por parte de instituciones acad\xE9micas y organizaciones de investigaci\xF3n, que buscan formas fiables y eficaces de generar datos de alta calidad para su trabajo. Adem\xE1s de licenciar nuestra tecnolog\xEDa, tambi\xE9n generamos ingresos mediante la venta de los datos producidos por nuestra IA, y a trav\xE9s de asociaciones con instituciones acad\xE9micas y organizaciones de investigaci\xF3n. Traducci\xF3n realizada con la versi\xF3n gratuita del traductor www.DeepL.com/Translator"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)(motion.p, {
+        className: "m-2 p-2",
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 1.6 },
+        children: [
+          "Nuestro equipo de investigadores y desarrolladores se dedica a ampliar los l\xEDmites de lo que es posible con la IA y a desarrollar soluciones innovadoras que aborden los retos del mundo real. Hemos recibido reconocimientos y premios de organizaciones del sector e instituciones acad\xE9micas por nuestro trabajo en este campo, lo que pone de relieve la alta calidad de nuestra tecnolog\xEDa y nuestras contribuciones al avance de la IA.",
+          " "
+        ]
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)(motion.p, {
+        className: "m-2 p-2",
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 1.8 },
+        children: [
+          "Nos comprometemos a seguir trabajando en la tecnolog\xEDa de IA y a colaborar con instituciones acad\xE9micas y organizaciones de investigaci\xF3n para impulsar la innovaci\xF3n en este campo. Creemos que nuestra tecnolog\xEDa tiene un gran potencial para generar valor para nuestros clientes y apoyar el desarrollo de nuevas herramientas y tecnolog\xEDas basadas en IA.",
+          " "
+        ]
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsxs)(motion.p, {
+        className: "m-2 p-2",
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 1.8 },
+        children: [
+          "Agradecemos su apoyo y su inversi\xF3n en nuestra organizaci\xF3n, y esperamos poder compartir m\xE1s informaci\xF3n sobre nuestros avances en el futuro.",
+          " "
+        ]
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(motion.p, {
+        className: "m-2 p-2",
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 1.8 },
+        children: "Atentamente,"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(motion.p, {
+        className: "m-2 p-2",
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 2 },
+        children: "CEO de Pylar"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(motion.p, {
+        className: "m-2 p-2",
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 2.2 },
+        children: "Miguel Gargallo"
+      })
+    ]
+  });
+};
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   Button,
+  Carta,
   Contact,
   Footer,
   Letter,

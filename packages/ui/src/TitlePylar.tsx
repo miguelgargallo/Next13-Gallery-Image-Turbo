@@ -91,23 +91,3 @@ export const TitlePylar = () => {
     </div>
   );
 };
-
-/*
-
-      <motion.h2
-        className="text-center text-4xl font-bold text-white"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.4, duration: 1.5 }}
-      >
-        <span className="text-blue-500">P</span>rompt{" "}
-        <span className="text-blue-500">Y</span>ielding{" "}
-        <span className="text-blue-500">L</span>ean{" "}
-        <span className="text-blue-500">A</span>gile{" "}
-        <span className="text-blue-500">R</span>apidness&trade;{" "}
-        <span className="text-black"> </span>
-        <span className="text-blue-500">A</span>rtificial{" "}
-        <span className="text-blue-500">I</span>ntelligence{" "}
-      </motion.h2>
-
-*/

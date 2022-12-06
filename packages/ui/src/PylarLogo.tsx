@@ -1,11 +1,7 @@
-import { generateJSXMeshGradient } from "meshgrad";
-const ELEMENTS = 12;
-
 export const PylarLogo = () => {
   return (
     <div
-      className="m-2 hidden rounded-full text-xs font-bold text-black shadow-md hover:shadow-xl md:block"
-      style={generateJSXMeshGradient(ELEMENTS)}
+      className="m-2 hidden rounded-full text-xs font-bold text-white shadow-md hover:shadow-xl md:block"
     >
       <a href="https://pylar.org" className="">
         <picture>
@@ -17,7 +13,7 @@ export const PylarLogo = () => {
             className="m-3 h-6 w-24"
           >
             <g
-              fill="#000000"
+              fill="#ffffff"
               fill-rule="evenodd"
               transform="translate(-151 -173)"
             >
@@ -47,17 +43,17 @@ export const PylarLogo = () => {
                 transform="matrix(0 -1 -1 0 715.5 715.5)"
               ></path>
               <text
-                fill="#000000"
+                fill="#ffffff"
                 font-family="Roboto, sans-serif"
                 font-size="500"
                 font-weight="500"
               >
-                <tspan x="993.25" y="697" className="underline">
+                <tspan x="993.25" y="697" className="">
                   Pylar&trade; AI
                 </tspan>
               </text>
               <text
-                fill="#000000"
+                fill="#ffffff"
                 font-family="Roboto, sans-serif"
                 font-size="100"
                 font-weight="500"
@@ -67,7 +63,7 @@ export const PylarLogo = () => {
                 </tspan>
               </text>
               <text
-                fill="#000000"
+                fill="#ffffff"
                 font-family="Roboto, sans-serif"
                 font-size="75"
                 font-weight="500"
