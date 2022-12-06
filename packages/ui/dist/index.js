@@ -7216,7 +7216,7 @@ var Menu = () => {
             className: "m-2 hidden rounded-full py-3 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block",
             style: k(ELEMENTS2),
             children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
-              href: "/black-holes",
+              href: "/collections/blackholes",
               children: "Discover Black Holes"
             })
           }),
