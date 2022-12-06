@@ -38,7 +38,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col items-center justify-center py-8">
               <p className="text-center text-2xl font-bold text-white">
-                Stable Diffusion 1.4, vs 1.5 vs 2.0 + Pylar&trade; AI prompts
+                Version 1.4, vs 1.5 vs 2.0 + Pylar&trade; AI prompts
               </p>
             </div>
           </motion.div>
