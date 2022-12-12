@@ -1,4 +1,3 @@
-import { Version } from "./Version";
 import { motion, useScroll } from "framer-motion";
 import "./styles.css";
 import { generateJSXMeshGradient } from "meshgrad";
@@ -31,37 +30,7 @@ export const Menu = () => {
         <button className="hidden rounded-xl py-2 px-4 font-bold text-white sm:block">
           <a href="/inverstors">Investors Relations</a>
         </button>
-        <div
-          className="hidden py-2 px-4 font-bold text-white md:block"
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
-          {" "}
-          <button className="hidden py-2 px-4 font-bold text-white md:block">
-            <a
-              href="http://twitter.com/superdatas"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Twitter
-            </a>
-          </button>
-          <Version />
-        </div>
       </div>
     </div>
   );
 };
-
-
-/*
-        <button
-          className="m-2 hidden rounded-full py-3 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block"
-          style={generateJSXMeshGradient(ELEMENTS)}
-        >
-          <a href="/collections">Collections</a>
-        </button>
-*/

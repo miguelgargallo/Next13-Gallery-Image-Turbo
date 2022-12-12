@@ -11,6 +11,7 @@ export * from "./TitlePylar";
 export * from "./ListPylar";
 // Version
 export * from "./Version";
+export * from "./Versions";
 // Footer
 export * from "./Footer";
 // Other
