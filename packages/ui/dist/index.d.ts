@@ -4,7 +4,7 @@ declare const Menu: () => JSX.Element;
 
 declare const Navbar: () => JSX.Element;
 
-declare const Supermenu: () => JSX.Element;
+declare const MenuAlpha: () => JSX.Element;
 
 declare const TitlePylar: () => JSX.Element;
 
@@ -38,4 +38,4 @@ declare const PencilLogo: () => JSX.Element;
 
 declare const Carta: () => JSX.Element;
 
-export { Button, Carta, Contact, Footer, Letter, ListPylar, Menu, Navbar, PencilLogo, PylarLogo, Salestext, Scrollable, Signature, SuperdataLogo, Supermenu, TitlePylar, Version, Versions, blog, post12032022 };
+export { Button, Carta, Contact, Footer, Letter, ListPylar, Menu, MenuAlpha, Navbar, PencilLogo, PylarLogo, Salestext, Scrollable, Signature, SuperdataLogo, TitlePylar, Version, Versions, blog, post12032022 };

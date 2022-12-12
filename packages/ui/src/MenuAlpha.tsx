@@ -6,7 +6,7 @@ export const MenuAlpha = () => {
         <a href="https://superdatas.org" target="_blank" rel="noopener noreferrer"
         >SuperData</a>
       </button>
-      <button className="py-2 font-bold text-white">
+      <button className="py-2 underline font-bold text-white">
         <a href="https://pylar.org" target="_blank" rel="noopener noreferrer"
         >PylarAI</a>
       </button>
@@ -14,7 +14,7 @@ export const MenuAlpha = () => {
         <a href="https://itamaesan.org" target="_blank" rel="noopener noreferrer"
         >ITAMAESAN</a>
       </button>
-      <button className="px-8 py-2 underline font-bold text-white">
+      <button className="px-8 py-2 font-bold text-white">
         <a href="https://pencil.li" target="_blank" rel="noopener noreferrer"
         >Pencil</a>
       </button>
