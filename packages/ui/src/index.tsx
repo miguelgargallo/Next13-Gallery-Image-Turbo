@@ -28,5 +28,6 @@ export * from "./Salestext";
 /* Logos */
 export * from "./PylarLogo";
 export * from "./SuperdataLogo";
+export * from "./Signature";
 export * from "./PencilLogo";
 export * from "./Carta";

@@ -28,7 +28,7 @@ export const Menu = () => {
           <a href="/sales">Contact Sales</a>
         </button>
         <button className="hidden rounded-xl py-2 px-4 font-bold text-white sm:block">
-          <a href="/inverstors">Investors Relations</a>
+          <a href="/investors">Investors Relations</a>
         </button>
       </div>
     </div>

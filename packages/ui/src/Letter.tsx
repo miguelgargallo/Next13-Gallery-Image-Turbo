@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+import { Signature } from "./Signature";
+
 
 export const Letter = () => {
   return (
@@ -105,6 +107,15 @@ export const Letter = () => {
       >
         Miguel Gargallo
       </motion.p>
+      <motion.div
+        className=""
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 2.4 }}
+      >
+        <Signature />
+      </motion.div>
     </div>
+
   );
 };

@@ -549,6 +549,7 @@ __export(src_exports, {
   PylarLogo: () => PylarLogo,
   Salestext: () => Salestext,
   Scrollable: () => Scrollable,
+  Signature: () => Signature,
   SuperdataLogo: () => SuperdataLogo,
   Supermenu: () => Supermenu,
   TitlePylar: () => TitlePylar,
@@ -7215,7 +7216,7 @@ var Menu = () => {
           /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("button", {
             className: "hidden rounded-xl py-2 px-4 font-bold text-white sm:block",
             children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
-              href: "/inverstors",
+              href: "/investors",
               children: "Investors Relations"
             })
           })
@@ -7993,128 +7994,217 @@ var Contact = () => {
   });
 };
 
-// src/Letter.tsx
+// src/Signature.tsx
 var import_jsx_runtime18 = require("react/jsx-runtime");
+var Signature = () => {
+  return /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("div", {
+    className: "m-2 hidden rounded-full text-xs font-bold text-white shadow-md hover:shadow-xl md:block",
+    children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
+      href: "https://pylar.org",
+      className: "",
+      children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("picture", {
+        children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("svg", {
+          xmlns: "http://www.w3.org/2000/svg",
+          width: "150",
+          height: "25",
+          viewBox: "0 0 3060 678",
+          className: "m-3 h-6 w-24",
+          children: /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("g", {
+            fill: "#ffffff",
+            "fill-rule": "evenodd",
+            transform: "translate(-151 -173)",
+            children: [
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", {
+                fill: "#ffffff",
+                d: "M508.516097,232.032195 L783.120976,781.241951 C791.271621,797.543242 784.664217,817.365452 768.362927,825.516097 C763.780698,827.807212 758.727967,829 753.604878,829 L204.395122,829 C186.169725,829 171.395122,814.225397 171.395122,796 C171.395122,790.876912 172.58791,785.824181 174.879024,781.241951 L449.483903,232.032195 C457.634548,215.730904 477.456758,209.123501 493.758049,217.274146 C500.144453,220.467348 505.322895,225.64579 508.516097,232.032195 Z",
+                transform: "matrix(0 -1 -1 0 980 980)"
+              }),
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", {
+                fill: "#000000",
+                d: "M419.705262,277.910524 L658,754.5 L658,754.5 L151,754.5 L389.294738,277.910524 C393.493555,269.51289 403.704997,266.109076 412.102631,270.307893 C415.392597,271.952876 418.060279,274.620559 419.705262,277.910524 Z",
+                transform: "matrix(0 -1 -1 0 905.5 905.5)"
+              }),
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", {
+                fill: "#ffffff",
+                d: "M356.705262,340.910524 L532,691.5 L532,691.5 L151,691.5 L326.294738,340.910524 C330.493555,332.51289 340.704997,329.109076 349.102631,333.307893 C352.392597,334.952876 355.060279,337.620559 356.705262,340.910524 Z",
+                transform: "matrix(0 -1 -1 0 842.5 842.5)"
+              }),
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", {
+                fill: "#000000",
+                d: "M293.205262,404.410524 L405,628 L405,628 L151,628 L262.794738,404.410524 C266.993555,396.01289 277.204997,392.609076 285.602631,396.807893 C288.892597,398.452876 291.560279,401.120559 293.205262,404.410524 Z",
+                transform: "matrix(0 -1 -1 0 779 779)"
+              }),
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", {
+                fill: "#ffffff",
+                d: "M230.599689,469.699379 L278,564.5 L278,564.5 L151,564.5 L198.400311,469.699379 C202.846117,460.807766 213.658232,457.203728 222.549845,461.649534 C226.033338,463.391281 228.857943,466.215886 230.599689,469.699379 Z",
+                transform: "matrix(0 -1 -1 0 715.5 715.5)"
+              }),
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("text", {
+                fill: "#ffffff",
+                "font-family": "Roboto, sans-serif",
+                "font-size": "500",
+                "font-weight": "500",
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("tspan", {
+                  x: "993.25",
+                  y: "697",
+                  className: "",
+                  children: "Pylar\u2122 AI"
+                })
+              }),
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("text", {
+                fill: "#ffffff",
+                "font-family": "Roboto, sans-serif",
+                "font-size": "100",
+                "font-weight": "500",
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("tspan", {
+                  x: "690.95",
+                  y: "829",
+                  children: "\xA9"
+                })
+              }),
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("text", {
+                fill: "#ffffff",
+                "font-family": "Roboto, sans-serif",
+                "font-size": "75",
+                "font-weight": "500"
+              })
+            ]
+          })
+        })
+      })
+    })
+  });
+};
+
+// src/Letter.tsx
+var import_jsx_runtime19 = require("react/jsx-runtime");
 var Letter = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("div", {
     className: "text-jusitfy items-center p-16 text-white",
     children: [
-      /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(motion.p, {
+      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(motion.p, {
         className: "m-2 p-2 text-2xl",
         initial: { opacity: 0 },
         animate: { opacity: 1 },
         transition: { delay: 1 },
         children: "Dear Investors,"
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(motion.p, {
+      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(motion.p, {
         className: "m-2 p-2 text-2xl",
         initial: { opacity: 0 },
         animate: { opacity: 1 },
         transition: { delay: 1 },
         children: "I am writing to share with you the exciting progress that our organization, Pylar, has made in the field of AI technology. Through the use of stable diffusion algorithms and private models, we are able to generate high-quality generative images and other data, and offer a range of AI-powered solutions to our customers."
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(motion.p, {
+      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(motion.p, {
         className: "m-2 p-2",
         initial: { opacity: 0 },
         animate: { opacity: 1 },
         transition: { delay: 1.2 },
         children: "Our prompt-based AI service allows users to provide specific input data and generate customized results. This enables our customers to fine-tune the results produced by our AI technology, ensuring that they meet their specific needs and requirements."
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(motion.p, {
+      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(motion.p, {
         className: "m-2 p-2",
         initial: { opacity: 0 },
         animate: { opacity: 1 },
         transition: { delay: 1.4 },
         children: "We have seen significant interest in our technology from academic institutions and research organizations, who are looking for reliable and effective ways to generate high-quality data for their work. In addition to licensing our technology, we also generate revenue by selling the data produced by our AI, and through partnerships with academic institutions and research organizations."
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(motion.p, {
+      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(motion.p, {
         className: "m-2 p-2",
         initial: { opacity: 0 },
         animate: { opacity: 1 },
         transition: { delay: 1.6 },
         children: "Our team of researchers and developers are dedicated to pushing the boundaries of what is possible with AI, and to developing innovative solutions that address real-world challenges. We have received recognition and awards from industry organizations and academic institutions for our work in the field, highlighting the high quality of our technology and our contributions to the advancement of AI."
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(motion.p, {
+      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(motion.p, {
         className: "m-2 p-2",
         initial: { opacity: 0 },
         animate: { opacity: 1 },
         transition: { delay: 1.8 },
         children: "We are committed to continuing our work in AI technology, and to partnering with academic institutions and research organizations to drive innovation in the field. We believe that our technology has significant potential to generate value for our customers, and to support the development of new AI-powered tools and technologies."
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(motion.p, {
+      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(motion.p, {
         className: "m-2 p-2",
         initial: { opacity: 0 },
         animate: { opacity: 1 },
         transition: { delay: 1.8 },
         children: "We appreciate your support and investment in our organization, and we look forward to sharing further updates on our progress in the future."
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(motion.p, {
+      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(motion.p, {
         className: "m-2 p-2",
         initial: { opacity: 0 },
         animate: { opacity: 1 },
         transition: { delay: 1.8 },
         children: "Sincerely,"
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(motion.p, {
+      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(motion.p, {
         className: "m-2 p-2",
         initial: { opacity: 0 },
         animate: { opacity: 1 },
         transition: { delay: 2 },
         children: "CEO of Pylar"
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(motion.p, {
+      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(motion.p, {
         className: "m-2 p-2",
         initial: { opacity: 0 },
         animate: { opacity: 1 },
         transition: { delay: 2.2 },
         children: "Miguel Gargallo"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(motion.div, {
+        className: "",
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 2.4 },
+        children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(Signature, {})
       })
     ]
   });
 };
 
 // src/Salestext.tsx
-var import_jsx_runtime19 = require("react/jsx-runtime");
+var import_jsx_runtime20 = require("react/jsx-runtime");
 var Salestext = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime20.jsxs)("div", {
     className: "text-jusitfy items-center p-16 text-white",
     children: [
-      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(motion.p, {
+      /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(motion.p, {
         className: "m-2 p-2",
         initial: { opacity: 0 },
         animate: { opacity: 1 },
         transition: { delay: 1 },
         children: "Are you looking for a reliable and effective way to generate high-quality generative images and other data? Look no further than Pylar, the leading research organization in the field of AI technology."
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(motion.p, {
+      /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(motion.p, {
         className: "m-2 p-2",
         initial: { opacity: 0 },
         animate: { opacity: 1 },
         transition: { delay: 1 },
         children: "Our state-of-the-art AI technology, powered by stable diffusion algorithms and private models, is capable of producing highly realistic and customizable results. Our prompt-based AI service allows users to provide specific input data and generate customized results, ensuring that they meet their specific needs and requirements."
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(motion.p, {
+      /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(motion.p, {
         className: "m-2 p-2",
         initial: { opacity: 0 },
         animate: { opacity: 1 },
         transition: { delay: 1.2 },
         children: "Our technology has a wide range of potential applications, including the generation of images for use in research and publications, the creation of realistic simulations for testing and analysis, and the development of new AI-powered tools and technologies."
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(motion.p, {
+      /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(motion.p, {
         className: "m-2 p-2",
         initial: { opacity: 0 },
         animate: { opacity: 1 },
         transition: { delay: 1.4 },
         children: "In addition to our AI technology, we also partner with academic institutions and research organizations to facilitate collaboration and knowledge sharing. Through these partnerships, we are able to stay at the forefront of AI research and development, and provide our customers with access to the latest advances in the field."
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(motion.p, {
+      /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(motion.p, {
         className: "m-2 p-2",
         initial: { opacity: 0 },
         animate: { opacity: 1 },
         transition: { delay: 1.6 },
         children: "Our expertise in AI technology has also led to us receiving recognition and awards from industry organizations and academic institutions. This recognition highlights the high quality of our work and our contributions to the field of AI."
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(motion.p, {
+      /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(motion.p, {
         className: "m-2 p-2",
         initial: { opacity: 0 },
         animate: { opacity: 1 },
@@ -8126,40 +8216,40 @@ var Salestext = () => {
 };
 
 // src/Carta.tsx
-var import_jsx_runtime20 = require("react/jsx-runtime");
+var import_jsx_runtime21 = require("react/jsx-runtime");
 var Carta = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime20.jsxs)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime21.jsxs)("div", {
     className: "text-jusitfy items-center p-16 text-white",
     children: [
-      /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(motion.p, {
+      /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(motion.p, {
         className: "m-2 p-2 text-2xl",
         initial: { opacity: 0 },
         animate: { opacity: 1 },
         transition: { delay: 1 },
         children: "Dear Investors,"
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(motion.p, {
+      /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(motion.p, {
         className: "m-2 p-2 text-2xl",
         initial: { opacity: 0 },
         animate: { opacity: 1 },
         transition: { delay: 1 },
         children: "Les escribo para compartir con ustedes los emocionantes progresos que nuestra organizaci\xF3n, Pylar, ha realizado en el campo de la tecnolog\xEDa de IA. Mediante el uso de algoritmos de difusi\xF3n estables y modelos privados, somos capaces de generar im\xE1genes generativas de alta calidad y otros datos, as\xED como de ofrecer una serie de soluciones basadas en IA a nuestros clientes."
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(motion.p, {
+      /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(motion.p, {
         className: "m-2 p-2",
         initial: { opacity: 0 },
         animate: { opacity: 1 },
         transition: { delay: 1.2 },
         children: "Nuestro servicio de IA basado en preguntas permite a los usuarios proporcionar datos de entrada espec\xEDficos y generar resultados personalizados. Esto permite a nuestros clientes ajustar los resultados producidos por nuestra tecnolog\xEDa de IA, asegur\xE1ndose de que satisfacen sus necesidades y requisitos espec\xEDficos."
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(motion.p, {
+      /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(motion.p, {
         className: "m-2 p-2",
         initial: { opacity: 0 },
         animate: { opacity: 1 },
         transition: { delay: 1.4 },
         children: "Hemos observado un gran inter\xE9s en nuestra tecnolog\xEDa por parte de instituciones acad\xE9micas y organizaciones de investigaci\xF3n, que buscan formas fiables y eficaces de generar datos de alta calidad para su trabajo. Adem\xE1s de licenciar nuestra tecnolog\xEDa, tambi\xE9n generamos ingresos mediante la venta de los datos producidos por nuestra IA, y a trav\xE9s de asociaciones con instituciones acad\xE9micas y organizaciones de investigaci\xF3n. Traducci\xF3n realizada con la versi\xF3n gratuita del traductor www.DeepL.com/Translator"
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime20.jsxs)(motion.p, {
+      /* @__PURE__ */ (0, import_jsx_runtime21.jsxs)(motion.p, {
         className: "m-2 p-2",
         initial: { opacity: 0 },
         animate: { opacity: 1 },
@@ -8169,7 +8259,7 @@ var Carta = () => {
           " "
         ]
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime20.jsxs)(motion.p, {
+      /* @__PURE__ */ (0, import_jsx_runtime21.jsxs)(motion.p, {
         className: "m-2 p-2",
         initial: { opacity: 0 },
         animate: { opacity: 1 },
@@ -8179,7 +8269,7 @@ var Carta = () => {
           " "
         ]
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime20.jsxs)(motion.p, {
+      /* @__PURE__ */ (0, import_jsx_runtime21.jsxs)(motion.p, {
         className: "m-2 p-2",
         initial: { opacity: 0 },
         animate: { opacity: 1 },
@@ -8189,21 +8279,21 @@ var Carta = () => {
           " "
         ]
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(motion.p, {
+      /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(motion.p, {
         className: "m-2 p-2",
         initial: { opacity: 0 },
         animate: { opacity: 1 },
         transition: { delay: 1.8 },
         children: "Atentamente,"
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(motion.p, {
+      /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(motion.p, {
         className: "m-2 p-2",
         initial: { opacity: 0 },
         animate: { opacity: 1 },
         transition: { delay: 2 },
         children: "CEO de Pylar"
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(motion.p, {
+      /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(motion.p, {
         className: "m-2 p-2",
         initial: { opacity: 0 },
         animate: { opacity: 1 },
@@ -8227,6 +8317,7 @@ var Carta = () => {
   PylarLogo,
   Salestext,
   Scrollable,
+  Signature,
   SuperdataLogo,
   Supermenu,
   TitlePylar,
