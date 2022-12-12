@@ -69,7 +69,6 @@ export const Footer = () => {
             </button>
           </div>
         </div>
-
         <p
           className="text-white"
         >The Art of Prompting, tomorrow, today.</p>
