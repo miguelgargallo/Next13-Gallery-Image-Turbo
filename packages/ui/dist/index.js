@@ -7185,8 +7185,6 @@ var MenuAlpha = () => {
         className: "px-8 py-2 font-bold text-white",
         children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
           href: "https://superdatas.org",
-          target: "_blank",
-          rel: "noopener noreferrer",
           children: "SuperData"
         })
       }),
@@ -7194,8 +7192,6 @@ var MenuAlpha = () => {
         className: "py-2 underline font-bold text-white",
         children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
           href: "https://pylar.org",
-          target: "_blank",
-          rel: "noopener noreferrer",
           children: "PylarAI"
         })
       }),
@@ -7203,8 +7199,6 @@ var MenuAlpha = () => {
         className: "py-2 font-bold text-white",
         children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
           href: "https://itamaesan.org",
-          target: "_blank",
-          rel: "noopener noreferrer",
           children: "ITAMAESAN"
         })
       }),
@@ -7212,8 +7206,6 @@ var MenuAlpha = () => {
         className: "px-8 py-2 font-bold text-white",
         children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
           href: "https://pencil.li",
-          target: "_blank",
-          rel: "noopener noreferrer",
           children: "Pencil"
         })
       })
