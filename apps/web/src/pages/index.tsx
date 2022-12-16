@@ -69,6 +69,58 @@ export default function Home() {
             transition={{ delay: 1.6 }}
           />
         </div>
+        <div className="pylarDiv">
+          <motion.img
+            className="pylarDimension"
+            src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/121622/1.png"
+            alt="Earth by Stable Diffusion 1.4 and Pylar Prompt guidelines"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.2 }}
+          />
+          <motion.img
+            className="pylarDimension"
+            src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/121622/5.png"
+            alt="Earth by Stable Diffusion 1.5 and Pylar Prompt guidelines"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.4 }}
+          />
+          <motion.img
+            className="pylarDimension"
+            src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/121622/9.png"
+            alt="Earth by Stable Diffusion 2.0 and Pylar Prompt guidelines"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.6 }}
+          />
+        </div>
+        <div className="pylarDiv">
+          <motion.img
+            className="pylarDimension"
+            src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/120622/girl/12.png"
+            alt="Earth by Stable Diffusion 1.4 and Pylar Prompt guidelines"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.2 }}
+          />
+          <motion.img
+            className="pylarDimension"
+            src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/120622/girl/13.png"
+            alt="Earth by Stable Diffusion 1.5 and Pylar Prompt guidelines"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.4 }}
+          />
+          <motion.img
+            className="pylarDimension"
+            src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/120622/girl/14.png"
+            alt="Earth by Stable Diffusion 2.0 and Pylar Prompt guidelines"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.6 }}
+          />
+        </div>
       </main>
       <Footer />
     </div>
