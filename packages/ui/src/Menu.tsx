@@ -27,6 +27,12 @@ export const Menu = () => {
           <a href="/collections/blackholes">Discover Black Holes</a>
         </button>
         <button className="rounded-xl py-2 px-4 font-bold text-white">
+          <a href="/collections/girl">Girl</a>
+        </button>
+        <button className="rounded-xl py-2 px-4 font-bold text-white">
+          <a href="/collections/box">Box</a>
+        </button>
+        <button className="rounded-xl py-2 px-4 font-bold text-white">
           <a href="/sales">Contact Sales</a>
         </button>
         <button className="hidden rounded-xl py-2 px-4 font-bold text-white sm:block">
