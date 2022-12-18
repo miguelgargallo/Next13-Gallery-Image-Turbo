@@ -43,6 +43,9 @@ export default function Home() {
             </div>
           </motion.div>
         </div>
+        <h2 className="text-center text-2xl font-bold text-white">
+          Earth
+        </h2>
         <div className="pylarDiv">
           <motion.img
             className="pylarDimension"
@@ -69,6 +72,44 @@ export default function Home() {
             transition={{ delay: 1.6 }}
           />
         </div>
+        <div className="bg-yellow-600">
+
+          <h3 className="text-center text-2xl font-bold text-black">
+            Pylar AI Prompts on Stable Diffusion 2.1
+          </h3>
+          <h2 className="text-center text-2xl font-bold text-black">
+            Cats
+          </h2>
+          <div className="pylarDiv">
+            <motion.img
+              className="pylarDimension"
+              src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/121822/5.png"
+              alt="Earth by Stable Diffusion 1.4 and Pylar Prompt guidelines"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 1.2 }}
+            />
+            <motion.img
+              className="pylarDimension"
+              src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/121822/6.png"
+              alt="Earth by Stable Diffusion 1.5 and Pylar Prompt guidelines"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 1.4 }}
+            />
+            <motion.img
+              className="pylarDimension"
+              src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/121822/7.png"
+              alt="Earth by Stable Diffusion 2.0 and Pylar Prompt guidelines"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 1.6 }}
+            />
+          </div>
+        </div>
+        <h2 className="text-center text-2xl font-bold text-white">
+          Box
+        </h2>
         <div className="pylarDiv">
           <motion.img
             className="pylarDimension"
@@ -95,10 +136,13 @@ export default function Home() {
             transition={{ delay: 1.6 }}
           />
         </div>
+        <h2 className="text-center text-2xl font-bold text-white">
+          Girls
+        </h2>
         <div className="pylarDiv">
           <motion.img
             className="pylarDimension"
-            src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/120622/girl/12.png"
+            src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/120622/12.png"
             alt="Earth by Stable Diffusion 1.4 and Pylar Prompt guidelines"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -106,7 +150,7 @@ export default function Home() {
           />
           <motion.img
             className="pylarDimension"
-            src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/120622/girl/13.png"
+            src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/120622/13.png"
             alt="Earth by Stable Diffusion 1.5 and Pylar Prompt guidelines"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -114,7 +158,7 @@ export default function Home() {
           />
           <motion.img
             className="pylarDimension"
-            src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/120622/girl/14.png"
+            src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/120622/14.png"
             alt="Earth by Stable Diffusion 2.0 and Pylar Prompt guidelines"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
