@@ -2,6 +2,7 @@ import { motion, useScroll } from "framer-motion";
 import "./styles.css";
 import { generateJSXMeshGradient } from "meshgrad";
 import { MenuLogo } from "./MenuLogo";
+import { CollectionMenu } from "./CollectionMenu";
 import { MenuAlpha } from "./MenuAlpha";
 const ELEMENTS = 12;
 
@@ -21,16 +22,7 @@ export const Menu = () => {
           className="m-2 hidden rounded-full py-3 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block"
           style={generateJSXMeshGradient(ELEMENTS)}
         >
-          <a href="/collections/cats">Discover Cats</a>
-        </button>
-        <button className="rounded-xl py-2 px-4 font-bold text-white">
-          <a href="/collections/human">Human</a>
-        </button>
-        <button className="rounded-xl py-2 px-4 font-bold text-white">
-          <a href="/collections/box">Box</a>
-        </button>
-        <button className="rounded-xl py-2 px-4 font-bold text-white">
-          <a href="/collections/blackholes">Black Holes</a>
+          <a href="/collections/cats">Discover our latest collection</a>
         </button>
         <button className="rounded-xl py-2 px-4 font-bold text-white">
           <a href="/sales">Contact Sales</a>
@@ -39,6 +31,7 @@ export const Menu = () => {
           <a href="/investors">Investors Relations</a>
         </button>
       </div>
+      <CollectionMenu />
     </div>
   );
 };
