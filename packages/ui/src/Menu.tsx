@@ -24,7 +24,7 @@ export const Menu = () => {
           <a href="/collections/cats">Discover Cats</a>
         </button>
         <button className="rounded-xl py-2 px-4 font-bold text-white">
-          <a href="/collections/girls">Human</a>
+          <a href="/collections/human">Human</a>
         </button>
         <button className="rounded-xl py-2 px-4 font-bold text-white">
           <a href="/collections/box">Box</a>

@@ -7214,7 +7214,7 @@ var Menu = () => {
           /* @__PURE__ */ jsx4("button", {
             className: "rounded-xl py-2 px-4 font-bold text-white",
             children: /* @__PURE__ */ jsx4("a", {
-              href: "/collections/girls",
+              href: "/collections/human",
               children: "Human"
             })
           }),
