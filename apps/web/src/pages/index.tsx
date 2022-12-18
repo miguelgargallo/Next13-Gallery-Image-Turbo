@@ -53,9 +53,6 @@ export default function Home() {
           <h3 className="text-center text-2xl font-bold text-white">
             Our evolution from v1.4 to v1.5 to v2.0
           </h3>
-          <h2 className="text-center text-2xl font-bold text-white">
-            Earth
-          </h2>
           <div className="pylarDiv">
             <motion.img
               className="pylarDimension"
@@ -88,7 +85,10 @@ export default function Home() {
             Our latest advancements v2.1
           </h3>
           <h2 className="text-center text-2xl font-bold text-black">
-            Cats
+            <button className="py-2 underline font-bold text-black ml-2">
+              <a href="/collections/cats"
+              >Discover our latest Collection</a>
+            </button>
           </h2>
           <div className="pylarDiv">
             <motion.img
@@ -97,7 +97,7 @@ export default function Home() {
               alt="Earth by Stable Diffusion 1.4 and Pylar Prompt guidelines"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: 1.2 }}
+              transition={{ delay: 1.8 }}
             />
             <motion.img
               className="pylarDimension"
@@ -105,7 +105,7 @@ export default function Home() {
               alt="Earth by Stable Diffusion 1.5 and Pylar Prompt guidelines"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: 1.4 }}
+              transition={{ delay: 2.0 }}
             />
             <motion.img
               className="pylarDimension"
@@ -113,12 +113,15 @@ export default function Home() {
               alt="Earth by Stable Diffusion 2.0 and Pylar Prompt guidelines"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: 1.6 }}
+              transition={{ delay: 2.2 }}
             />
           </div>
         </div>
         <h2 className="text-center text-2xl font-bold text-white">
-          Box
+          <button className="py-2 underline font-bold text-white ml-2">
+            <a href="/collections/box"
+            >Discover Box Collection</a>
+          </button>
         </h2>
         <div className="pylarDiv">
           <motion.img
@@ -127,7 +130,7 @@ export default function Home() {
             alt="Earth by Stable Diffusion 1.4 and Pylar Prompt guidelines"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 1.2 }}
+            transition={{ delay: 2.4 }}
           />
           <motion.img
             className="pylarDimension"
@@ -135,7 +138,7 @@ export default function Home() {
             alt="Earth by Stable Diffusion 1.5 and Pylar Prompt guidelines"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 1.4 }}
+            transition={{ delay: 2.6 }}
           />
           <motion.img
             className="pylarDimension"
@@ -143,11 +146,14 @@ export default function Home() {
             alt="Earth by Stable Diffusion 2.0 and Pylar Prompt guidelines"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 1.6 }}
+            transition={{ delay: 2.8 }}
           />
         </div>
         <h2 className="text-center text-2xl font-bold text-white">
-          Girls
+          <button className="py-2 underline font-bold text-white ml-2">
+            <a href="/collections/human"
+            >Discover Human Collection</a>
+          </button>
         </h2>
         <div className="pylarDiv">
           <motion.img
@@ -156,7 +162,7 @@ export default function Home() {
             alt="Earth by Stable Diffusion 1.4 and Pylar Prompt guidelines"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 1.2 }}
+            transition={{ delay: 3.0 }}
           />
           <motion.img
             className="pylarDimension"
@@ -164,7 +170,7 @@ export default function Home() {
             alt="Earth by Stable Diffusion 1.5 and Pylar Prompt guidelines"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 1.4 }}
+            transition={{ delay: 3.2 }}
           />
           <motion.img
             className="pylarDimension"
@@ -172,7 +178,7 @@ export default function Home() {
             alt="Earth by Stable Diffusion 2.0 and Pylar Prompt guidelines"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 1.6 }}
+            transition={{ delay: 3.4 }}
           />
         </div>
       </main>
