@@ -22,8 +22,8 @@ export default function Home() {
         transition={{ delay: 1.8 }}
         className="text-white text-l px-4 m-2"
       >
-        Pylar could stand for Prompt Yielding Lean and Agile Rapidness when used to
-        define prompt engineering. This could refer to the use of prompt engineering
+        Pylar stands for Prompt Yielding Lean and Agile Rapidness when used to
+        define prompt engineering. This refers to the use of prompt engineering
         methods to quickly and efficiently produce results that yield benefits or
         advantages, and that are based on lean and agile principles that focus on
         delivering value quickly and iteratively. By combining these capabilities,

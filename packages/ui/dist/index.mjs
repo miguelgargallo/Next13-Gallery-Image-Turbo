@@ -7204,13 +7204,6 @@ var Menu = () => {
         children: [
           /* @__PURE__ */ jsx4(MenuLogo, {}),
           /* @__PURE__ */ jsx4("button", {
-            className: "rounded-xl py-2 px-4 font-bold text-white",
-            children: /* @__PURE__ */ jsx4("a", {
-              href: "/what-is-pylar",
-              children: "What is Pylar"
-            })
-          }),
-          /* @__PURE__ */ jsx4("button", {
             className: "m-2 hidden rounded-full py-3 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block",
             style: k(ELEMENTS),
             children: /* @__PURE__ */ jsx4("a", {

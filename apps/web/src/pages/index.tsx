@@ -24,58 +24,68 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ delay: 1.5, duration: 1 }}
           >
-            <div className="m-3 flex flex-col items-center justify-center">
-              <h2 className="py-4 text-center text-2xl font-bold text-white">
-                Discover Black Holes through Pylar&trade; AI prompts on
-                StableDiffusion
-              </h2>
-              <button
-                className="m-3 rounded-full py-3 px-4 text-xl font-bold text-black shadow-md hover:shadow-xl md:block"
-                style={generateJSXMeshGradient(ELEMENTS)}
-              >
-                <a href="/collections/cats">Discover Cats</a>
-              </button>
-            </div>
-            <div className="flex flex-col items-center justify-center py-8">
-              <p className="text-center text-2xl font-bold text-white">
-                Version 1.4, vs 1.5 vs 2.0 + Pylar&trade; AI prompts
-              </p>
-            </div>
+            <p
+              className="text-center text-2xl font-bold text-white"
+            >
+              We provide images for your business or personal use.
+            </p>
+            <p
+              className="text-center text-3xl font-bold text-white"
+            >
+              This will reduce costs and time to your business.
+            </p>
+            <p
+              className="text-center text-xl font-bold text-white"
+            >
+              <div className="m-3 flex flex-col items-center justify-center">
+                <button
+                  className="m-3 rounded-full py-3 px-4 text-xl font-bold text-black shadow-md hover:shadow-xl md:block"
+                  style={generateJSXMeshGradient(ELEMENTS)}
+                >
+                  <a href="mailto:sales@pylar.org" target={"_blank"}
+                    rel="noopener noreferrer">Contact Sales Now 📧</a>
+                </button>
+              </div>
+            </p>
           </motion.div>
         </div>
-        <h2 className="text-center text-2xl font-bold text-white">
-          Earth
-        </h2>
-        <div className="pylarDiv">
-          <motion.img
-            className="pylarDimension"
-            src="https://raw.githubusercontent.com/miguelgargallo/Next13-Gallery-Image-Turbo/main/Data.pylar/Images/Pylar-v1.0/A_photography_of_the_earth__from_the_moon_on_a_fis_AAAGOLpA_RealESRGAN_x4plus.jpeg"
-            alt="Earth by Stable Diffusion 1.4 and Pylar Prompt guidelines"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1.2 }}
-          />
-          <motion.img
-            className="pylarDimension"
-            src="https://raw.githubusercontent.com/miguelgargallo/Next13-Gallery-Image-Turbo/main/Data.pylar/Images/Pylar-v1.1/A_photography_of_the_earth__from_the_moon_on_a_fis_AAAGOLjw_RealESRGAN_x4plus.jpeg"
-            alt="Earth by Stable Diffusion 1.5 and Pylar Prompt guidelines"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1.4 }}
-          />
-          <motion.img
-            className="pylarDimension"
-            src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/120422/00005-1833717168-Earth%20seen%20fr.png"
-            alt="Earth by Stable Diffusion 2.0 and Pylar Prompt guidelines"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1.6 }}
-          />
+        <div className="py-12">
+          <h3 className="text-center text-2xl font-bold text-white">
+            Our evolution from v1.4 to v1.5 to v2.0
+          </h3>
+          <h2 className="text-center text-2xl font-bold text-white">
+            Earth
+          </h2>
+          <div className="pylarDiv">
+            <motion.img
+              className="pylarDimension"
+              src="https://raw.githubusercontent.com/miguelgargallo/Next13-Gallery-Image-Turbo/main/Data.pylar/Images/Pylar-v1.0/A_photography_of_the_earth__from_the_moon_on_a_fis_AAAGOLpA_RealESRGAN_x4plus.jpeg"
+              alt="Earth by Stable Diffusion 1.4 and Pylar Prompt guidelines"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 1.2 }}
+            />
+            <motion.img
+              className="pylarDimension"
+              src="https://raw.githubusercontent.com/miguelgargallo/Next13-Gallery-Image-Turbo/main/Data.pylar/Images/Pylar-v1.1/A_photography_of_the_earth__from_the_moon_on_a_fis_AAAGOLjw_RealESRGAN_x4plus.jpeg"
+              alt="Earth by Stable Diffusion 1.5 and Pylar Prompt guidelines"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 1.4 }}
+            />
+            <motion.img
+              className="pylarDimension"
+              src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/120422/00005-1833717168-Earth%20seen%20fr.png"
+              alt="Earth by Stable Diffusion 2.0 and Pylar Prompt guidelines"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 1.6 }}
+            />
+          </div>
         </div>
         <div className="bg-yellow-600">
-
           <h3 className="text-center text-2xl font-bold text-black">
-            Pylar AI Prompts on Stable Diffusion 2.1
+            Our latest advancements v2.1
           </h3>
           <h2 className="text-center text-2xl font-bold text-black">
             Cats

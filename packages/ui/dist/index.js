@@ -7231,13 +7231,6 @@ var Menu = () => {
         children: [
           /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(MenuLogo, {}),
           /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
-            className: "rounded-xl py-2 px-4 font-bold text-white",
-            children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
-              href: "/what-is-pylar",
-              children: "What is Pylar"
-            })
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
             className: "m-2 hidden rounded-full py-3 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block",
             style: k(ELEMENTS),
             children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
