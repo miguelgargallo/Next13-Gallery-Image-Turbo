@@ -185,10 +185,16 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ delay: 4.0 }}
           />
-          <p className="py-8 text-center text-2xl font-bold text-white">
-            2022 © Pylar&trade; AI by Superdatas, All Rights Reserved
-          </p>
         </div>
+        <motion.div className="flex flex-col items-center justify-center"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 4.2 }}
+        >
+          <a href="https://github.com/superdatas/pylarAI-results" target="_blank" rel="noreferrer"
+            className="py-8 text-center text-sm font-bold text-white">Copyright © 2022 Pylar&trade; AI Images. All Rights Reserved.
+            Images on Github.</a>
+        </motion.div>
       </main>
       <Footer />
     </div>

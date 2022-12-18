@@ -30,10 +30,10 @@ export default function Home() {
                 StableDiffusion
               </h2>
               <button
-                className="m-2 rounded-full py-3 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block"
+                className="m-3 rounded-full py-3 px-4 text-xl font-bold text-black shadow-md hover:shadow-xl md:block"
                 style={generateJSXMeshGradient(ELEMENTS)}
               >
-                <a href="/collections/blackholes">Discover Black Holes</a>
+                <a href="/collections/cats">Discover Cats</a>
               </button>
             </div>
             <div className="flex flex-col items-center justify-center py-8">

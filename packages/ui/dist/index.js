@@ -7241,15 +7241,15 @@ var Menu = () => {
             className: "m-2 hidden rounded-full py-3 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block",
             style: k(ELEMENTS),
             children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
-              href: "/collections/blackholes",
-              children: "Discover Black Holes"
+              href: "/collections/cats",
+              children: "Discover Cats"
             })
           }),
           /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
             className: "rounded-xl py-2 px-4 font-bold text-white",
             children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
-              href: "/collections/girl",
-              children: "Girl"
+              href: "/collections/girls",
+              children: "Girls"
             })
           }),
           /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
@@ -7257,6 +7257,13 @@ var Menu = () => {
             children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
               href: "/collections/box",
               children: "Box"
+            })
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
+            className: "rounded-xl py-2 px-4 font-bold text-white",
+            children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
+              href: "/collections/blackholes",
+              children: "Black Holes"
             })
           }),
           /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {

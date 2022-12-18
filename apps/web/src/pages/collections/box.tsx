@@ -145,10 +145,16 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ delay: 3.0 }}
           />
+        </div>
+        <motion.div className="flex flex-col items-center justify-center"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 3.2 }}
+        >
           <p className="py-8 text-center text-2xl font-bold text-white">
             2022 © Pylar&trade; AI by Superdatas, All Rights Reserved
           </p>
-        </div>
+        </motion.div>
       </main>
       <Footer />
     </div>
