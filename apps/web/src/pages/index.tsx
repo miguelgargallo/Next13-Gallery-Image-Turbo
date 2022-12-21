@@ -91,30 +91,34 @@ export default function Home() {
             </button>
           </h2>
           <div className="pylarDiv">
-            <motion.img
-              className="pylarDimension"
-              src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/121822/5.png"
-              alt="Earth by Stable Diffusion 1.4 and Pylar Prompt guidelines"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 1.8 }}
-            />
-            <motion.img
-              className="pylarDimension"
-              src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/121822/6.png"
-              alt="Earth by Stable Diffusion 1.5 and Pylar Prompt guidelines"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 2.0 }}
-            />
-            <motion.img
-              className="pylarDimension"
-              src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/121822/7.png"
-              alt="Earth by Stable Diffusion 2.0 and Pylar Prompt guidelines"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 2.2 }}
-            />
+            <a href="/portfolio/cats">
+              <motion.img
+                className="pylarDimension cursor-pointer"
+                src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/121822/5.png"
+                alt="Earth by Stable Diffusion 1.4 and Pylar Prompt guidelines"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 1.8 }}
+              />
+            </a>
+            <a href="/portfolio/cats">
+              <motion.img
+                className="pylarDimension cursor-pointer"
+                src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/121822/6.png"
+                alt="Earth by Stable Diffusion 1.5 and Pylar Prompt guidelines"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 2.0 }}
+              /> </a>
+            <a href="/portfolio/cats">
+              <motion.img
+                className="pylarDimension cursor-pointer"
+                src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/121822/7.png"
+                alt="Earth by Stable Diffusion 2.0 and Pylar Prompt guidelines"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 2.2 }}
+              /> </a>
           </div>
         </div>
         <h2 className="text-center text-2xl font-bold text-white">
@@ -124,30 +128,33 @@ export default function Home() {
           </button>
         </h2>
         <div className="pylarDiv">
-          <motion.img
-            className="pylarDimension"
-            src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/121622/1.png"
-            alt="Earth by Stable Diffusion 1.4 and Pylar Prompt guidelines"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 2.4 }}
-          />
-          <motion.img
-            className="pylarDimension"
-            src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/121622/5.png"
-            alt="Earth by Stable Diffusion 1.5 and Pylar Prompt guidelines"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 2.6 }}
-          />
-          <motion.img
-            className="pylarDimension"
-            src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/121622/9.png"
-            alt="Earth by Stable Diffusion 2.0 and Pylar Prompt guidelines"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 2.8 }}
-          />
+          <a href="/portfolio/box">
+            <motion.img
+              className="pylarDimension cursor-pointer"
+              src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/121622/1.png"
+              alt="Earth by Stable Diffusion 1.4 and Pylar Prompt guidelines"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 2.4 }}
+            /> </a>
+          <a href="/portfolio/box">
+            <motion.img
+              className="pylarDimension cursor-pointer"
+              src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/121622/5.png"
+              alt="Earth by Stable Diffusion 1.5 and Pylar Prompt guidelines"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 2.6 }}
+            /> </a>
+          <a href="/portfolio/box">
+            <motion.img
+              className="pylarDimension cursor-pointer"
+              src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/121622/9.png"
+              alt="Earth by Stable Diffusion 2.0 and Pylar Prompt guidelines"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 2.8 }}
+            /> </a>
         </div>
         <h2 className="text-center text-2xl font-bold text-white">
           <button className="py-2 underline font-bold text-white ml-2">
@@ -156,30 +163,33 @@ export default function Home() {
           </button>
         </h2>
         <div className="pylarDiv">
-          <motion.img
-            className="pylarDimension"
-            src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/120622/12.png"
-            alt="Earth by Stable Diffusion 1.4 and Pylar Prompt guidelines"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 3.0 }}
-          />
-          <motion.img
-            className="pylarDimension"
-            src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/120622/13.png"
-            alt="Earth by Stable Diffusion 1.5 and Pylar Prompt guidelines"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 3.2 }}
-          />
-          <motion.img
-            className="pylarDimension"
-            src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/120622/14.png"
-            alt="Earth by Stable Diffusion 2.0 and Pylar Prompt guidelines"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 3.4 }}
-          />
+          <a href="/portfolio/human">
+            <motion.img
+              className="pylarDimension cursor-pointer"
+              src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/120622/12.png"
+              alt="Earth by Stable Diffusion 1.4 and Pylar Prompt guidelines"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 3.0 }}
+            /> </a>
+          <a href="/portfolio/human">
+            <motion.img
+              className="pylarDimension cursor-pointer"
+              src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/120622/13.png"
+              alt="Earth by Stable Diffusion 1.5 and Pylar Prompt guidelines"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 3.2 }}
+            /> </a>
+          <a href="/portfolio/human">
+            <motion.img
+              className="pylarDimension cursor-pointer"
+              src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/120622/14.png"
+              alt="Earth by Stable Diffusion 2.0 and Pylar Prompt guidelines"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 3.4 }}
+            /></a>
         </div>
       </main>
       <Footer />
