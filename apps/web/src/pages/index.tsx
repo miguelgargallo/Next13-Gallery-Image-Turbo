@@ -91,7 +91,7 @@ export default function Home() {
             </button>
           </h2>
           <div className="pylarDiv">
-            <a href="/portfolio/cats">
+            <a href="/collections/cats">
               <motion.img
                 className="pylarDimension cursor-pointer"
                 src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/121822/5.png"
@@ -101,7 +101,7 @@ export default function Home() {
                 transition={{ delay: 1.8 }}
               />
             </a>
-            <a href="/portfolio/cats">
+            <a href="/collections/cats">
               <motion.img
                 className="pylarDimension cursor-pointer"
                 src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/121822/6.png"
@@ -110,7 +110,7 @@ export default function Home() {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 2.0 }}
               /> </a>
-            <a href="/portfolio/cats">
+            <a href="/collections/cats">
               <motion.img
                 className="pylarDimension cursor-pointer"
                 src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/121822/7.png"
@@ -128,7 +128,7 @@ export default function Home() {
           </button>
         </h2>
         <div className="pylarDiv">
-          <a href="/portfolio/box">
+          <a href="/collections/box">
             <motion.img
               className="pylarDimension cursor-pointer"
               src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/121622/1.png"
@@ -137,7 +137,7 @@ export default function Home() {
               animate={{ opacity: 1 }}
               transition={{ delay: 2.4 }}
             /> </a>
-          <a href="/portfolio/box">
+          <a href="/collections/box">
             <motion.img
               className="pylarDimension cursor-pointer"
               src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/121622/5.png"
@@ -146,7 +146,7 @@ export default function Home() {
               animate={{ opacity: 1 }}
               transition={{ delay: 2.6 }}
             /> </a>
-          <a href="/portfolio/box">
+          <a href="/collections/box">
             <motion.img
               className="pylarDimension cursor-pointer"
               src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/121622/9.png"
@@ -163,7 +163,7 @@ export default function Home() {
           </button>
         </h2>
         <div className="pylarDiv">
-          <a href="/portfolio/human">
+          <a href="/collections/human">
             <motion.img
               className="pylarDimension cursor-pointer"
               src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/120622/12.png"
@@ -172,7 +172,7 @@ export default function Home() {
               animate={{ opacity: 1 }}
               transition={{ delay: 3.0 }}
             /> </a>
-          <a href="/portfolio/human">
+          <a href="/collections/human">
             <motion.img
               className="pylarDimension cursor-pointer"
               src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/120622/13.png"
@@ -181,7 +181,7 @@ export default function Home() {
               animate={{ opacity: 1 }}
               transition={{ delay: 3.2 }}
             /> </a>
-          <a href="/portfolio/human">
+          <a href="/collections/human">
             <motion.img
               className="pylarDimension cursor-pointer"
               src="https://raw.githubusercontent.com/superdatas/pylarAI-results/main/120622/14.png"
