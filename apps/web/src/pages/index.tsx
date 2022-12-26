@@ -49,6 +49,14 @@ export default function Home() {
             </p>
           </motion.div>
         </div>
+        <div className="justify-center flex flex-col items-center">
+              <iframe
+                src="https://stabilityai-stable-diffusion.hf.space"
+                frameborder="0"
+                width="850"
+                height="450"
+              ></iframe>
+            </div>
         <div className="py-12">
           <h3 className="text-center text-2xl font-bold text-white">
             Our evolution from v1.4 to v1.5 to v2.0
