@@ -7286,6 +7286,15 @@ var Menu = () => {
             className: "m-2 hidden rounded-full py-3 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block",
             style: k(ELEMENTS),
             children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
+              href: "https://colab.research.google.com/drive/1odswULyZ_f1Mk48DSNRwdSd4HCw_Ebl8?usp=sharing",
+              target: "_blank",
+              rel: "noopener noreferrer",
+              children: "chatPylarAI"
+            })
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("button", {
+            className: "rounded-xl py-2 px-4 font-bold text-white",
+            children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
               href: "/collections/cats",
               children: "Discover our latest collection"
             })

@@ -5,6 +5,7 @@ import { TitlePylar } from "ui";
 import { Footer } from "ui";
 import { motion } from "framer-motion";
 import { generateJSXMeshGradient } from "meshgrad";
+
 const ELEMENTS = 12;
 
 export default function Home() {
@@ -27,12 +28,12 @@ export default function Home() {
             <p
               className="text-center text-2xl font-bold text-white"
             >
-              We provide images for your business or personal use.
+              Introducing chatPylarAI, a new way to interact with your customers.
             </p>
             <p
               className="text-center text-3xl font-bold text-white"
             >
-              This will reduce costs and time to your business.
+              Now Available on Google Colab.
             </p>
             <p
               className="text-center text-xl font-bold text-white"
@@ -42,8 +43,8 @@ export default function Home() {
                   className="m-3 rounded-full py-3 px-4 text-xl font-bold text-black shadow-md hover:shadow-xl md:block"
                   style={generateJSXMeshGradient(ELEMENTS)}
                 >
-                  <a href="mailto:sales@pylar.org" target={"_blank"}
-                    rel="noopener noreferrer">Contact Sales Now 📧</a>
+                  <a href="https://colab.research.google.com/drive/1odswULyZ_f1Mk48DSNRwdSd4HCw_Ebl8?usp=sharing" target={"_blank"}
+                    rel="noopener noreferrer"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Pylar AI Logo" /></a>
                 </button>
               </div>
             </p>
@@ -190,6 +191,37 @@ export default function Home() {
               animate={{ opacity: 1 }}
               transition={{ delay: 3.4 }}
             /></a>
+        </div>
+        <div>
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.5, duration: 1 }}
+          >
+            <p
+              className="text-center text-2xl font-bold text-white"
+            >
+              We provide images for your business or personal use.
+            </p>
+            <p
+              className="text-center text-3xl font-bold text-white"
+            >
+              This will reduce costs and time to your business.
+            </p>
+            <p
+              className="text-center text-xl font-bold text-white"
+            >
+              <div className="m-3 flex flex-col items-center justify-center">
+                <button
+                  className="m-3 rounded-full py-3 px-4 text-xl font-bold text-black shadow-md hover:shadow-xl md:block"
+                  style={generateJSXMeshGradient(ELEMENTS)}
+                >
+                  <a href="mailto:sales@pylar.org" target={"_blank"}
+                    rel="noopener noreferrer">Contact Sales Now 📧</a>
+                </button>
+              </div>
+            </p>
+          </motion.div>
         </div>
       </main>
       <Footer />
