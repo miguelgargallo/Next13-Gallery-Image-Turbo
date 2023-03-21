@@ -42,7 +42,7 @@ export default function Home() {
     ></iframe>
             </div>
             <p
-              className="text-center text-3xl font-bold text-white"
+              className="text-center text-xl py-8 font-bold text-white"
             >
               v1 is currently Available on Google Colab.
             </p>
