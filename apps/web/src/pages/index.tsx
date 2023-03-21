@@ -28,12 +28,13 @@ export default function Home() {
             <p
               className="text-center text-2xl font-bold text-white"
             >
-              Introducing chatPylarAI, a new way to interact with your customers.
+              Introducing Chat PylarAI (GPT-4).
             </p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/tE0B0TxR8iY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <p
               className="text-center text-3xl font-bold text-white"
             >
-              Now Available on Google Colab.
+              v1 is currently Available on Google Colab.
             </p>
             <p
               className="text-center text-xl font-bold text-white"
