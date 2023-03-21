@@ -30,6 +30,7 @@ export default function Home() {
             >
               Introducing Chat PylarAI (GPT-4).
             </p>
+            <div className="justify-center"> 
              <iframe
       width="560"
       height="315"
@@ -39,6 +40,7 @@ export default function Home() {
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowFullScreen
     ></iframe>
+            </div>
             <p
               className="text-center text-3xl font-bold text-white"
             >
