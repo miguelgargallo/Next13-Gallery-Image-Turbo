@@ -30,8 +30,15 @@ export default function Home() {
             >
               Introducing Chat PylarAI (GPT-4).
             </p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/tE0B0TxR8iY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-            </iframe>
+             <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/tE0B0TxR8iY"
+      title="YouTube video player"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowFullScreen
+    ></iframe>
             <p
               className="text-center text-3xl font-bold text-white"
             >
@@ -41,13 +48,18 @@ export default function Home() {
               className="text-center text-xl font-bold text-white"
             >
               <div className="m-3 flex flex-col items-center justify-center">
-                <button
-                  className="m-3 rounded-full py-3 px-4 text-xl font-bold text-black shadow-md hover:shadow-xl md:block"
-                  style={generateJSXMeshGradient(ELEMENTS)}
-                >
-                  <a href="https://colab.research.google.com/drive/1odswULyZ_f1Mk48DSNRwdSd4HCw_Ebl8?usp=sharing" target={"_blank"}
-                    rel="noopener noreferrer"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Pylar AI Logo" /></a>
-                </button>
+                  <button
+          className="m-2 hidden rounded-full py-3 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block"
+          style={generateJSXMeshGradient(ELEMENTS)}
+        >
+          <a href="https://chat.pylar.org" target={"_blank"}
+            rel="noopener noreferrer">Chat PylarAI (GPT-4)</a>
+        </button>
+        <button className="rounded-xl py-2 px-4 font-bold text-white">
+          <a href="https://colab.research.google.com/drive/1odswULyZ_f1Mk48DSNRwdSd4HCw_Ebl8?usp=sharing">
+            Google Colab
+          </a>
+        </button>
               </div>
             </p>
           </motion.div>
