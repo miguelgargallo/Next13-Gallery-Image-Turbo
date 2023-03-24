@@ -7258,10 +7258,17 @@ var Menu = () => {
             className: "m-2 hidden rounded-full py-3 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block",
             style: k(ELEMENTS),
             children: /* @__PURE__ */ jsx5("a", {
-              href: "https://colab.research.google.com/drive/1odswULyZ_f1Mk48DSNRwdSd4HCw_Ebl8?usp=sharing",
+              href: "https://chat.pylar.org",
               target: "_blank",
               rel: "noopener noreferrer",
-              children: "chatPylarAI"
+              children: "Chat PylarAI (GPT-4)"
+            })
+          }),
+          /* @__PURE__ */ jsx5("button", {
+            className: "rounded-xl py-2 px-4 font-bold text-white",
+            children: /* @__PURE__ */ jsx5("a", {
+              href: "https://colab.research.google.com/drive/1odswULyZ_f1Mk48DSNRwdSd4HCw_Ebl8?usp=sharing",
+              children: "Google Colab"
             })
           }),
           /* @__PURE__ */ jsx5("button", {
@@ -7335,8 +7342,17 @@ var Navbar = () => {
             className: "m-2 hidden rounded-full py-3 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block",
             style: k(ELEMENTS3),
             children: /* @__PURE__ */ jsx7("a", {
-              href: "/black-holes",
-              children: "Discover Black Holes"
+              href: "https://chat.pylar.org",
+              target: "_blank",
+              rel: "noopener noreferrer",
+              children: "Chat PylarAI (GPT-4)"
+            })
+          }),
+          /* @__PURE__ */ jsx7("button", {
+            className: "rounded-xl py-2 px-4 font-bold text-white",
+            children: /* @__PURE__ */ jsx7("a", {
+              href: "https://colab.research.google.com/drive/1odswULyZ_f1Mk48DSNRwdSd4HCw_Ebl8?usp=sharing",
+              children: "Google Colab"
             })
           }),
           /* @__PURE__ */ jsx7("button", {
@@ -8346,6 +8362,27 @@ var Carta = () => {
     ]
   });
 };
+
+// src/YouTube.tsx
+import { jsx as jsx23 } from "react/jsx-runtime";
+var YouTube = ({ videoId }) => {
+  return /* @__PURE__ */ jsx23("div", {
+    style: { position: "relative", paddingBottom: "56.25%", height: 0, overflow: "hidden" },
+    children: /* @__PURE__ */ jsx23("iframe", {
+      src: `https://www.youtube.com/embed/${videoId}`,
+      style: {
+        position: "absolute",
+        top: 0,
+        left: 0,
+        width: "100%",
+        height: "100%",
+        border: 0
+      },
+      allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+      allowFullScreen: true
+    })
+  });
+};
 export {
   Button,
   Carta,
@@ -8366,6 +8403,7 @@ export {
   TitlePylar,
   Version,
   Versions,
+  YouTube,
   blog,
   post12032022
 };

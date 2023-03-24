@@ -5,6 +5,15 @@ import { TitlePylar } from "ui";
 import { Footer } from "ui";
 import { motion } from "framer-motion";
 import { generateJSXMeshGradient } from "meshgrad";
+import { YouTube } from "ui";
+
+async function iframeYoutube() {
+  const response = await fetch(
+    "https://www.youtube.com/embed/tE0B0TxR8iY"
+  );
+  const data = await response.text();
+  return data;
+}
 
 const ELEMENTS = 12;
 
@@ -30,17 +39,12 @@ export default function Home() {
             >
               Introducing Chat PylarAI (GPT-4).
             </p>
-            <div className="m-3 flex flex-col items-center justify-center"> 
-             <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/tE0B0TxR8iY"
-      title="YouTube video player"
-      frameBorder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowFullScreen
-    ></iframe>
-            </div>
+            <div className="video">
+              {/* iframe */}
+              <div>
+                <h1>My YouTube Video</h1>
+                <YouTube videoId="tE0B0TxR8iY" />
+              </div>            </div>
             <p
               className="text-center text-xl py-8 font-bold text-white"
             >
@@ -50,18 +54,18 @@ export default function Home() {
               className="text-center text-xl font-bold text-white"
             >
               <div className="m-3 flex flex-col items-center justify-center">
-                  <button
-          className="m-2 hidden rounded-full py-3 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block"
-          style={generateJSXMeshGradient(ELEMENTS)}
-        >
-          <a href="https://chat.pylar.org" target={"_blank"}
-            rel="noopener noreferrer">Chat PylarAI (GPT-4)</a>
-        </button>
-        <button className="rounded-xl py-2 px-4 font-bold text-white">
-          <a href="https://colab.research.google.com/drive/1odswULyZ_f1Mk48DSNRwdSd4HCw_Ebl8?usp=sharing">
-            Google Colab
-          </a>
-        </button>
+                <button
+                  className="m-2 hidden rounded-full py-3 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block"
+                  style={generateJSXMeshGradient(ELEMENTS)}
+                >
+                  <a href="https://chat.pylar.org" target={"_blank"}
+                    rel="noopener noreferrer">Chat PylarAI (GPT-4)</a>
+                </button>
+                <button className="rounded-xl py-2 px-4 font-bold text-white">
+                  <a href="https://colab.research.google.com/drive/1odswULyZ_f1Mk48DSNRwdSd4HCw_Ebl8?usp=sharing">
+                    Google Colab
+                  </a>
+                </button>
               </div>
             </p>
           </motion.div>

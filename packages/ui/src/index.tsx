@@ -32,3 +32,5 @@ export * from "./SuperdataLogo";
 export * from "./Signature";
 export * from "./PencilLogo";
 export * from "./Carta";
+/* YouTube */
+export * from "./YouTube";

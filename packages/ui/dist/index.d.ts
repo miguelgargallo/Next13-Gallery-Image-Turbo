@@ -1,3 +1,5 @@
+import React from 'react';
+
 declare const Button: () => JSX.Element;
 
 declare const Menu: () => JSX.Element;
@@ -40,4 +42,9 @@ declare const PencilLogo: () => JSX.Element;
 
 declare const Carta: () => JSX.Element;
 
-export { Button, Carta, CollectionMenu, Contact, Footer, Letter, ListPylar, Menu, MenuAlpha, Navbar, PencilLogo, PylarLogo, Salestext, Scrollable, Signature, SuperdataLogo, TitlePylar, Version, Versions, blog, post12032022 };
+interface YouTubeProps {
+    videoId: string;
+}
+declare const YouTube: React.FC<YouTubeProps>;
+
+export { Button, Carta, CollectionMenu, Contact, Footer, Letter, ListPylar, Menu, MenuAlpha, Navbar, PencilLogo, PylarLogo, Salestext, Scrollable, Signature, SuperdataLogo, TitlePylar, Version, Versions, YouTube, blog, post12032022 };

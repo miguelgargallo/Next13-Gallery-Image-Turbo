@@ -556,6 +556,7 @@ __export(src_exports, {
   TitlePylar: () => TitlePylar,
   Version: () => Version,
   Versions: () => Versions,
+  YouTube: () => YouTube,
   blog: () => blog,
   post12032022: () => post12032022
 });
@@ -7286,10 +7287,17 @@ var Menu = () => {
             className: "m-2 hidden rounded-full py-3 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block",
             style: k(ELEMENTS),
             children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
-              href: "https://colab.research.google.com/drive/1odswULyZ_f1Mk48DSNRwdSd4HCw_Ebl8?usp=sharing",
+              href: "https://chat.pylar.org",
               target: "_blank",
               rel: "noopener noreferrer",
-              children: "chatPylarAI"
+              children: "Chat PylarAI (GPT-4)"
+            })
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("button", {
+            className: "rounded-xl py-2 px-4 font-bold text-white",
+            children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
+              href: "https://colab.research.google.com/drive/1odswULyZ_f1Mk48DSNRwdSd4HCw_Ebl8?usp=sharing",
+              children: "Google Colab"
             })
           }),
           /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("button", {
@@ -7363,8 +7371,17 @@ var Navbar = () => {
             className: "m-2 hidden rounded-full py-3 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block",
             style: k(ELEMENTS3),
             children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
-              href: "/black-holes",
-              children: "Discover Black Holes"
+              href: "https://chat.pylar.org",
+              target: "_blank",
+              rel: "noopener noreferrer",
+              children: "Chat PylarAI (GPT-4)"
+            })
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("button", {
+            className: "rounded-xl py-2 px-4 font-bold text-white",
+            children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
+              href: "https://colab.research.google.com/drive/1odswULyZ_f1Mk48DSNRwdSd4HCw_Ebl8?usp=sharing",
+              children: "Google Colab"
             })
           }),
           /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("button", {
@@ -8374,6 +8391,27 @@ var Carta = () => {
     ]
   });
 };
+
+// src/YouTube.tsx
+var import_jsx_runtime23 = require("react/jsx-runtime");
+var YouTube = ({ videoId }) => {
+  return /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("div", {
+    style: { position: "relative", paddingBottom: "56.25%", height: 0, overflow: "hidden" },
+    children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("iframe", {
+      src: `https://www.youtube.com/embed/${videoId}`,
+      style: {
+        position: "absolute",
+        top: 0,
+        left: 0,
+        width: "100%",
+        height: "100%",
+        border: 0
+      },
+      allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+      allowFullScreen: true
+    })
+  });
+};
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   Button,
@@ -8395,6 +8433,7 @@ var Carta = () => {
   TitlePylar,
   Version,
   Versions,
+  YouTube,
   blog,
   post12032022
 });
