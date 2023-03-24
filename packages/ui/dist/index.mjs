@@ -7268,7 +7268,7 @@ var Menu = () => {
             className: "m-2 hidden rounded-full py-3 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block",
             style: k(ELEMENTS),
             children: /* @__PURE__ */ jsx5("a", {
-              href: "https://chat.pylar.org",
+              href: "https://color.pylar.org",
               target: "_blank",
               rel: "noopener noreferrer",
               children: "Color"
