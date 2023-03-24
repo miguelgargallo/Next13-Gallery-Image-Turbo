@@ -23,15 +23,29 @@ export const Menu = () => {
           style={generateJSXMeshGradient(ELEMENTS)}
         >
           <a href="https://chat.pylar.org" target={"_blank"}
-            rel="noopener noreferrer">Chat PylarAI (GPT-4)</a>
+            rel="noopener noreferrer">Chat PylarAI</a>
+          <p className="text-xs">New</p>
         </button>
-       <button className="rounded-xl py-2 px-4 font-bold text-white">
+        <button
+          className="m-2 hidden rounded-full py-3 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block"
+          style={generateJSXMeshGradient(ELEMENTS)}
+        >
+          <a href="https://color.pylar.org" target={"_blank"}
+            rel="noopener noreferrer">Color PylarAI</a>
+          <p className="text-xs">New</p>
+        </button>
+        {/*    <button className="rounded-xl py-2 px-4 font-bold text-white">
+          <a href="https://color.pylar.org">
+            Color PylarAI
+          </a>
+        </button> */}
+        <button className="rounded-xl py-2 px-4 font-bold text-white">
           <a href="https://colab.research.google.com/drive/1odswULyZ_f1Mk48DSNRwdSd4HCw_Ebl8?usp=sharing">
-           Google Colab
-         </a>
+            Google Colab
+          </a>
         </button>
         <button className="rounded-xl py-2 px-4 font-bold text-white">
-          <a href="/collections/cats">Discover our latest collection</a>
+          <a href="/collections/cats">Discover latest collection</a>
         </button>
         <button className="rounded-xl py-2 px-4 font-bold text-white">
           <a href="/sales">Contact Sales</a>

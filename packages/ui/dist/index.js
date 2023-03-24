@@ -7283,15 +7283,37 @@ var Menu = () => {
         className: "flex flex-row items-center justify-between bg-gradient-to-r from-black to-gray-800",
         children: [
           /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(MenuLogo, {}),
-          /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("button", {
+          /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("button", {
             className: "m-2 hidden rounded-full py-3 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block",
             style: k(ELEMENTS),
-            children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
-              href: "https://chat.pylar.org",
-              target: "_blank",
-              rel: "noopener noreferrer",
-              children: "Chat PylarAI (GPT-4)"
-            })
+            children: [
+              /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
+                href: "https://chat.pylar.org",
+                target: "_blank",
+                rel: "noopener noreferrer",
+                children: "Chat PylarAI"
+              }),
+              /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("p", {
+                className: "text-xs",
+                children: "New"
+              })
+            ]
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("button", {
+            className: "m-2 hidden rounded-full py-3 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block",
+            style: k(ELEMENTS),
+            children: [
+              /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
+                href: "https://color.pylar.org",
+                target: "_blank",
+                rel: "noopener noreferrer",
+                children: "Color PylarAI"
+              }),
+              /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("p", {
+                className: "text-xs",
+                children: "New"
+              })
+            ]
           }),
           /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("button", {
             className: "rounded-xl py-2 px-4 font-bold text-white",
@@ -7304,7 +7326,7 @@ var Menu = () => {
             className: "rounded-xl py-2 px-4 font-bold text-white",
             children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
               href: "/collections/cats",
-              children: "Discover our latest collection"
+              children: "Discover latest collection"
             })
           }),
           /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("button", {

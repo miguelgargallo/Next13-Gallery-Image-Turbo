@@ -7254,15 +7254,37 @@ var Menu = () => {
         className: "flex flex-row items-center justify-between bg-gradient-to-r from-black to-gray-800",
         children: [
           /* @__PURE__ */ jsx5(MenuLogo, {}),
-          /* @__PURE__ */ jsx5("button", {
+          /* @__PURE__ */ jsxs5("button", {
             className: "m-2 hidden rounded-full py-3 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block",
             style: k(ELEMENTS),
-            children: /* @__PURE__ */ jsx5("a", {
-              href: "https://chat.pylar.org",
-              target: "_blank",
-              rel: "noopener noreferrer",
-              children: "Chat PylarAI (GPT-4)"
-            })
+            children: [
+              /* @__PURE__ */ jsx5("a", {
+                href: "https://chat.pylar.org",
+                target: "_blank",
+                rel: "noopener noreferrer",
+                children: "Chat PylarAI"
+              }),
+              /* @__PURE__ */ jsx5("p", {
+                className: "text-xs",
+                children: "New"
+              })
+            ]
+          }),
+          /* @__PURE__ */ jsxs5("button", {
+            className: "m-2 hidden rounded-full py-3 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block",
+            style: k(ELEMENTS),
+            children: [
+              /* @__PURE__ */ jsx5("a", {
+                href: "https://color.pylar.org",
+                target: "_blank",
+                rel: "noopener noreferrer",
+                children: "Color PylarAI"
+              }),
+              /* @__PURE__ */ jsx5("p", {
+                className: "text-xs",
+                children: "New"
+              })
+            ]
           }),
           /* @__PURE__ */ jsx5("button", {
             className: "rounded-xl py-2 px-4 font-bold text-white",
@@ -7275,7 +7297,7 @@ var Menu = () => {
             className: "rounded-xl py-2 px-4 font-bold text-white",
             children: /* @__PURE__ */ jsx5("a", {
               href: "/collections/cats",
-              children: "Discover our latest collection"
+              children: "Discover latest collection"
             })
           }),
           /* @__PURE__ */ jsx5("button", {
