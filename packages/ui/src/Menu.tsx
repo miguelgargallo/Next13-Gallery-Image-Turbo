@@ -29,7 +29,7 @@ export const Menu = () => {
           className="m-2 hidden rounded-full py-3 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block"
           style={generateJSXMeshGradient(ELEMENTS)}
         >
-          <a href="https://chat.pylar.org" target={"_blank"}
+          <a href="https://color.pylar.org" target={"_blank"}
             rel="noopener noreferrer">Color</a>
         </button>
         <button className="rounded-xl py-2 px-4 font-bold text-white">
