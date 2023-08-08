@@ -33,18 +33,49 @@ export default function Home() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1.5, duration: 1 }}
+            className="flex flex-col items-center justify-center text-center"
+          >
+            <p
+              className="flex flex-row text-center text-2xl font-bold text-white"
+            >
+              Introducing PylarAI 3.0
+              <p className="flex flex-row border-solid border-2 border-orange-500 rounded-full p-1 m-1 text-xl font-bold text-orange-500">
+                New
+              </p>
+
+            </p>
+            <div className="video">
+              {/* iframe */}
+              <div>
+                <h1>My YouTube Video</h1>
+                <YouTube videoId="iO_iWUNY3eM" />
+              </div>
+              <p
+                className="text-center text-xl p-8 font-bold text-white"
+              >
+                Get ready to take your image editing game to the next level with PylarAI! 💥 Our revolutionary AI-powered tool allows you to create stunning images in just a few clicks. From removing unwanted objects to creating breathtaking composites, PylarAI has got you covered. Check out our latest video demo to see what it can do! 🎥 #PylarAI #ImageEditing #AI #Photography
+              </p>
+            </div>
+          </motion.div>
+        </div>
+        <div>
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.5, duration: 1 }}
           >
             <p
               className="text-center text-2xl font-bold text-white"
             >
-              Introducing Chat PylarAI (GPT-4).
+              PylarAI 2.0 Logistics and Supply Chain Exam
             </p>
             <div className="video">
               {/* iframe */}
               <div>
                 <h1>My YouTube Video</h1>
                 <YouTube videoId="tE0B0TxR8iY" />
-              </div>            </div>
+              </div>
+            </div>
             <p
               className="text-center text-xl py-8 font-bold text-white"
             >
