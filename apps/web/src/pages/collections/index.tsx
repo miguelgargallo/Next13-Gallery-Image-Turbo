@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
-import { Headx } from "ui";
+
+import Head from "next/head";
 import { Menu } from "ui";
 import { TitlePylar } from "ui";
 import { Footer } from "ui";
@@ -9,7 +10,11 @@ export default function Home() {
   console.log("✅ BlackHoles by Pylar AI, a Miguel Gargallo Startup");
   return (
     <div className="min-w-screen flex min-h-screen flex-col bg-black">
-      <Headx />
+      <head>
+        <title>Pylar AI by Pencil</title>
+        <script async src="https://umami.decentralass.com/script.js" data-website-id="ee2353f0-e6b0-4086-a2ff-22236447f399"></script>
+        <link rel="icon" href="./favicon.ico" />
+      </head>
       <Menu />
       <main>
         <TitlePylar />
