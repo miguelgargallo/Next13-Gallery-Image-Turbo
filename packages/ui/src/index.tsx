@@ -1,6 +1,8 @@
 import * as React from "react";
 // Buttons
 export * from "./Button";
+// Analytics
+export * from "./Head";
 // Menu
 export * from "./Menu";
 export * from "./Navbar";

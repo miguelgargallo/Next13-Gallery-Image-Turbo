@@ -4,15 +4,13 @@ import { Menu } from "ui";
 import { TitlePylar } from "ui";
 import { Footer } from "ui";
 import { motion } from "framer-motion";
+import { Headx } from "ui";
 
 export default function Home() {
     console.log("✅ Girls by Pylar AI, a Miguel Gargallo Startup");
     return (
         <div className="min-w-screen flex min-h-screen flex-col bg-black">
-            <Head>
-                <title>Pylar AI by Pencil</title>
-                <link rel="icon" href="./favicon.ico" />
-            </Head>
+            <Headx />
             <Menu />
             <main>
                 <TitlePylar />

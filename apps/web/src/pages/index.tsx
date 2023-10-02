@@ -6,6 +6,7 @@ import { Footer } from "ui";
 import { motion } from "framer-motion";
 import { generateJSXMeshGradient } from "meshgrad";
 import { YouTube } from "ui";
+import { Headx } from "ui";
 
 async function iframeYoutube() {
   const response = await fetch(
@@ -21,10 +22,7 @@ export default function Home() {
   console.log("✅ Index page by Pylar AI, a Miguel Gargallo Startup");
   return (
     <div className="min-w-screen flex min-h-screen flex-col bg-black">
-      <Head>
-        <title>Pylar AI by Pencil</title>
-        <link rel="icon" href="./favicon.ico" />
-      </Head>
+      <Headx />
       <Menu />
       <main>
         <TitlePylar />
