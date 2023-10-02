@@ -1,12 +1,11 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
-import Head from "next/head";
+import { Headx } from "ui";
 import { Menu } from "ui";
 import { TitlePylar } from "ui";
 import { Footer } from "ui";
 import { motion } from "framer-motion";
 import { Contact } from "ui";
 import { Salestext } from "ui";
-import { Headx } from "ui";
 
 export default function Home() {
   console.log("✅ Sales page by Pylar AI, a Miguel Gargallo Startup");

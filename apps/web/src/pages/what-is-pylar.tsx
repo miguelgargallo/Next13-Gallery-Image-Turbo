@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
-import Head from "next/head";
+import { Headx } from "ui";
 import { Menu } from "ui";
 import { TitlePylar } from "ui";
 import { Footer } from "ui";
@@ -9,6 +9,7 @@ export default function Home() {
   console.log("✅ What is Pylar page by Pylar AI, a Miguel Gargallo Startup");
   return (
     <div className="min-w-screen flex min-h-screen flex-col bg-black">
+      <Headx />
       <Menu />
       <main>
       <TitlePylar />

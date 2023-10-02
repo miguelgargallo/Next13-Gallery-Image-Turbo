@@ -1,10 +1,9 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
-import Head from "next/head";
+import { Headx } from "ui";
 import { Menu } from "ui";
 import { TitlePylar } from "ui";
 import { Footer } from "ui";
 import { motion } from "framer-motion";
-import { Headx } from "ui";
 
 export default function Home() {
   console.log("✅ BlackHoles by Pylar AI, a Miguel Gargallo Startup");
