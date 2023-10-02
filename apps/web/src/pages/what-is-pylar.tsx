@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
-import { Headx } from "ui";
+import Head from "next/head";
 import { Menu } from "ui";
 import { TitlePylar } from "ui";
 import { Footer } from "ui";
@@ -9,7 +9,11 @@ export default function Home() {
   console.log("✅ What is Pylar page by Pylar AI, a Miguel Gargallo Startup");
   return (
     <div className="min-w-screen flex min-h-screen flex-col bg-black">
-      <Headx />
+      <Head>
+        <title>Pylar AI by Pencil</title>
+        <script async src="https://umami.decentralass.com/script.js" data-website-id="ee2353f0-e6b0-4086-a2ff-22236447f399"></script>
+        <link rel="icon" href="./favicon.ico" />
+      </Head>
       <Menu />
       <main>
       <TitlePylar />
@@ -71,6 +75,13 @@ One example of the Pylar project&apos;s innovative work is its use of deep learn
       >
 Overall, the Pylar project is a cutting-edge and innovative AI and ML project that is helping organizations to quickly and efficiently produce results that are valuable and beneficial. Whether you are a business leader, a researcher, or simply someone who is interested in the future of AI and ML, the Pylar project is worth keeping an eye on. So, let&apos;s join hands and be a part of this revolutionary project and witness the future of AI and ML together.
       </motion.p>
+
+
+
+
+
+
+
       </main>
       <Footer />
     </div>

@@ -6,13 +6,16 @@ import { Footer } from "ui";
 import { motion } from "framer-motion";
 import { Contact } from "ui";
 import { Salestext } from "ui";
-import { Headx } from "ui";
 
 export default function Home() {
   console.log("✅ Pagina de Ventas de Pylar AI, una Startup de Miguel Gargallo");
   return (
     <div className="min-w-screen flex min-h-screen flex-col bg-black">
-      <Headx />
+      <Head>
+        <title>Pylar AI diseñado por Pencil</title>
+        <script async src="https://umami.decentralass.com/script.js" data-website-id="ee2353f0-e6b0-4086-a2ff-22236447f399"></script>
+        <link rel="icon" href="./favicon.ico" />
+      </Head>
       <Menu />
       <main>
         <TitlePylar />
