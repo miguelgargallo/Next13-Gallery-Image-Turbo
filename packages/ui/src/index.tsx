@@ -2,7 +2,7 @@ import * as React from "react";
 // Buttons
 export * from "./Button";
 // Analytics
-export * from "./Head";
+export * from "./Headx";
 // Menu
 export * from "./Menu";
 export * from "./Navbar";

@@ -1,5 +1,4 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
-import Head from "next/head";
 import { Menu } from "ui";
 import { TitlePylar } from "ui";
 import { Footer } from "ui";

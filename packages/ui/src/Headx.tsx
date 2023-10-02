@@ -1,4 +1,4 @@
-export const Head = () => {
+export const Headx = () => {
     return (
         <head>
             <title>Pylar AI by Pencil</title>
