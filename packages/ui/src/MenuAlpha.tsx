@@ -14,10 +14,6 @@ export const MenuAlpha = () => {
         <a href="https://itamaesan.org"
         >ITAMAESAN</a>
       </button>
-      <button className="px-4 py-2 font-bold text-white">
-        <a href="https://superdatas.org"
-        >SuperData</a>
-      </button>
     </div>
   );
 };
